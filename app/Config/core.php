@@ -275,7 +275,7 @@
  * then the value of `Config.timezone` will be used. This feature allows you to set users' timezone just
  * once instead of passing it each time in function calls.
  */
-	//Configure::write('Config.timezone', 'Europe/Paris')
+	//Configure::write('Config.timezone', 'Europe/Paris');
 
 /**
  *
@@ -315,18 +315,20 @@
  *		'password' => 'password', //plaintext password (xcache.admin.pass)
  *	));
  *
- * Memcache (http://www.danga.com/memcached/)
+ * Memcached (http://www.danga.com/memcached/)
+ *
+ * Uses the memcached extension. See http://php.net/memcached
  *
  * 	 Cache::config('default', array(
- *		'engine' => 'Memcache', //[required]
+ *		'engine' => 'Memcached', //[required]
  *		'duration' => 3600, //[optional]
  *		'probability' => 100, //[optional]
  * 		'prefix' => Inflector::slug(APP_DIR) . '_', //[optional]  prefix every cache file with this string
  * 		'servers' => array(
  * 			'127.0.0.1:11211' // localhost, default port 11211
  * 		), //[optional]
- * 		'persistent' => true, // [optional] set this to false for non-persistent connections
- * 		'compress' => false, // [optional] compress data in Memcache (slower, but uses less memory)
+ * 		'persistent' => 'my_connection', // [optional] The name of the persistent connection.
+ * 		'compress' => false, // [optional] compress data in Memcached (slower, but uses less memory)
  *	));
  *
  *  Wincache (http://php.net/wincache)
