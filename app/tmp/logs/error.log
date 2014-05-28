@@ -1,0 +1,27 @@
+2014-05-28 21:18:33 Error: [MissingControllerException] Controller class UsuariosController could not be found.
+Exception Attributes: array (
+  'class' => 'UsuariosController',
+  'plugin' => NULL,
+)
+Request URL: /Proyecto-CakePHP/usuarios
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-28 21:18:41 Error: [MissingControllerException] Controller class PartesController could not be found.
+Exception Attributes: array (
+  'class' => 'PartesController',
+  'plugin' => NULL,
+)
+Request URL: /Proyecto-CakePHP/partes
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-05-28 21:28:02 Error: [MissingControllerException] Controller class UserController could not be found.
+Exception Attributes: array (
+  'class' => 'UserController',
+  'plugin' => NULL,
+)
+Request URL: /Proyecto-CakePHP/user
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
