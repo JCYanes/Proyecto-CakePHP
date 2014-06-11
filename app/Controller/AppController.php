@@ -32,4 +32,5 @@ App::uses('Controller', 'Controller');
  */
 class AppController extends Controller {
      public $components = array('DebugKit.Toolbar');
+     public $idusuario = "1";//para probar el inicio de secion. 
 }
