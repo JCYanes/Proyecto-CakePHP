@@ -23,6 +23,7 @@
 		 ?>
 		       <?php echo $this->Html->link(__('Ver detalles'), array('Controller' => 'Partes', 'action' => 'viewvendedor', $parte['Parte']['id'])); ?>
 		      
+		      
 		</td>
 	</tr>
 	<?php endforeach; ?>

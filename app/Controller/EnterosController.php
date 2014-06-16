@@ -78,6 +78,7 @@ class EnterosController extends AppController {
  * @return void
  */
 	public function edit($id = null) {
+	
 		if (!$this->Entero->exists($id)) {
 			throw new NotFoundException(__('Invalid entero'));
 		}

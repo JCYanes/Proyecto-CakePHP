@@ -13,12 +13,11 @@ class PartesController extends AppController {
 
    //Componentes
     public $components = array('Paginator', 'Session');
-    public $uses = array('Parte','Valoresdefecto','TipocamposTipoparte','Categoria','Enteros');
+    public $uses = array('Parte','Valoresdefecto','Categoria','TipocamposTipoparte');
     
     
 	
 	public function indexvendedor() {
-	
 	
 	      $this->Paginator->settings = array(
 		  //'fields' => array('Parte.id', 'Parte.usuariovendedor',Parte.usuariovendedor),
@@ -37,39 +36,47 @@ class PartesController extends AppController {
 		$this->set('parte', $this->Parte->find('first', $options));
 	}
 	
-	// IMPORTANTE $this->set('una_variable_para_la_vista','valor_de_la_variable');
 	
-	//EJEMPLO:  $this->set('id',$id); Y EN LA VISTA: echo $form->input('cliente_id',array('value'=>$id));
-	
-	public function actualizar( $cat_id,$fam_id,$id_parte,$workFlow){
-	
-	  
-	  
-	  $categoria = $this->Categoria->obtenervalor($cat_id);  
-	   /* if ($categoria == 'Entero'){
-	    
-	    //Por cada entero buscar el que tenga el mismo parte y mostrar para actualizar
-	    
-	       //$this->requestAction('/Enteros/edit/'.$newParteId.'/'.$workFlow.'/'.$id.''); 
-	    }*/
-	       
+	public function editar($id) {
+	  $this->requestAction('/Enteros/edit/'.$id.'/'); 
 	}
+	
 	
 	public function editvendedor($id = null) {
 	$tipoparteid = $this->Valoresdefecto->obtenervalor(); //Obtiene el valor guardado por defecto del formulario a usar.
+	
+		
 	if (!$this->Parte->exists($id)) {
 			throw new NotFoundException(__('Invalido parte'));
 		}
+		
+		$this->editar(2);
 		if ($this->request->is(array('post', 'put'))) {
-		     $camposparte = $this->TipocamposTipoparte->obtenercamposformato($tipoparteid); 
-		     foreach($camposparte as $dato){
-		      foreach($dato as $d){
-			$this->actualizar ($d['categoria_id'],$d['tipofamilia_id'], $newParteId, "1"); //recorremos por categoria e id y creamos 
-		    }
-		 }
+		
+		      //Buscamos en la tabla enteros y sacamos el id de enteros con el parte relacionado
 
-			
-			if ($this->Parte->save($this->request->data)) {
+		/*$enteros = $this->request->data;
+		
+		$cont = 0;
+		$num_campos = 0;
+		foreach ($enteros['Entero'] as $entero){
+		  foreach($entero as $e){
+		    $num_campos = $num_campos + 1;
+		  }
+		  break;
+		}
+
+		
+		foreach ($enteros['Entero'] as $entero){
+		  foreach($entero as $e){
+		    $array_enteros[] = $e;
+		  }
+		 $this->Entero->actualizar($array_enteros[$cont],$array_enteros[$cont+1],$array_enteros[$cont+2],$array_enteros[$cont+3],$array_enteros[$cont+4]);
+		 $cont = $cont + $num_campos;
+		}
+		*/
+		
+			if ($this->Parte->saveAssociated($this->request->data)) {
 				$this->Session->setFlash(__('El parte ha sido actualizado.'));
 				return $this->redirect(array('action' => 'indexvendedor'));
 			} else {
@@ -79,6 +86,11 @@ class PartesController extends AppController {
 			$options = array('conditions' => array('Parte.' . $this->Parte->primaryKey => $id));
 			$this->request->data = $this->Parte->find('first', $options);
 		}
+		$usuariogestor = $this->Parte->Usuario->find('list',array('fields'=>'Usuario.id','Usuario.username'));
+		
+		$this->set(compact ('usuariogestor'));
+		
+
 	}
 	
 	/**
@@ -128,11 +140,16 @@ class PartesController extends AppController {
 				$this->Session->setFlash(__('El parte no ha podido ser creado intentelo de nuevo.'));
 			}
 			
-	    }
-	    $usuariogestor = $this->Parte->Usuario->find('list');
-	    $this->set(compact('usuariogestor'));
+	    } 
+		
+	    $usuariogestor = $this->Parte->Usuario->find('list',array('fields'=>'Usuario.username'));
+	    $this->set(compact ('usuariogestor'));
 	
 	}
+	// IMPORTANTE $this->set('una_variable_para_la_vista','valor_de_la_variable');
+	
+	//EJEMPLO:  $this->set('id',$id); Y EN LA VISTA: echo $form->input('cliente_id',array('value'=>$id));
+	
 	
 	
 	public function firmar ($id = null){

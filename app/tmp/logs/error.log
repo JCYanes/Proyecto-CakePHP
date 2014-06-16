@@ -1744,3 +1744,1817 @@ Stack Trace:
 #15 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
 #16 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #17 {main}
+2014-06-11 14:16:09 Error: [MissingControllerException] Controller class IndexvendedorController could not be found.
+Exception Attributes: array (
+  'class' => 'IndexvendedorController',
+  'plugin' => NULL,
+)
+Request URL: /Proyecto-CakePHP/indexvendedor
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-11 14:27:07 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [/opt/lampp/htdocs/Proyecto-CakePHP/app/View/Partes/editvendedor.ctp, line 8]
+2014-06-11 14:27:07 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /Proyecto-CakePHP/partes/editvendedor/113
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 8, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 8, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-11 14:28:28 Error: [MissingActionException] Action PartesController::add() could not be found.
+Exception Attributes: array (
+  'controller' => 'PartesController',
+  'action' => 'add',
+)
+Request URL: /Proyecto-CakePHP/partes/add/113
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-06-11 14:29:35 Error: [MissingActionException] Action PartesController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'PartesController',
+  'action' => 'index',
+)
+Request URL: /Proyecto-CakePHP/partes/
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-06-11 14:29:53 Error: [MissingActionException] Action PartesController::add() could not be found.
+Exception Attributes: array (
+  'controller' => 'PartesController',
+  'action' => 'add',
+)
+Request URL: /Proyecto-CakePHP/partes/add/113
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-06-11 14:33:19 Error: [MissingActionException] Action PartesController::add() could not be found.
+Exception Attributes: array (
+  'controller' => 'PartesController',
+  'action' => 'add',
+)
+Request URL: /Proyecto-CakePHP/partes/add/113
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-06-11 14:37:47 Error: [MissingActionException] Action PartesController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'PartesController',
+  'action' => 'index',
+)
+Request URL: /Proyecto-CakePHP/partes/
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-06-11 14:38:01 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'saveAssociate' at line 1
+Request URL: /Proyecto-CakePHP/partes/editvendedor/113
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('saveAssociate', Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('saveAssociate', Array, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(609): DboSource->fetchAll('saveAssociate', Array, Array)
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(800): DboSource->query('saveAssociate', Array, Object(Parte))
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(72): Model->__call('saveAssociate', Array)
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(72): Parte->saveAssociate(Array)
+#7 [internal function]: PartesController->editvendedor('113')
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-06-11 14:39:15 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'saveAssociate' at line 1
+Request URL: /Proyecto-CakePHP/partes/editvendedor/113
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('saveAssociate', Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('saveAssociate', Array, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(609): DboSource->fetchAll('saveAssociate', Array, Array)
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(800): DboSource->query('saveAssociate', Array, Object(Parte))
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(72): Model->__call('saveAssociate', Array)
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(72): Parte->saveAssociate(Array)
+#7 [internal function]: PartesController->editvendedor('113')
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-06-11 15:01:03 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'saveAssociate' at line 1
+Request URL: /Proyecto-CakePHP/Partes/editvendedor/115
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('saveAssociate', Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('saveAssociate', Array, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(609): DboSource->fetchAll('saveAssociate', Array, Array)
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(800): DboSource->query('saveAssociate', Array, Object(Parte))
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(72): Model->__call('saveAssociate', Array)
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(72): Parte->saveAssociate(Array)
+#7 [internal function]: PartesController->editvendedor('115')
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-06-11 15:59:50 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'saveAssociate' at line 1
+Request URL: /Proyecto-CakePHP/partes/editvendedor/115
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('saveAssociate', Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('saveAssociate', Array, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(609): DboSource->fetchAll('saveAssociate', Array, Array)
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(800): DboSource->query('saveAssociate', Array, Object(Parte))
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(52): Model->__call('saveAssociate', Array)
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(52): Parte->saveAssociate(Array)
+#7 [internal function]: PartesController->editvendedor('115')
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-06-11 16:03:15 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'saveAssociate' at line 1
+Request URL: /Proyecto-CakePHP/partes/editvendedor/115
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('saveAssociate', Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('saveAssociate', Array, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(609): DboSource->fetchAll('saveAssociate', Array, Array)
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(800): DboSource->query('saveAssociate', Array, Object(Parte))
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(52): Model->__call('saveAssociate', Array)
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(52): Parte->saveAssociate(Array)
+#7 [internal function]: PartesController->editvendedor('115')
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-06-11 16:05:47 Error: Fatal Error (1): Call to a member function find() on a non-object in [/opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php, line 112]
+2014-06-11 16:05:47 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /Proyecto-CakePHP/partes/nuevoparte
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/opt/lampp/htdo...', 112)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/opt/lampp/htdo...', 112, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/opt/lampp/htdo...', 112, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-11 16:06:35 Error: Fatal Error (1): Call to a member function find() on a non-object in [/opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php, line 112]
+2014-06-11 16:06:35 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /Proyecto-CakePHP/partes/nuevoparte
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/opt/lampp/htdo...', 112)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/opt/lampp/htdo...', 112, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/opt/lampp/htdo...', 112, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-11 16:06:37 Error: Fatal Error (1): Call to a member function find() on a non-object in [/opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php, line 112]
+2014-06-11 16:06:37 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /Proyecto-CakePHP/partes/nuevoparte
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/opt/lampp/htdo...', 112)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/opt/lampp/htdo...', 112, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/opt/lampp/htdo...', 112, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-11 16:06:43 Error: Fatal Error (1): Call to a member function find() on a non-object in [/opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php, line 112]
+2014-06-11 16:06:43 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /Proyecto-CakePHP/partes/nuevoparte
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/opt/lampp/htdo...', 112)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/opt/lampp/htdo...', 112, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/opt/lampp/htdo...', 112, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-11 16:17:20 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'saveAssociate' at line 1
+Request URL: /Proyecto-CakePHP/partes/editvendedor/117
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('saveAssociate', Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('saveAssociate', Array, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(609): DboSource->fetchAll('saveAssociate', Array, Array)
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(800): DboSource->query('saveAssociate', Array, Object(Parte))
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(52): Model->__call('saveAssociate', Array)
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(52): Parte->saveAssociate(Array)
+#7 [internal function]: PartesController->editvendedor('117')
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-06-11 16:23:20 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'saveAssociatedl' at line 1
+Request URL: /Proyecto-CakePHP/partes/editvendedor/115
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('saveAssociatedl', Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('saveAssociatedl', Array, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(609): DboSource->fetchAll('saveAssociatedl', Array, Array)
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(800): DboSource->query('saveAssociatedl', Array, Object(Parte))
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(52): Model->__call('saveAssociatedl', Array)
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(52): Parte->saveAssociatedl(Array)
+#7 [internal function]: PartesController->editvendedor('115')
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-06-11 16:44:16 Error: Fatal Error (4): syntax error, unexpected 'foreach' (T_FOREACH) in [/opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php, line 52]
+2014-06-11 16:44:16 Error: [FatalErrorException] syntax error, unexpected 'foreach' (T_FOREACH)
+Request URL: /Proyecto-CakePHP/partes/editvendedor/119
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 52)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 52, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 52, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-11 17:19:57 Error: Fatal Error (1): Call to a member function input() on a non-object in [/opt/lampp/htdocs/Proyecto-CakePHP/app/View/Partes/editvendedor.ctp, line 8]
+2014-06-11 17:19:57 Error: [FatalErrorException] Call to a member function input() on a non-object
+Request URL: /Proyecto-CakePHP/partes/editvendedor/119
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/opt/lampp/htdo...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/opt/lampp/htdo...', 8, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/opt/lampp/htdo...', 8, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-11 17:36:08 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Entero.name' in 'field list'
+Request URL: /Proyecto-CakePHP/partes/editvendedor/119
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Entero`...', Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Entero`...', Array, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Entero`...', false)
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Entero), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2877): Model->_readDataSource('list', Array)
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(62): Model->find('list')
+#7 [internal function]: PartesController->editvendedor('119')
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-06-11 18:18:17 Error: Fatal Error (1): Call to a member function find() on a non-object in [/opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php, line 48]
+2014-06-11 18:18:17 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /Proyecto-CakePHP/partes/editvendedor/119
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/opt/lampp/htdo...', 48)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/opt/lampp/htdo...', 48, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/opt/lampp/htdo...', 48, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-11 18:23:20 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Entero.name' in 'field list'
+Request URL: /Proyecto-CakePHP/partes/editvendedor/119
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Entero`...', Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Entero`...', Array, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Entero`...', false)
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Entero), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2877): Model->_readDataSource('list', Array)
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(48): Model->find('list')
+#7 [internal function]: PartesController->editvendedor('119')
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-06-11 18:24:30 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'usuariogestor' cannot be null
+Request URL: /Proyecto-CakePHP/partes/editvendedor/119
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `es...', Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(1012): DboSource->execute('INSERT INTO `es...')
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(1834): DboSource->create(Object(Parte), Array, Array)
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2394): Model->save(Array, Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(54): Model->saveAssociated(Array)
+#6 [internal function]: PartesController->editvendedor('119')
+#7 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-06-11 18:39:52 Error: Fatal Error (4): syntax error, unexpected ';' in [/opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php, line 65]
+2014-06-11 18:39:52 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /Proyecto-CakePHP/partes/indexvendedor
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 65)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 65, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 65, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-11 18:40:50 Error: Fatal Error (4): syntax error, unexpected ';' in [/opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php, line 65]
+2014-06-11 18:40:50 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /Proyecto-CakePHP/partes/indexvendedor
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 65)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 65, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 65, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-11 18:41:29 Error: Fatal Error (4): syntax error, unexpected ';' in [/opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php, line 65]
+2014-06-11 18:41:29 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /Proyecto-CakePHP/partes/indexvendedor
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 65)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 65, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 65, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-11 18:41:52 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Entero.' in 'where clause'
+Request URL: /Proyecto-CakePHP/partes/editvendedor/119
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Entero`...', Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Entero`...', Array, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Entero`...', false)
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Entero), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2877): Model->_readDataSource('all', Array)
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(64): Model->find('all', Array)
+#7 [internal function]: PartesController->editvendedor('119')
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-06-11 18:43:30 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Entero.parte_idid' in 'where clause'
+Request URL: /Proyecto-CakePHP/partes/editvendedor/119
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Entero`...', Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Entero`...', Array, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Entero`...', false)
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Entero), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2877): Model->_readDataSource('all', Array)
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(64): Model->find('all', Array)
+#7 [internal function]: PartesController->editvendedor('119')
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-06-11 18:47:08 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE) in [/opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php, line 65]
+2014-06-11 18:47:08 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE)
+Request URL: /Proyecto-CakePHP/partes/editvendedor/119
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 65)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 65, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 65, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-11 18:47:24 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE) in [/opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php, line 65]
+2014-06-11 18:47:24 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE)
+Request URL: /Proyecto-CakePHP/partes/editvendedor/119
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 65)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 65, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 65, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-11 20:43:14 Error: Fatal Error (4): syntax error, unexpected 'array' (T_ARRAY) in [/opt/lampp/htdocs/Proyecto-CakePHP/app/View/Partes/editvendedor.ctp, line 8]
+2014-06-11 20:43:14 Error: [FatalErrorException] syntax error, unexpected 'array' (T_ARRAY)
+Request URL: /Proyecto-CakePHP/partes/editvendedor/119
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 8, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 8, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-11 21:17:44 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Parte.usuariovendedor' in 'where clause'
+Request URL: /Proyecto-CakePHP/partes/indexvendedor
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Parte`....', Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Parte`....', Array, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Parte`....', false)
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Parte), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2877): Model->_readDataSource('all', Array)
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#7 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(27): PaginatorComponent->paginate()
+#8 [internal function]: PartesController->indexvendedor()
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#12 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-06-11 21:19:04 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Parte.usuariovendedor' in 'where clause'
+Request URL: /Proyecto-CakePHP/partes/indexvendedor
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Parte`....', Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Parte`....', Array, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Parte`....', false)
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Parte), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2877): Model->_readDataSource('all', Array)
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#7 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(27): PaginatorComponent->paginate()
+#8 [internal function]: PartesController->indexvendedor()
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#12 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-06-11 21:19:14 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Parte.usuariovendedor' in 'where clause'
+Request URL: /Proyecto-CakePHP/partes/indexvendedor
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Parte`....', Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Parte`....', Array, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Parte`....', false)
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Parte), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2877): Model->_readDataSource('all', Array)
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#7 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(27): PaginatorComponent->paginate()
+#8 [internal function]: PartesController->indexvendedor()
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#12 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-06-11 21:28:07 Error: [MissingActionException] Action PartesController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'PartesController',
+  'action' => 'index',
+)
+Request URL: /Proyecto-CakePHP/partes
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-06-11 21:29:33 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Parte.usuariovendedor' in 'where clause'
+Request URL: /Proyecto-CakePHP/partes/indexvendedor
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Parte`....', Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Parte`....', Array, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Parte`....', false)
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Parte), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2877): Model->_readDataSource('all', Array)
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#7 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(27): PaginatorComponent->paginate()
+#8 [internal function]: PartesController->indexvendedor()
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#12 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-06-11 21:31:39 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Parte.usuariovendedor' in 'where clause'
+Request URL: /Proyecto-CakePHP/partes/indexvendedor
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Parte`....', Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Parte`....', Array, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Parte`....', false)
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Parte), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2877): Model->_readDataSource('all', Array)
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#7 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(27): PaginatorComponent->paginate()
+#8 [internal function]: PartesController->indexvendedor()
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#12 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-06-11 21:32:01 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Parte.usuariovendedor' in 'where clause'
+Request URL: /Proyecto-CakePHP/partes/indexvendedor
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Parte`....', Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Parte`....', Array, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Parte`....', false)
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Parte), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2877): Model->_readDataSource('all', Array)
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#7 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(27): PaginatorComponent->paginate()
+#8 [internal function]: PartesController->indexvendedor()
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#12 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-06-11 21:32:54 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Parte.usuariovendedor' in 'where clause'
+Request URL: /Proyecto-CakePHP/partes/indexvendedor
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Parte`....', Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Parte`....', Array, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Parte`....', false)
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Parte), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2877): Model->_readDataSource('all', Array)
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#7 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(27): PaginatorComponent->paginate()
+#8 [internal function]: PartesController->indexvendedor()
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#12 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-06-11 21:35:50 Error: Fatal Error (4): syntax error, unexpected '=' in [/opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php, line 61]
+2014-06-11 21:35:50 Error: [FatalErrorException] syntax error, unexpected '='
+Request URL: /Proyecto-CakePHP/partes/editvendedor/119
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 61)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 61, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 61, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-11 21:37:57 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Usuario.username' in 'field list'
+Request URL: /Proyecto-CakePHP/partes/nuevoparte
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Parte`....', Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Parte`....', Array, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Parte`....', false)
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Parte), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2877): Model->_readDataSource('list', Array)
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(112): Model->find('list', Array)
+#7 [internal function]: PartesController->nuevoparte()
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-06-14 13:24:48 Error: [MissingActionException] Action PartesController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'PartesController',
+  'action' => 'index',
+)
+Request URL: /Proyecto-CakePHP/partes
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-06-14 13:58:16 Error: Fatal Error (1): Unsupported operand types in [/opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/View/Helper/FormHelper.php, line 378]
+2014-06-14 13:58:16 Error: [FatalErrorException] Unsupported operand types
+Request URL: /Proyecto-CakePHP/partes/editvendedor/119
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Unsupported ope...', '/opt/lampp/htdo...', 378)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', '/opt/lampp/htdo...', 378, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', '/opt/lampp/htdo...', 378, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-14 14:30:16 Error: Fatal Error (1): Unsupported operand types in [/opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/View/Helper/FormHelper.php, line 378]
+2014-06-14 14:30:16 Error: [FatalErrorException] Unsupported operand types
+Request URL: /Proyecto-CakePHP/partes/editvendedor/119
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Unsupported ope...', '/opt/lampp/htdo...', 378)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', '/opt/lampp/htdo...', 378, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', '/opt/lampp/htdo...', 378, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-14 14:30:19 Error: [NotFoundException] Invalido parte
+Request URL: /Proyecto-CakePHP/partes/editvendedor
+Stack Trace:
+#0 [internal function]: PartesController->editvendedor()
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-14 14:30:28 Error: [MissingActionException] Action PartesController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'PartesController',
+  'action' => 'index',
+)
+Request URL: /Proyecto-CakePHP/partes/
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-06-14 14:30:45 Error: Fatal Error (1): Unsupported operand types in [/opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/View/Helper/FormHelper.php, line 378]
+2014-06-14 14:30:45 Error: [FatalErrorException] Unsupported operand types
+Request URL: /Proyecto-CakePHP/partes/editvendedor/119
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Unsupported ope...', '/opt/lampp/htdo...', 378)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', '/opt/lampp/htdo...', 378, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', '/opt/lampp/htdo...', 378, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-14 14:31:39 Error: Fatal Error (1): Unsupported operand types in [/opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/View/Helper/FormHelper.php, line 378]
+2014-06-14 14:31:39 Error: [FatalErrorException] Unsupported operand types
+Request URL: /Proyecto-CakePHP/partes/editvendedor/119
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Unsupported ope...', '/opt/lampp/htdo...', 378)
+#1 [internal function]: ErrorHandler::handleError(1, 'Unsupported ope...', '/opt/lampp/htdo...', 378, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Unsupported ope...', '/opt/lampp/htdo...', 378, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-14 16:34:53 Error: Fatal Error (1): Call to a member function obtenercamposformato() on a non-object in [/opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php, line 108]
+2014-06-14 16:34:53 Error: [FatalErrorException] Call to a member function obtenercamposformato() on a non-object
+Request URL: /Proyecto-CakePHP/partes/nuevoparte
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/opt/lampp/htdo...', 108)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/opt/lampp/htdo...', 108, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/opt/lampp/htdo...', 108, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-14 16:35:29 Error: Fatal Error (1): Call to a member function obtenercamposformato() on a non-object in [/opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php, line 108]
+2014-06-14 16:35:29 Error: [FatalErrorException] Call to a member function obtenercamposformato() on a non-object
+Request URL: /Proyecto-CakePHP/partes/nuevoparte
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/opt/lampp/htdo...', 108)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/opt/lampp/htdo...', 108, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/opt/lampp/htdo...', 108, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-14 16:54:26 Error: Fatal Error (1): Call to a member function find() on a non-object in [/opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php, line 72]
+2014-06-14 16:54:26 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /Proyecto-CakePHP/partes/editvendedor/135
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/opt/lampp/htdo...', 72)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/opt/lampp/htdo...', 72, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/opt/lampp/htdo...', 72, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-14 17:20:53 Error: Fatal Error (4): syntax error, unexpected ',' in [/opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/EnterosController.php, line 81]
+2014-06-14 17:20:53 Error: [FatalErrorException] syntax error, unexpected ','
+Request URL: /Proyecto-CakePHP/partes/editvendedor/135
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 81)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 81, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 81, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-14 17:21:19 Error: [NotFoundException] Invalid entero
+Request URL: /Proyecto-CakePHP/partes/editvendedor/135
+Stack Trace:
+#0 [internal function]: EnterosController->edit()
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EnterosController), Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EnterosController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(75): Object->requestAction('/enteros/edit', Array)
+#6 [internal function]: PartesController->editvendedor('135')
+#7 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-06-14 17:22:13 Error: [NotFoundException] Invalid entero
+Request URL: /Proyecto-CakePHP/partes/editvendedor/135
+Stack Trace:
+#0 [internal function]: EnterosController->edit()
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EnterosController), Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EnterosController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(75): Object->requestAction('/Enteros/edit', Array)
+#6 [internal function]: PartesController->editvendedor('135')
+#7 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-06-14 17:22:29 Error: [MissingViewException] View file "/opt/lampp/htdocs/Proyecto-CakePHP/app/View/Enteros/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/opt/lampp/htdocs/Proyecto-CakePHP/app/View/Enteros/index.ctp',
+)
+Request URL: /Proyecto-CakePHP/enteros
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EnterosController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-14 17:52:56 Error: [MissingActionException] Action PartesController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'PartesController',
+  'action' => 'index',
+)
+Request URL: /Proyecto-CakePHP/partes
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-06-14 18:07:20 Error: Fatal Error (4): syntax error, unexpected ')' in [/opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php, line 41]
+2014-06-14 18:07:20 Error: [FatalErrorException] syntax error, unexpected ')'
+Request URL: /Proyecto-CakePHP/partes/editvendedor/136
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 41)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 41, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 41, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-14 18:32:31 Error: Fatal Error (64): Cannot use [] for reading in [/opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php, line 58]
+2014-06-14 18:32:31 Error: [FatalErrorException] Cannot use [] for reading
+Request URL: /Proyecto-CakePHP/partes/editvendedor/136
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot use [] f...', '/opt/lampp/htdo...', 58)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot use [] f...', '/opt/lampp/htdo...', 58, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot use [] f...', '/opt/lampp/htdo...', 58, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-14 18:34:22 Error: Fatal Error (4): syntax error, unexpected '[', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in [/opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php, line 58]
+2014-06-14 18:34:22 Error: [FatalErrorException] syntax error, unexpected '[', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+Request URL: /Proyecto-CakePHP/partes/editvendedor/136
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 58)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 58, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 58, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-14 18:38:51 Error: Fatal Error (4): syntax error, unexpected '[', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in [/opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php, line 58]
+2014-06-14 18:38:51 Error: [FatalErrorException] syntax error, unexpected '[', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+Request URL: /Proyecto-CakePHP/partes/editvendedor/136
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 58)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 58, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 58, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-16 13:55:46 Error: Fatal Error (4): syntax error, unexpected '[', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in [/opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php, line 58]
+2014-06-16 13:55:46 Error: [FatalErrorException] syntax error, unexpected '[', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+Request URL: /Proyecto-CakePHP/partes/editvendedor/136
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 58)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 58, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 58, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-16 13:56:11 Error: Fatal Error (4): syntax error, unexpected '[', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in [/opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php, line 58]
+2014-06-16 13:56:11 Error: [FatalErrorException] syntax error, unexpected '[', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+Request URL: /Proyecto-CakePHP/partes/editvendedor/136
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 58)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 58, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 58, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-16 15:52:59 Error: Fatal Error (4): syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in [/opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php, line 58]
+2014-06-16 15:52:59 Error: [FatalErrorException] syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+Request URL: /Proyecto-CakePHP/partes/editvendedor/136
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 58)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 58, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 58, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-16 15:53:49 Error: Fatal Error (4): syntax error, unexpected 'foreach' (T_FOREACH) in [/opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php, line 59]
+2014-06-16 15:53:49 Error: [FatalErrorException] syntax error, unexpected 'foreach' (T_FOREACH)
+Request URL: /Proyecto-CakePHP/partes/editvendedor/136
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 59)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 59, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 59, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-16 15:58:10 Error: [NotFoundException] Invalid entero
+Request URL: /Proyecto-CakePHP/partes/editvendedor/136
+Stack Trace:
+#0 [internal function]: EnterosController->edit('1')
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EnterosController), Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EnterosController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(41): Object->requestAction('/Enteros/edit/1')
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(63): PartesController->editar('1')
+#7 [internal function]: PartesController->editvendedor('136')
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-06-16 15:58:43 Error: [NotFoundException] Invalid entero
+Request URL: /Proyecto-CakePHP/partes/editvendedor/136
+Stack Trace:
+#0 [internal function]: EnterosController->edit('1')
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EnterosController), Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EnterosController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(41): Object->requestAction('/Enteros/edit/1')
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(63): PartesController->editar('1')
+#7 [internal function]: PartesController->editvendedor('136')
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-06-16 16:08:03 Error: [NotFoundException] Invalid entero
+Request URL: /Proyecto-CakePHP/partes/editvendedor/136
+Stack Trace:
+#0 [internal function]: EnterosController->edit()
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EnterosController), Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EnterosController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(41): Object->requestAction('/Enteros/edit/')
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(60): PartesController->editar(NULL)
+#7 [internal function]: PartesController->editvendedor('136')
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-06-16 16:08:40 Error: [NotFoundException] Invalid entero
+Request URL: /Proyecto-CakePHP/Enteros/edit/
+Stack Trace:
+#0 [internal function]: EnterosController->edit()
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EnterosController), Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EnterosController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-16 16:08:54 Error: [MissingViewException] View file "/opt/lampp/htdocs/Proyecto-CakePHP/app/View/Enteros/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/opt/lampp/htdocs/Proyecto-CakePHP/app/View/Enteros/index.ctp',
+)
+Request URL: /Proyecto-CakePHP/Enteros/
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EnterosController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-16 16:09:05 Error: [MissingControllerException] Controller class EnteroController could not be found.
+Exception Attributes: array (
+  'class' => 'EnteroController',
+  'plugin' => NULL,
+)
+Request URL: /Proyecto-CakePHP/Entero/
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-16 16:09:12 Error: [MissingViewException] View file "/opt/lampp/htdocs/Proyecto-CakePHP/app/View/Enteros/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/opt/lampp/htdocs/Proyecto-CakePHP/app/View/Enteros/index.ctp',
+)
+Request URL: /Proyecto-CakePHP/Enteros/
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EnterosController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-16 16:11:36 Error: [NotFoundException] Invalid entero
+Request URL: /Proyecto-CakePHP/partes/editvendedor/136
+Stack Trace:
+#0 [internal function]: EnterosController->edit()
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EnterosController), Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EnterosController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(41): Object->requestAction('/Enteros/edit/')
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(60): PartesController->editar(NULL)
+#7 [internal function]: PartesController->editvendedor('136')
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-06-16 16:14:03 Error: [NotFoundException] Invalid entero
+Request URL: /Proyecto-CakePHP/enteros/edit/
+Stack Trace:
+#0 [internal function]: EnterosController->edit()
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EnterosController), Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EnterosController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-16 16:14:08 Error: [NotFoundException] Invalid entero
+Request URL: /Proyecto-CakePHP/enteros/edit/
+Stack Trace:
+#0 [internal function]: EnterosController->edit()
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EnterosController), Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EnterosController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-16 16:14:11 Error: [NotFoundException] Invalid entero
+Request URL: /Proyecto-CakePHP/enteros/edit
+Stack Trace:
+#0 [internal function]: EnterosController->edit()
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EnterosController), Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EnterosController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-16 16:15:15 Error: [NotFoundException] Invalid entero
+Request URL: /Proyecto-CakePHP/partes/editvendedor/119
+Stack Trace:
+#0 [internal function]: EnterosController->edit()
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EnterosController), Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EnterosController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(41): Object->requestAction('/Enteros/edit/')
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(61): PartesController->editar(NULL)
+#7 [internal function]: PartesController->editvendedor('119')
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-06-16 16:30:40 Error: [NotFoundException] Invalid entero
+Request URL: /Proyecto-CakePHP/partes/editvendedor/119
+Stack Trace:
+#0 [internal function]: EnterosController->edit()
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EnterosController), Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EnterosController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(41): Object->requestAction('/Enteros/edit/')
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(61): PartesController->editar(NULL)
+#7 [internal function]: PartesController->editvendedor('119')
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-06-16 16:32:48 Error: [NotFoundException] Invalid entero
+Request URL: /Proyecto-CakePHP/partes/editvendedor/119
+Stack Trace:
+#0 [internal function]: EnterosController->edit()
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EnterosController), Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EnterosController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(41): Object->requestAction('/Enteros/edit/')
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(61): PartesController->editar(NULL)
+#7 [internal function]: PartesController->editvendedor('119')
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-06-16 16:34:32 Error: [NotFoundException] Invalid entero
+Request URL: /Proyecto-CakePHP/partes/editvendedor/119
+Stack Trace:
+#0 [internal function]: EnterosController->edit()
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EnterosController), Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EnterosController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(41): Object->requestAction('/Enteros/edit/')
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(63): PartesController->editar(NULL)
+#7 [internal function]: PartesController->editvendedor('119')
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-06-16 16:35:11 Error: [NotFoundException] Invalid entero
+Request URL: /Proyecto-CakePHP/partes/editvendedor/119
+Stack Trace:
+#0 [internal function]: EnterosController->edit()
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EnterosController), Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EnterosController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(41): Object->requestAction('/Enteros/edit/')
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(65): PartesController->editar(NULL)
+#7 [internal function]: PartesController->editvendedor('119')
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-06-16 16:35:37 Error: [NotFoundException] Invalid entero
+Request URL: /Proyecto-CakePHP/partes/editvendedor/119
+Stack Trace:
+#0 [internal function]: EnterosController->edit()
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EnterosController), Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EnterosController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(41): Object->requestAction('/Enteros/edit/')
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(67): PartesController->editar(NULL)
+#7 [internal function]: PartesController->editvendedor('119')
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-06-16 16:35:45 Error: [NotFoundException] Invalid entero
+Request URL: /Proyecto-CakePHP/partes/editvendedor/119
+Stack Trace:
+#0 [internal function]: EnterosController->edit()
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EnterosController), Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EnterosController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(41): Object->requestAction('/Enteros/edit/')
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(67): PartesController->editar(NULL)
+#7 [internal function]: PartesController->editvendedor('119')
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-06-16 16:36:10 Error: [NotFoundException] Invalid entero
+Request URL: /Proyecto-CakePHP/partes/editvendedor/119
+Stack Trace:
+#0 [internal function]: EnterosController->edit()
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EnterosController), Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EnterosController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(41): Object->requestAction('/Enteros/edit/')
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(65): PartesController->editar(NULL)
+#7 [internal function]: PartesController->editvendedor('119')
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-06-16 16:36:31 Error: [NotFoundException] Invalid entero
+Request URL: /Proyecto-CakePHP/partes/editvendedor/119
+Stack Trace:
+#0 [internal function]: EnterosController->edit()
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EnterosController), Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EnterosController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(41): Object->requestAction('/Enteros/edit/')
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(65): PartesController->editar(NULL)
+#7 [internal function]: PartesController->editvendedor('119')
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-06-16 16:36:53 Error: [NotFoundException] Invalid entero
+Request URL: /Proyecto-CakePHP/partes/editvendedor/119
+Stack Trace:
+#0 [internal function]: EnterosController->edit()
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EnterosController), Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EnterosController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(41): Object->requestAction('/Enteros/edit/')
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(65): PartesController->editar(NULL)
+#7 [internal function]: PartesController->editvendedor('119')
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-06-16 16:37:04 Error: [NotFoundException] Invalid entero
+Request URL: /Proyecto-CakePHP/partes/editvendedor/119
+Stack Trace:
+#0 [internal function]: EnterosController->edit()
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EnterosController), Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EnterosController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(41): Object->requestAction('/Enteros/edit/')
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(65): PartesController->editar(NULL)
+#7 [internal function]: PartesController->editvendedor('119')
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-06-16 16:37:16 Error: [NotFoundException] Invalid entero
+Request URL: /Proyecto-CakePHP/partes/editvendedor/119
+Stack Trace:
+#0 [internal function]: EnterosController->edit()
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EnterosController), Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EnterosController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(41): Object->requestAction('/Enteros/edit/')
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(65): PartesController->editar(NULL)
+#7 [internal function]: PartesController->editvendedor('119')
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-06-16 16:38:26 Error: [NotFoundException] Invalid entero
+Request URL: /Proyecto-CakePHP/partes/editvendedor/119
+Stack Trace:
+#0 [internal function]: EnterosController->edit()
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EnterosController), Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EnterosController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(41): Object->requestAction('/Enteros/edit/')
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(66): PartesController->editar(NULL)
+#7 [internal function]: PartesController->editvendedor('119')
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-06-16 16:38:48 Error: [NotFoundException] Invalid entero
+Request URL: /Proyecto-CakePHP/partes/editvendedor/119
+Stack Trace:
+#0 [internal function]: EnterosController->edit()
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EnterosController), Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EnterosController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(41): Object->requestAction('/Enteros/edit/')
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(64): PartesController->editar(NULL)
+#7 [internal function]: PartesController->editvendedor('119')
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-06-16 16:41:29 Error: Fatal Error (4): syntax error, unexpected ';' in [/opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php, line 60]
+2014-06-16 16:41:29 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /Proyecto-CakePHP/partes/editvendedor/119
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 60)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 60, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 60, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-16 16:41:41 Error: [NotFoundException] Invalid entero
+Request URL: /Proyecto-CakePHP/partes/editvendedor/119
+Stack Trace:
+#0 [internal function]: EnterosController->edit()
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EnterosController), Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EnterosController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(41): Object->requestAction('/Enteros/edit/')
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(62): PartesController->editar(NULL)
+#7 [internal function]: PartesController->editvendedor('119')
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-06-16 16:44:07 Error: [NotFoundException] Invalid entero
+Request URL: /Proyecto-CakePHP/partes/editvendedor/119
+Stack Trace:
+#0 [internal function]: EnterosController->edit()
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EnterosController), Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EnterosController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(41): Object->requestAction('/Enteros/edit/')
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(62): PartesController->editar(NULL)
+#7 [internal function]: PartesController->editvendedor('119')
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-06-16 16:44:28 Error: [NotFoundException] Invalid entero
+Request URL: /Proyecto-CakePHP/partes/editvendedor/119
+Stack Trace:
+#0 [internal function]: EnterosController->edit()
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EnterosController), Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EnterosController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(41): Object->requestAction('/Enteros/edit/')
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(62): PartesController->editar(NULL)
+#7 [internal function]: PartesController->editvendedor('119')
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-06-16 16:44:37 Error: Fatal Error (64): Cannot use [] for reading in [/opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php, line 60]
+2014-06-16 16:44:37 Error: [FatalErrorException] Cannot use [] for reading
+Request URL: /Proyecto-CakePHP/partes/editvendedor/119
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Cannot use [] f...', '/opt/lampp/htdo...', 60)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot use [] f...', '/opt/lampp/htdo...', 60, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 64, 'Cannot use [] f...', '/opt/lampp/htdo...', 60, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-16 16:44:47 Error: Fatal Error (4): syntax error, unexpected '*', expecting ']' in [/opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php, line 60]
+2014-06-16 16:44:47 Error: [FatalErrorException] syntax error, unexpected '*', expecting ']'
+Request URL: /Proyecto-CakePHP/partes/editvendedor/119
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 60)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 60, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 60, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-16 16:45:06 Error: [NotFoundException] Invalid entero
+Request URL: /Proyecto-CakePHP/partes/editvendedor/119
+Stack Trace:
+#0 [internal function]: EnterosController->edit()
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EnterosController), Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EnterosController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(41): Object->requestAction('/Enteros/edit/')
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(62): PartesController->editar(NULL)
+#7 [internal function]: PartesController->editvendedor('119')
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-06-16 16:45:13 Error: [NotFoundException] Invalid entero
+Request URL: /Proyecto-CakePHP/partes/editvendedor/119
+Stack Trace:
+#0 [internal function]: EnterosController->edit()
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EnterosController), Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EnterosController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(41): Object->requestAction('/Enteros/edit/')
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(62): PartesController->editar(NULL)
+#7 [internal function]: PartesController->editvendedor('119')
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-06-16 16:45:20 Error: [NotFoundException] Invalid entero
+Request URL: /Proyecto-CakePHP/partes/editvendedor/119
+Stack Trace:
+#0 [internal function]: EnterosController->edit()
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EnterosController), Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EnterosController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(41): Object->requestAction('/Enteros/edit/')
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(62): PartesController->editar(NULL)
+#7 [internal function]: PartesController->editvendedor('119')
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-06-16 16:45:34 Error: [NotFoundException] Invalid entero
+Request URL: /Proyecto-CakePHP/partes/editvendedor/119
+Stack Trace:
+#0 [internal function]: EnterosController->edit()
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EnterosController), Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EnterosController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(41): Object->requestAction('/Enteros/edit/')
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(62): PartesController->editar(NULL)
+#7 [internal function]: PartesController->editvendedor('119')
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-06-16 16:45:44 Error: [NotFoundException] Invalid entero
+Request URL: /Proyecto-CakePHP/partes/editvendedor/119
+Stack Trace:
+#0 [internal function]: EnterosController->edit()
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EnterosController), Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EnterosController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(41): Object->requestAction('/Enteros/edit/')
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(62): PartesController->editar(NULL)
+#7 [internal function]: PartesController->editvendedor('119')
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-06-16 16:45:58 Error: [NotFoundException] Invalid entero
+Request URL: /Proyecto-CakePHP/partes/editvendedor/119
+Stack Trace:
+#0 [internal function]: EnterosController->edit()
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EnterosController), Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EnterosController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(41): Object->requestAction('/Enteros/edit/')
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(62): PartesController->editar(NULL)
+#7 [internal function]: PartesController->editvendedor('119')
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-06-16 16:46:15 Error: [NotFoundException] Invalid entero
+Request URL: /Proyecto-CakePHP/partes/editvendedor/119
+Stack Trace:
+#0 [internal function]: EnterosController->edit()
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EnterosController), Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EnterosController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(41): Object->requestAction('/Enteros/edit/')
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(62): PartesController->editar(NULL)
+#7 [internal function]: PartesController->editvendedor('119')
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-06-16 16:47:08 Error: [NotFoundException] Invalid entero
+Request URL: /Proyecto-CakePHP/partes/editvendedor/119
+Stack Trace:
+#0 [internal function]: EnterosController->edit()
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EnterosController), Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EnterosController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(41): Object->requestAction('/Enteros/edit/')
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(66): PartesController->editar(NULL)
+#7 [internal function]: PartesController->editvendedor('119')
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-06-16 16:47:33 Error: [NotFoundException] Invalid entero
+Request URL: /Proyecto-CakePHP/partes/editvendedor/119
+Stack Trace:
+#0 [internal function]: EnterosController->edit()
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EnterosController), Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EnterosController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(41): Object->requestAction('/Enteros/edit/')
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(67): PartesController->editar('')
+#7 [internal function]: PartesController->editvendedor('119')
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-06-16 16:49:49 Error: Fatal Error (4): syntax error, unexpected end of file in [/opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php, line 169]
+2014-06-16 16:49:49 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /Proyecto-CakePHP/partes/editvendedor/136
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 169)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 169, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 169, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-16 16:51:03 Error: [NotFoundException] Invalid entero
+Request URL: /Proyecto-CakePHP/partes/editvendedor/136
+Stack Trace:
+#0 [internal function]: EnterosController->edit()
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EnterosController), Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EnterosController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(67): Object->requestAction('/Enteros/edit/')
+#6 [internal function]: PartesController->editvendedor('136')
+#7 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-06-16 16:52:02 Error: [NotFoundException] Invalid entero
+Request URL: /Proyecto-CakePHP/partes/editvendedor/136
+Stack Trace:
+#0 [internal function]: EnterosController->edit()
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EnterosController), Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EnterosController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(67): Object->requestAction('/Enteros/edit//')
+#6 [internal function]: PartesController->editvendedor('136')
+#7 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-06-16 16:52:24 Error: [NotFoundException] Invalid entero
+Request URL: /Proyecto-CakePHP/partes/editvendedor/136
+Stack Trace:
+#0 [internal function]: EnterosController->edit()
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EnterosController), Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EnterosController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(67): Object->requestAction('/Enteros/edit//')
+#6 [internal function]: PartesController->editvendedor('136')
+#7 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-06-16 16:53:27 Error: [NotFoundException] Invalid entero
+Request URL: /Proyecto-CakePHP/partes/editvendedor/136
+Stack Trace:
+#0 [internal function]: EnterosController->edit('1')
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EnterosController), Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EnterosController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(67): Object->requestAction('/Enteros/edit/1...')
+#6 [internal function]: PartesController->editvendedor('136')
+#7 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-06-16 16:53:50 Error: [NotFoundException] Invalid entero
+Request URL: /Proyecto-CakePHP/partes/editvendedor/136
+Stack Trace:
+#0 [internal function]: EnterosController->edit()
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EnterosController), Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EnterosController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(67): Object->requestAction('/Enteros/edit//')
+#6 [internal function]: PartesController->editvendedor('136')
+#7 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-06-16 16:54:53 Error: [NotFoundException] Invalid entero
+Request URL: /Proyecto-CakePHP/partes/editvendedor/136
+Stack Trace:
+#0 [internal function]: EnterosController->edit()
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EnterosController), Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EnterosController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(67): Object->requestAction('/Enteros/edit//')
+#6 [internal function]: PartesController->editvendedor('136')
+#7 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-06-16 16:55:00 Error: [NotFoundException] Invalid entero
+Request URL: /Proyecto-CakePHP/partes/editvendedor/136
+Stack Trace:
+#0 [internal function]: EnterosController->edit()
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EnterosController), Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EnterosController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(67): Object->requestAction('/Enteros/edit//')
+#6 [internal function]: PartesController->editvendedor('136')
+#7 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-06-16 16:56:17 Error: [NotFoundException] Invalid entero
+Request URL: /Proyecto-CakePHP/partes/editvendedor/136
+Stack Trace:
+#0 [internal function]: EnterosController->edit()
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EnterosController), Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EnterosController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(66): Object->requestAction('/Enteros/edit//')
+#6 [internal function]: PartesController->editvendedor('136')
+#7 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-06-16 16:56:26 Error: [NotFoundException] Invalid entero
+Request URL: /Proyecto-CakePHP/partes/editvendedor/136
+Stack Trace:
+#0 [internal function]: EnterosController->edit()
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EnterosController), Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EnterosController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(66): Object->requestAction('/Enteros/edit//')
+#6 [internal function]: PartesController->editvendedor('136')
+#7 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-06-16 16:56:36 Error: [NotFoundException] Invalid entero
+Request URL: /Proyecto-CakePHP/partes/editvendedor/136
+Stack Trace:
+#0 [internal function]: EnterosController->edit()
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EnterosController), Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EnterosController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(66): Object->requestAction('/Enteros/edit//')
+#6 [internal function]: PartesController->editvendedor('136')
+#7 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-06-16 16:56:43 Error: [NotFoundException] Invalid entero
+Request URL: /Proyecto-CakePHP/partes/editvendedor/136
+Stack Trace:
+#0 [internal function]: EnterosController->edit()
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EnterosController), Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EnterosController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(66): Object->requestAction('/Enteros/edit//')
+#6 [internal function]: PartesController->editvendedor('136')
+#7 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-06-16 16:56:55 Error: [NotFoundException] Invalid entero
+Request URL: /Proyecto-CakePHP/partes/editvendedor/136
+Stack Trace:
+#0 [internal function]: EnterosController->edit('Array')
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EnterosController), Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EnterosController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(66): Object->requestAction('/Enteros/edit/A...')
+#6 [internal function]: PartesController->editvendedor('136')
+#7 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-06-16 16:57:19 Error: [NotFoundException] Invalid entero
+Request URL: /Proyecto-CakePHP/partes/editvendedor/136
+Stack Trace:
+#0 [internal function]: EnterosController->edit('Array')
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EnterosController), Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EnterosController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(68): Object->requestAction('/Enteros/edit/A...')
+#6 [internal function]: PartesController->editvendedor('136')
+#7 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-06-16 16:57:37 Error: Fatal Error (4): syntax error, unexpected 'else' (T_ELSE) in [/opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php, line 79]
+2014-06-16 16:57:37 Error: [FatalErrorException] syntax error, unexpected 'else' (T_ELSE)
+Request URL: /Proyecto-CakePHP/partes/editvendedor/136
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 79)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 79, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 79, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-16 16:57:49 Error: [NotFoundException] Invalid entero
+Request URL: /Proyecto-CakePHP/partes/editvendedor/136
+Stack Trace:
+#0 [internal function]: EnterosController->edit('600000000000000...')
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EnterosController), Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EnterosController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(70): Object->requestAction('/Enteros/edit/6...')
+#6 [internal function]: PartesController->editvendedor('136')
+#7 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-06-16 16:58:23 Error: [NotFoundException] Invalid entero
+Request URL: /Proyecto-CakePHP/partes/editvendedor/136
+Stack Trace:
+#0 [internal function]: EnterosController->edit()
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EnterosController), Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EnterosController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(69): Object->requestAction('/Enteros/edit//')
+#6 [internal function]: PartesController->editvendedor('136')
+#7 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-06-16 16:59:22 Error: [NotFoundException] Invalid entero
+Request URL: /Proyecto-CakePHP/partes/editvendedor/136
+Stack Trace:
+#0 [internal function]: EnterosController->edit()
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EnterosController), Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EnterosController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(69): Object->requestAction('/Enteros/edit//')
+#6 [internal function]: PartesController->editvendedor('136')
+#7 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-06-16 16:59:30 Error: [NotFoundException] Invalid entero
+Request URL: /Proyecto-CakePHP/partes/editvendedor/136
+Stack Trace:
+#0 [internal function]: EnterosController->edit('600000000000000...')
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EnterosController), Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EnterosController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(69): Object->requestAction('/Enteros/edit/6...')
+#6 [internal function]: PartesController->editvendedor('136')
+#7 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-06-16 16:59:56 Error: [NotFoundException] Invalid entero
+Request URL: /Proyecto-CakePHP/partes/editvendedor/136
+Stack Trace:
+#0 [internal function]: EnterosController->edit()
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EnterosController), Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EnterosController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(70): Object->requestAction('/Enteros/edit//')
+#6 [internal function]: PartesController->editvendedor('136')
+#7 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-06-16 16:59:58 Error: [NotFoundException] Invalid entero
+Request URL: /Proyecto-CakePHP/partes/editvendedor/136
+Stack Trace:
+#0 [internal function]: EnterosController->edit()
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EnterosController), Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EnterosController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(70): Object->requestAction('/Enteros/edit//')
+#6 [internal function]: PartesController->editvendedor('136')
+#7 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-06-16 17:01:04 Error: [NotFoundException] Invalid entero
+Request URL: /Proyecto-CakePHP/partes/editvendedor/136
+Stack Trace:
+#0 [internal function]: EnterosController->edit('600000000000000...')
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EnterosController), Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EnterosController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(69): Object->requestAction('/Enteros/edit/6...')
+#6 [internal function]: PartesController->editvendedor('136')
+#7 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-06-16 17:02:04 Error: [NotFoundException] Invalid entero
+Request URL: /Proyecto-CakePHP/partes/editvendedor/136
+Stack Trace:
+#0 [internal function]: EnterosController->edit('Array')
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EnterosController), Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EnterosController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(69): Object->requestAction('/Enteros/edit/A...')
+#6 [internal function]: PartesController->editvendedor('136')
+#7 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-06-16 17:02:59 Error: [NotFoundException] Invalid entero
+Request URL: /Proyecto-CakePHP/partes/editvendedor/136
+Stack Trace:
+#0 [internal function]: EnterosController->edit()
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EnterosController), Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EnterosController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(63): Object->requestAction('/Enteros/edit//')
+#6 [internal function]: PartesController->editvendedor('136')
+#7 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2014-06-16 17:06:18 Error: [NotFoundException] Invalid entero
+Request URL: /Proyecto-CakePHP/enteros/edit/136
+Stack Trace:
+#0 [internal function]: EnterosController->edit('136')
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EnterosController), Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EnterosController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-16 17:48:01 Error: Fatal Error (4): syntax error, unexpected ',' in [/opt/lampp/htdocs/Proyecto-CakePHP/app/View/Partes/editvendedor.ctp, line 20]
+2014-06-16 17:48:01 Error: [FatalErrorException] syntax error, unexpected ','
+Request URL: /Proyecto-CakePHP/partes/editvendedor/136
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 20)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 20, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 20, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-16 18:07:01 Error: Fatal Error (4): syntax error, unexpected ''.inicial'' (T_CONSTANT_ENCAPSED_STRING) in [/opt/lampp/htdocs/Proyecto-CakePHP/app/View/Partes/editvendedor.ctp, line 26]
+2014-06-16 18:07:01 Error: [FatalErrorException] syntax error, unexpected ''.inicial'' (T_CONSTANT_ENCAPSED_STRING)
+Request URL: /Proyecto-CakePHP/partes/editvendedor/135
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 26)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 26, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 26, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-16 18:07:26 Error: Fatal Error (4): syntax error, unexpected '$cont' (T_VARIABLE) in [/opt/lampp/htdocs/Proyecto-CakePHP/app/View/Partes/editvendedor.ctp, line 26]
+2014-06-16 18:07:26 Error: [FatalErrorException] syntax error, unexpected '$cont' (T_VARIABLE)
+Request URL: /Proyecto-CakePHP/partes/editvendedor/135
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 26)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 26, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 26, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-16 19:07:04 Error: Fatal Error (4): syntax error, unexpected 'actualizar' (T_STRING), expecting variable (T_VARIABLE) in [/opt/lampp/htdocs/Proyecto-CakePHP/app/Model/Entero.php, line 51]
+2014-06-16 19:07:04 Error: [FatalErrorException] syntax error, unexpected 'actualizar' (T_STRING), expecting variable (T_VARIABLE)
+Request URL: /Proyecto-CakePHP/partes/editvendedor/135
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 51)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 51, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 51, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-16 19:21:00 Error: Fatal Error (4): syntax error, unexpected '.0' (T_DNUMBER) in [/opt/lampp/htdocs/Proyecto-CakePHP/app/View/Partes/editvendedor.ctp, line 7]
+2014-06-16 19:21:00 Error: [FatalErrorException] syntax error, unexpected '.0' (T_DNUMBER)
+Request URL: /Proyecto-CakePHP/partes/editvendedor/135
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 7)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 7, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 7, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-16 19:21:15 Error: Fatal Error (4): syntax error, unexpected '0' (T_LNUMBER) in [/opt/lampp/htdocs/Proyecto-CakePHP/app/View/Partes/editvendedor.ctp, line 7]
+2014-06-16 19:21:15 Error: [FatalErrorException] syntax error, unexpected '0' (T_LNUMBER)
+Request URL: /Proyecto-CakePHP/partes/editvendedor/135
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 7)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 7, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 7, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-16 19:21:44 Error: Fatal Error (1): Call to a member function actualizar() on a non-object in [/opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php, line 74]
+2014-06-16 19:21:44 Error: [FatalErrorException] Call to a member function actualizar() on a non-object
+Request URL: /Proyecto-CakePHP/partes/editvendedor/135
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/opt/lampp/htdo...', 74)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/opt/lampp/htdo...', 74, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/opt/lampp/htdo...', 74, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-16 19:42:15 Error: [MissingActionException] Action PartesController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'PartesController',
+  'action' => 'index',
+)
+Request URL: /Proyecto-CakePHP/partes
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}

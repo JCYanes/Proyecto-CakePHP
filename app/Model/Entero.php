@@ -48,6 +48,18 @@ class Entero extends AppModel {
 		)
 	);
 	
+	/*function actualizar($id, $ini, $fin, $ent, $sal)
+	{
+	  $this->query("UPDATE enteros SET 
+				   inicial=".$ini.",
+				   final=".$fin.",
+				   entrada=".$ent.",
+				   salida=".$sal."
+				   WHERE id=".$id." 
+				   ");
+	}*/
+
+				   
 
 
 }
