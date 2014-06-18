@@ -43,6 +43,7 @@
 <div class="actions">
 	<h3><?php echo __('Actions'); ?></h3>
 	<ul>
-		<li><?php echo $this->Html->link(__('Listado de Partes'), array('action' => 'indexvendedor')); ?> </li>
+		<li><?php echo $this->Html->link(__('Listado de Partes'), array('action' => 'index')); ?> </li>
+		<li><?php echo $this->Html->link(__('Cerrar secion'), array('controller' => 'users', 'action' => 'logout')); ?> </li>
 	</ul>
 </div>

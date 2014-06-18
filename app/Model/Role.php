@@ -23,8 +23,8 @@ class Role extends AppModel {
  * @var array
  */
 	public $hasMany = array(
-		'Usuario' => array(
-			'className' => 'Usuario',
+		'User' => array(
+			'className' => 'User',
 			'foreignKey' => 'role_id',
 			'dependent' => false,
 			'conditions' => '',

@@ -19,7 +19,7 @@
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
 
-App::uses('Controller', 'Controller');
+App::uses('Controller','Controller');
 
 /**
  * Application Controller
@@ -31,6 +31,33 @@ App::uses('Controller', 'Controller');
  * @link		http://book.cakephp.org/2.0/en/controllers.html#the-app-controller
  */
 class AppController extends Controller {
-     public $components = array('DebugKit.Toolbar');
-     public $idusuario = "1";//para probar el inicio de secion. 
+     public $components = array('DebugKit.Toolbar', 
+     'Session',
+     
+     'Auth' => array(
+            'loginRedirect' => array('controller' => 'partes', 'action' => 'index'),
+            'logoutRedirect' => array('controller' => 'users', 'action' => 'login'),
+            'authError' => 'Tu tienes que estar logueado para ver la pagina.',
+            'loginError' => 'Invalido nombre de usuario ingresado.',
+            'authorize'=> array('Controller'),
+            'authenticate' => array('Form')
+     )
+     );
+       //permitimos ver el index y las vistas
+     public function beforeFilter() {
+	Security::setHash('sha1');
+	$this->Auth->deny(); // todos los controllers son accesibles solo logueando
+        
+    }
+     
+    public function isAuthorized($user) {
+	return true;
+    }
+    
+     
+     
+     
 }
+
+
+

@@ -1,5 +1,5 @@
 <?php
-App::uses('AppController', 'Controller');
+App::uses('AppController', 'Controller','Auth');
 /**
  * Partes Controller
  *
@@ -13,85 +13,101 @@ class PartesController extends AppController {
 
    //Componentes
     public $components = array('Paginator', 'Session');
-    public $uses = array('Parte','Valoresdefecto','Categoria','TipocamposTipoparte');
+    public $uses = array('Parte','Valoresdefecto','Categoria','TipocamposTipoparte','User');
     
     
-	
-	public function indexvendedor() {
-	
-	      $this->Paginator->settings = array(
-		  //'fields' => array('Parte.id', 'Parte.usuariovendedor',Parte.usuariovendedor),
-		  'conditions' => array('Parte.usuariovendedor'=>'1'),
-		  'limit' => 10,
-	      );
-	      $data = $this->Paginator->paginate();
-	      $this->set('partes',$data);
-	}
-	
-	public function viewvendedor($id = null) {
-		if (!$this->Parte->exists($id)) {
-			throw new NotFoundException(__('Id parte incorrecto'));
-		}
-		$options = array('conditions' => array('Parte.' . $this->Parte->primaryKey => $id));
-		$this->set('parte', $this->Parte->find('first', $options));
-	}
-	
-	
-	public function editar($id) {
-	  $this->requestAction('/Enteros/edit/'.$id.'/'); 
-	}
-	
-	
-	public function editvendedor($id = null) {
-	$tipoparteid = $this->Valoresdefecto->obtenervalor(); //Obtiene el valor guardado por defecto del formulario a usar.
-	
-		
-	if (!$this->Parte->exists($id)) {
-			throw new NotFoundException(__('Invalido parte'));
-		}
-		
-		$this->editar(2);
-		if ($this->request->is(array('post', 'put'))) {
-		
-		      //Buscamos en la tabla enteros y sacamos el id de enteros con el parte relacionado
+    
+    public function isAuthorized($user) {
+      // All registered users can add partes
+      if (in_array($this->action, array('index','nuevoparte','view'))) {
+	  return true;
+      }
 
-		/*$enteros = $this->request->data;
-		
-		$cont = 0;
-		$num_campos = 0;
-		foreach ($enteros['Entero'] as $entero){
-		  foreach($entero as $e){
-		    $num_campos = $num_campos + 1;
-		  }
-		  break;
-		}
+      // Sólo el vendedor puede editar y firmar el parte
+      if (in_array($this->action, array('editvendedor', 'firmar'))) {
+	  $postId = (int) $this->request->params['pass'][0];
+	  if ($this->Parte->isOwnedBy($postId, $user['id'])) {
+	      return true;
+	  }
+	  else{
+	  return false;
+	  }
+      }
 
-		
-		foreach ($enteros['Entero'] as $entero){
-		  foreach($entero as $e){
-		    $array_enteros[] = $e;
-		  }
-		 $this->Entero->actualizar($array_enteros[$cont],$array_enteros[$cont+1],$array_enteros[$cont+2],$array_enteros[$cont+3],$array_enteros[$cont+4]);
-		 $cont = $cont + $num_campos;
-		}
-		*/
-		
-			if ($this->Parte->saveAssociated($this->request->data)) {
-				$this->Session->setFlash(__('El parte ha sido actualizado.'));
-				return $this->redirect(array('action' => 'indexvendedor'));
-			} else {
-				$this->Session->setFlash(__('No se ha podido actualizar intentelo de nuevo.'));
-			}
-		} else {
-			$options = array('conditions' => array('Parte.' . $this->Parte->primaryKey => $id));
-			$this->request->data = $this->Parte->find('first', $options);
-		}
-		$usuariogestor = $this->Parte->Usuario->find('list',array('fields'=>'Usuario.id','Usuario.username'));
-		
-		$this->set(compact ('usuariogestor'));
-		
+      return parent::isAuthorized($user);
+    }
+    
 
-	}
+	
+    public function index() {
+    $usuarioid=$this->Session->read('Usuario.id');
+    $tiporol = $this->Auth->user('role_id');
+    
+     if ($tiporol == 3){//Si es vendedor
+	  $this->Paginator->settings = array(
+	      'conditions' => array('Parte.usuariovendedor'=> $usuarioid),
+	      'limit' => 10,
+	  );
+	  
+      }elseif($tiporol == 2){//Si es gerente
+	 $this->Paginator->settings = array(
+	      'conditions' => array('Parte.usuariogestor'=> $usuarioid),
+	      'limit' => 10,
+	  );
+	  
+      }else{
+      
+	  $this->Paginator->settings = array(
+	      'limit' => 10,
+	  );
+	
+      }
+	  $data = $this->Paginator->paginate();
+	  $this->set('partes',$data);
+	  $this->set('tiporol',$tiporol);
+      }
+	
+    public function view($id = null) {
+	    if (!$this->Parte->exists($id)) {
+		    throw new NotFoundException(__('Id parte incorrecto'));
+	    }
+	    $options = array('conditions' => array('Parte.' . $this->Parte->primaryKey => $id));
+	    $this->set('parte', $this->Parte->find('first', $options));
+    }
+    
+    
+    public function editar($id) {
+      $this->requestAction('/Enteros/edit/'.$id.'/'); 
+    }
+    
+    
+    public function editvendedor($id = null) {
+    $tipoparteid = $this->Valoresdefecto->obtenervalor(); //Obtiene el valor guardado por defecto del formulario a usar.
+    
+	    
+    if (!$this->Parte->exists($id)) {
+		    throw new NotFoundException(__('Invalido parte'));
+	    }
+	    //Tenemos que pasar los enteros que pertenecen al parte y rellenarlos
+	    $this->editar(113);
+	    if ($this->request->is(array('post', 'put'))) {
+	    
+		    if ($this->Parte->saveAssociated($this->request->data)) {
+			    $this->Session->setFlash(__('El parte ha sido actualizado.'));
+			    return $this->redirect(array('action' => 'index'));
+		    } else {
+			    $this->Session->setFlash(__('No se ha podido actualizar intentelo de nuevo.'));
+		    }
+	    } else {
+		    $options = array('conditions' => array('Parte.' . $this->Parte->primaryKey => $id));
+		    $this->request->data = $this->Parte->find('first', $options);
+	    }
+	    $usuariogestor = $this->Parte->User->find('list',array('fields'=>'User.id','User.username'));
+	    
+	    $this->set(compact ('usuariogestor'));
+	    
+
+    }
 	
 	/**
 	Inicializamos las tablas que almacenaran los valores
@@ -115,14 +131,18 @@ class PartesController extends AppController {
 	public function nuevoparte(){
 	  $tipoparteid = $this->Valoresdefecto->obtenervalor(); //Obtiene el valor guardado por defecto del formulario a usar.
 	  if ($this->request->is('post')) {
+	      
 	      $this->Parte->create();
+	      //Ponemos el usuario creador como el vendedor que ha creado el parte
+	      $this->request->data['Parte']['usuariovendedor']=$this->Auth->User('id');
+	      
 	      
 	      $this->Parte->save($this->request->data);//guardamos un parte en blanco
 	      $newParteId = $this->Parte->id;
-	      
+
 	      //crear todo el esqueleto para almacenar datos
 	      
-	      $data= array('id' => $newParteId,'usuariovendedor' => '1','tipoparte_id'=> $tipoparteid,'incidencia_id'=>'1');
+	      $data= array('id' => $newParteId,'tipoparte_id'=> $tipoparteid,'incidencia_id'=>'1');
 	      
 	      // Por cada elemento que contenga el formato de parte
 	      
@@ -133,17 +153,17 @@ class PartesController extends AppController {
 		   $this->inicializar($d['id'], $d['categoria_id'], $newParteId, "1"); //recorremos por categoria e id y creamos 
 		}
 	      }
-			if ($this->Parte->saveAll($data,array('validate'=>'first'))) { //validamos si los dos son correctos.
+			if ($this->Parte->saveAll($data)) { 
 				$this->Session->setFlash(__('El parte ha sido creado.'));
-				return $this->redirect(array('action' => 'indexvendedor'));
+				return $this->redirect(array('action' => 'index'));
 			} else {
 				$this->Session->setFlash(__('El parte no ha podido ser creado intentelo de nuevo.'));
 			}
 			
 	    } 
-		
-	    $usuariogestor = $this->Parte->Usuario->find('list',array('fields'=>'Usuario.username'));
+	    $usuariogestor = $this->Parte->User->find('list',array('fields'=>'User.username','conditions' => array('User.role_id = 2')));
 	    $this->set(compact ('usuariogestor'));
+	    
 	
 	}
 	// IMPORTANTE $this->set('una_variable_para_la_vista','valor_de_la_variable');
@@ -167,7 +187,7 @@ class PartesController extends AppController {
 			} else {
 				$this->Session->setFlash(__('No se ha podido firmar, intentelo de nuevo.'));
 	}
-	return $this->redirect(array('action' => 'indexvendedor'));
+	return $this->redirect(array('action' => 'index'));
 	}
 }
 

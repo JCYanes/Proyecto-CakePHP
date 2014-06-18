@@ -1,4 +1,4 @@
-<div class="usuarios index">
+<div class="users index">
 	<h2><?php echo __('Usuarios'); ?></h2>
 	<table cellpadding="0" cellspacing="0">
 	<tr>
@@ -9,19 +9,20 @@
 			<th><?php echo $this->Paginator->sort('role_id'); ?></th>
 			<th class="actions"><?php echo __('Actions'); ?></th>
 	</tr>
-	<?php foreach ($usuarios as $usuario): ?>
+	<?php foreach ($users as $usuario): ?>
 	<tr>
-		<td><?php echo h($usuario['Usuario']['id']); ?>&nbsp;</td>
-		<td><?php echo h($usuario['Usuario']['username']); ?>&nbsp;</td>
-		<td><?php echo h($usuario['Usuario']['password']); ?>&nbsp;</td>
-		<td><?php echo h($usuario['Usuario']['created']); ?>&nbsp;</td>
+		<td><?php echo h($usuario['User']['id']); ?>&nbsp;</td>
+		<td><?php echo h($usuario['User']['username']); ?>&nbsp;</td>
+		<td><?php echo h($usuario['User']['password']); ?>&nbsp;</td>
+		<td><?php echo h($usuario['User']['created']); ?>&nbsp;</td>
 		<td>
 			<?php echo $this->Html->link($usuario['Role']['name'], array('controller' => 'roles', 'action' => 'view', $usuario['Role']['id'])); ?>
 		</td>
 		<td class="actions">
-			<?php echo $this->Html->link(__('View'), array('action' => 'view', $usuario['Usuario']['id'])); ?>
-			<?php echo $this->Html->link(__('Edit'), array('action' => 'edit', $usuario['Usuario']['id'])); ?>
-			<?php echo $this->Form->postLink(__('Delete'), array('action' => 'delete', $usuario['Usuario']['id']), null, __('Are you sure you want to delete # %s?', $usuario['Usuario']['id'])); ?>
+			<?php echo $this->Html->link(__('View'), array('action' => 'view', $usuario['User']['id'])); ?>
+			<?php echo $this->Html->link(__('Edit'), array('action' => 'edit', $usuario['User']['id'])); ?>
+			<?php echo $this->Form->postLink(__('Delete'), array('action' => 'delete', $usuario['User']['id']), null,__('Are you sure you want to delete # %s?', $usuario['User']['id'])); ?>
+		        
 		</td>
 	</tr>
 <?php endforeach; ?>

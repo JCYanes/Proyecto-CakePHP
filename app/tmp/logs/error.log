@@ -3558,3 +3558,1319 @@ Stack Trace:
 #1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
 #2 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2014-06-17 19:21:39 Error: [MissingControllerException] Controller class UsuariosController could not be found.
+Exception Attributes: array (
+  'class' => 'UsuariosController',
+  'plugin' => NULL,
+)
+Request URL: /Proyecto-CakePHP/usuarios
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-17 19:21:43 Error: [MissingTableException] Table users for model User was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'users',
+  'class' => 'User',
+  'ds' => 'default',
+)
+Request URL: /Proyecto-CakePHP/users
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(3501): Model->setSource('users')
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2905): Model->getDataSource()
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2877): Model->_readDataSource('all', Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/UsersController.php(26): PaginatorComponent->paginate()
+#5 [internal function]: UsersController->index()
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-06-17 20:24:17 Error: Fatal Error (1): Class 'Controller' not found in [/opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/AppController.php, line 33]
+2014-06-17 20:24:17 Error: [FatalErrorException] Class 'Controller' not found
+Request URL: /Proyecto-CakePHP/users
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'Controll...', '/opt/lampp/htdo...', 33)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Controll...', '/opt/lampp/htdo...', 33, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Class 'Controll...', '/opt/lampp/htdo...', 33, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-17 20:24:52 Error: [MissingActionException] Action PartesController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'PartesController',
+  'action' => 'index',
+)
+Request URL: /Proyecto-CakePHP/partes
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-06-17 20:25:49 Error: [MissingControllerException] Controller class UsenterosController could not be found.
+Exception Attributes: array (
+  'class' => 'UsenterosController',
+  'plugin' => NULL,
+)
+Request URL: /Proyecto-CakePHP/usenteros
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-17 20:25:52 Error: [MissingViewException] View file "/opt/lampp/htdocs/Proyecto-CakePHP/app/View/Enteros/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/opt/lampp/htdocs/Proyecto-CakePHP/app/View/Enteros/index.ctp',
+)
+Request URL: /Proyecto-CakePHP/enteros
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EnterosController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-17 20:28:29 Error: [MissingControllerException] Controller class UsuariosController could not be found.
+Exception Attributes: array (
+  'class' => 'UsuariosController',
+  'plugin' => NULL,
+)
+Request URL: /Proyecto-CakePHP/usuarios
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-17 20:28:42 Error: [MissingActionException] Action PartesController::index() could not be found.
+Exception Attributes: array (
+  'controller' => 'PartesController',
+  'action' => 'index',
+)
+Request URL: /Proyecto-CakePHP/partes
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-06-17 20:39:23 Error: [MissingControllerException] Controller class UsuariosController could not be found.
+Exception Attributes: array (
+  'class' => 'UsuariosController',
+  'plugin' => NULL,
+)
+Request URL: /Proyecto-CakePHP/usuarios
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-17 20:40:25 Error: Fatal Error (1): Call to a member function allow() on a non-object in [/opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/UsersController.php, line 23]
+2014-06-17 20:40:25 Error: [FatalErrorException] Call to a member function allow() on a non-object
+Request URL: /Proyecto-CakePHP/users
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/opt/lampp/htdo...', 23)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/opt/lampp/htdo...', 23, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/opt/lampp/htdo...', 23, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-17 20:42:29 Error: Fatal Error (1): Call to a member function user() on a non-object in [/opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php, line 45]
+2014-06-17 20:42:29 Error: [FatalErrorException] Call to a member function user() on a non-object
+Request URL: /Proyecto-CakePHP/partes/indexvendedor
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/opt/lampp/htdo...', 45)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/opt/lampp/htdo...', 45, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/opt/lampp/htdo...', 45, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-17 20:43:25 Error: Fatal Error (4): syntax error, unexpected '/', expecting function (T_FUNCTION) in [/opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/UsersController.php, line 21]
+2014-06-17 20:43:25 Error: [FatalErrorException] syntax error, unexpected '/', expecting function (T_FUNCTION)
+Request URL: /Proyecto-CakePHP/users/login
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 21)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 21, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 21, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-17 20:47:56 Error: [MissingTableException] Table usuarios for model Usuario was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'usuarios',
+  'class' => 'Usuario',
+  'ds' => 'default',
+)
+Request URL: /Proyecto-CakePHP/partes/indexvendedor
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(3501): Model->setSource('usuarios')
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(1357): Model->getDataSource()
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(2494): Model->schema()
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(1719): DboSource->fields(Object(AppModel), 'Usuario', '')
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(1093): DboSource->generateAssociationQuery(Object(Parte), Object(AppModel), 'belongsTo', 'Usuario', Array, Array, false)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Parte), Array)
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2877): Model->_readDataSource('all', Array)
+#7 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(48): PaginatorComponent->paginate()
+#9 [internal function]: PartesController->indexvendedor()
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#13 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-06-17 20:49:42 Error: [MissingTableException] Table usuarios for model Usuario was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'usuarios',
+  'class' => 'Usuario',
+  'ds' => 'default',
+)
+Request URL: /Proyecto-CakePHP/partes/indexvendedor
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(3501): Model->setSource('usuarios')
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(1357): Model->getDataSource()
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(2494): Model->schema()
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(1719): DboSource->fields(Object(AppModel), 'Usuario', '')
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(1093): DboSource->generateAssociationQuery(Object(Parte), Object(AppModel), 'belongsTo', 'Usuario', Array, Array, false)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Parte), Array)
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2877): Model->_readDataSource('all', Array)
+#7 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(48): PaginatorComponent->paginate()
+#9 [internal function]: PartesController->indexvendedor()
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#13 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-06-17 20:49:44 Error: [MissingTableException] Table usuarios for model Usuario was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'usuarios',
+  'class' => 'Usuario',
+  'ds' => 'default',
+)
+Request URL: /Proyecto-CakePHP/partes/indexvendedor
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(3501): Model->setSource('usuarios')
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(1357): Model->getDataSource()
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(2494): Model->schema()
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(1719): DboSource->fields(Object(AppModel), 'Usuario', '')
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(1093): DboSource->generateAssociationQuery(Object(Parte), Object(AppModel), 'belongsTo', 'Usuario', Array, Array, false)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Parte), Array)
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2877): Model->_readDataSource('all', Array)
+#7 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(48): PaginatorComponent->paginate()
+#9 [internal function]: PartesController->indexvendedor()
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#13 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-06-17 20:49:48 Error: [MissingTableException] Table usuarios for model Usuario was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'usuarios',
+  'class' => 'Usuario',
+  'ds' => 'default',
+)
+Request URL: /Proyecto-CakePHP/partes/indexvendedor
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(3501): Model->setSource('usuarios')
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(1357): Model->getDataSource()
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(2494): Model->schema()
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(1719): DboSource->fields(Object(AppModel), 'Usuario', '')
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(1093): DboSource->generateAssociationQuery(Object(Parte), Object(AppModel), 'belongsTo', 'Usuario', Array, Array, false)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Parte), Array)
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2877): Model->_readDataSource('all', Array)
+#7 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(48): PaginatorComponent->paginate()
+#9 [internal function]: PartesController->indexvendedor()
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#13 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-06-17 20:51:07 Error: [MissingTableException] Table usuarios for model Usuario was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'usuarios',
+  'class' => 'Usuario',
+  'ds' => 'default',
+)
+Request URL: /Proyecto-CakePHP/partes/indexvendedor
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(3501): Model->setSource('usuarios')
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(1357): Model->getDataSource()
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(2494): Model->schema()
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(1719): DboSource->fields(Object(AppModel), 'Usuario', '')
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(1093): DboSource->generateAssociationQuery(Object(Parte), Object(AppModel), 'belongsTo', 'Usuario', Array, Array, false)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Parte), Array)
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2877): Model->_readDataSource('all', Array)
+#7 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(48): PaginatorComponent->paginate()
+#9 [internal function]: PartesController->indexvendedor()
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#13 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-06-17 20:51:10 Error: [MissingTableException] Table usuarios for model Usuario was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'usuarios',
+  'class' => 'Usuario',
+  'ds' => 'default',
+)
+Request URL: /Proyecto-CakePHP/partes/indexvendedor
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(3501): Model->setSource('usuarios')
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(1357): Model->getDataSource()
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(2494): Model->schema()
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(1719): DboSource->fields(Object(AppModel), 'Usuario', '')
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(1093): DboSource->generateAssociationQuery(Object(Parte), Object(AppModel), 'belongsTo', 'Usuario', Array, Array, false)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Parte), Array)
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2877): Model->_readDataSource('all', Array)
+#7 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(48): PaginatorComponent->paginate()
+#9 [internal function]: PartesController->indexvendedor()
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#13 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-06-17 20:55:33 Error: [MissingTableException] Table usuarios for model Usuario was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'usuarios',
+  'class' => 'Usuario',
+  'ds' => 'default',
+)
+Request URL: /Proyecto-CakePHP/partes/indexvendedor
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(3501): Model->setSource('usuarios')
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(1357): Model->getDataSource()
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(2494): Model->schema()
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(1719): DboSource->fields(Object(AppModel), 'Usuario', '')
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(1093): DboSource->generateAssociationQuery(Object(Parte), Object(AppModel), 'belongsTo', 'Usuario', Array, Array, false)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Parte), Array)
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2877): Model->_readDataSource('all', Array)
+#7 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(48): PaginatorComponent->paginate()
+#9 [internal function]: PartesController->indexvendedor()
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#13 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-06-17 20:57:29 Error: [MissingTableException] Table usuarios for model Usuario was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'usuarios',
+  'class' => 'Usuario',
+  'ds' => 'default',
+)
+Request URL: /Proyecto-CakePHP/partes/indexvendedor
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(3501): Model->setSource('usuarios')
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(1357): Model->getDataSource()
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(2494): Model->schema()
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(1719): DboSource->fields(Object(AppModel), 'Usuario', '')
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(1093): DboSource->generateAssociationQuery(Object(Parte), Object(AppModel), 'belongsTo', 'Usuario', Array, Array, false)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Parte), Array)
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2877): Model->_readDataSource('all', Array)
+#7 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(48): PaginatorComponent->paginate()
+#9 [internal function]: PartesController->indexvendedor()
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#13 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-06-17 20:59:30 Error: [MissingTableException] Table usuarios for model Usuario was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'usuarios',
+  'class' => 'Usuario',
+  'ds' => 'default',
+)
+Request URL: /Proyecto-CakePHP/partes/indexvendedor
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(3501): Model->setSource('usuarios')
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(1357): Model->getDataSource()
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(2494): Model->schema()
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(1719): DboSource->fields(Object(AppModel), 'Usuario', '')
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(1093): DboSource->generateAssociationQuery(Object(Parte), Object(AppModel), 'belongsTo', 'Usuario', Array, Array, false)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Parte), Array)
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2877): Model->_readDataSource('all', Array)
+#7 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(48): PaginatorComponent->paginate()
+#9 [internal function]: PartesController->indexvendedor()
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#13 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-06-17 21:00:39 Error: [MissingTableException] Table usuarios for model Usuario was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'usuarios',
+  'class' => 'Usuario',
+  'ds' => 'default',
+)
+Request URL: /Proyecto-CakePHP/partes/indexvendedor
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(3501): Model->setSource('usuarios')
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(1357): Model->getDataSource()
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(2494): Model->schema()
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(1719): DboSource->fields(Object(AppModel), 'Usuario', '')
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(1093): DboSource->generateAssociationQuery(Object(Parte), Object(AppModel), 'belongsTo', 'Usuario', Array, Array, false)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Parte), Array)
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2877): Model->_readDataSource('all', Array)
+#7 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(48): PaginatorComponent->paginate()
+#9 [internal function]: PartesController->indexvendedor()
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#13 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-06-17 21:02:00 Error: Fatal Error (4): syntax error, unexpected '=', expecting ')' in [/opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php, line 46]
+2014-06-17 21:02:00 Error: [FatalErrorException] syntax error, unexpected '=', expecting ')'
+Request URL: /Proyecto-CakePHP/partes/indexvendedor
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 46)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 46, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 46, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-17 21:02:38 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [/opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php, line 45]
+2014-06-17 21:02:38 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+Request URL: /Proyecto-CakePHP/partes/indexvendedor
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 45)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 45, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 45, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-17 21:03:18 Error: [MissingTableException] Table usuarios for model Usuario was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'usuarios',
+  'class' => 'Usuario',
+  'ds' => 'default',
+)
+Request URL: /Proyecto-CakePHP/partes/indexvendedor
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(3501): Model->setSource('usuarios')
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(1357): Model->getDataSource()
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(2494): Model->schema()
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(1719): DboSource->fields(Object(AppModel), 'Usuario', '')
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(1093): DboSource->generateAssociationQuery(Object(Parte), Object(AppModel), 'belongsTo', 'Usuario', Array, Array, false)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Parte), Array)
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2877): Model->_readDataSource('all', Array)
+#7 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(49): PaginatorComponent->paginate()
+#9 [internal function]: PartesController->indexvendedor()
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#13 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-06-17 21:08:16 Error: [MissingActionException] Action UsersController::partes() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'partes',
+)
+Request URL: /Proyecto-CakePHP/users/partes/indexvendedor
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-06-17 21:09:21 Error: [MissingTableException] Table usuarios for model Usuario was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'usuarios',
+  'class' => 'Usuario',
+  'ds' => 'default',
+)
+Request URL: /Proyecto-CakePHP/partes/indexvendedor
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(3501): Model->setSource('usuarios')
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(1357): Model->getDataSource()
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(2494): Model->schema()
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(1719): DboSource->fields(Object(AppModel), 'Usuario', '')
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(1093): DboSource->generateAssociationQuery(Object(Parte), Object(AppModel), 'belongsTo', 'Usuario', Array, Array, false)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Parte), Array)
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2877): Model->_readDataSource('all', Array)
+#7 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(48): PaginatorComponent->paginate()
+#9 [internal function]: PartesController->indexvendedor()
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#13 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-06-17 21:09:59 Error: [MissingTableException] Table usuarios for model Usuario was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'usuarios',
+  'class' => 'Usuario',
+  'ds' => 'default',
+)
+Request URL: /Proyecto-CakePHP/partes/indexvendedor
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(3501): Model->setSource('usuarios')
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(1357): Model->getDataSource()
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(2494): Model->schema()
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(1719): DboSource->fields(Object(AppModel), 'Usuario', '')
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(1093): DboSource->generateAssociationQuery(Object(Parte), Object(AppModel), 'belongsTo', 'Usuario', Array, Array, false)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Parte), Array)
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2877): Model->_readDataSource('all', Array)
+#7 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(48): PaginatorComponent->paginate()
+#9 [internal function]: PartesController->indexvendedor()
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#13 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-06-17 21:11:44 Error: [MissingTableException] Table usuarios for model Usuario was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'usuarios',
+  'class' => 'Usuario',
+  'ds' => 'default',
+)
+Request URL: /Proyecto-CakePHP/partes/indexvendedor
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(3501): Model->setSource('usuarios')
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(1357): Model->getDataSource()
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(2494): Model->schema()
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(1719): DboSource->fields(Object(AppModel), 'Usuario', '')
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(1093): DboSource->generateAssociationQuery(Object(Parte), Object(AppModel), 'belongsTo', 'Usuario', Array, Array, false)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Parte), Array)
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2877): Model->_readDataSource('all', Array)
+#7 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(48): PaginatorComponent->paginate()
+#9 [internal function]: PartesController->indexvendedor()
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#13 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-06-17 21:13:04 Error: Fatal Error (4): syntax error, unexpected '$user' (T_VARIABLE), expecting function (T_FUNCTION) in [/opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php, line 18]
+2014-06-17 21:13:04 Error: [FatalErrorException] syntax error, unexpected '$user' (T_VARIABLE), expecting function (T_FUNCTION)
+Request URL: /Proyecto-CakePHP/partes/indexvendedor
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 18)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 18, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 18, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-18 12:42:30 Error: [MissingTableException] Table usuarios for model Usuario was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'usuarios',
+  'class' => 'Usuario',
+  'ds' => 'default',
+)
+Request URL: /Proyecto-CakePHP/partes/indexvendedor
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(3501): Model->setSource('usuarios')
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(1357): Model->getDataSource()
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(2494): Model->schema()
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(1719): DboSource->fields(Object(AppModel), 'Usuario', '')
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(1093): DboSource->generateAssociationQuery(Object(Parte), Object(AppModel), 'belongsTo', 'Usuario', Array, Array, false)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Parte), Array)
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2877): Model->_readDataSource('all', Array)
+#7 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(50): PaginatorComponent->paginate()
+#9 [internal function]: PartesController->indexvendedor()
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#13 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-06-18 12:55:01 Error: Fatal Error (4): syntax error, unexpected 'Controller' (T_STRING), expecting '{' in [/opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/UsersController.php, line 10]
+2014-06-18 12:55:01 Error: [FatalErrorException] syntax error, unexpected 'Controller' (T_STRING), expecting '{'
+Request URL: /Proyecto-CakePHP/users/login
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 10, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 10, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-18 13:14:38 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'User.role_id' in 'on clause'
+Request URL: /Proyecto-CakePHP/users/login
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `User`.`...', Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2905): DboSource->read(Object(User), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2877): Model->_readDataSource('first', Array)
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Component/Auth/BaseAuthenticate.php(112): Model->find('first', Array)
+#7 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Component/Auth/FormAuthenticate.php(81): BaseAuthenticate->_findUser('Pepito', '123')
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Component/AuthComponent.php(753): FormAuthenticate->authenticate(Object(CakeRequest), Object(CakeResponse))
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Component/AuthComponent.php(600): AuthComponent->identify(Object(CakeRequest), Object(CakeResponse))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/UsersController.php(34): AuthComponent->login()
+#11 [internal function]: UsersController->login()
+#12 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#13 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#14 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#15 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2014-06-18 13:42:29 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR) in [/opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/UsersController.php, line 35]
+2014-06-18 13:42:29 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+Request URL: /Proyecto-CakePHP/users/login
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 35)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 35, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 35, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-18 13:43:58 Error: [MissingTableException] Table usuarios for model Usuario was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'usuarios',
+  'class' => 'Usuario',
+  'ds' => 'default',
+)
+Request URL: /Proyecto-CakePHP/partes/indexvendedor
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(3501): Model->setSource('usuarios')
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(1357): Model->getDataSource()
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(2494): Model->schema()
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(1719): DboSource->fields(Object(AppModel), 'Usuario', '')
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(1093): DboSource->generateAssociationQuery(Object(Parte), Object(AppModel), 'belongsTo', 'Usuario', Array, Array, false)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Parte), Array)
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2877): Model->_readDataSource('all', Array)
+#7 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(50): PaginatorComponent->paginate()
+#9 [internal function]: PartesController->indexvendedor()
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#13 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-06-18 13:55:16 Error: [MissingTableException] Table usuarios for model Usuario was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'usuarios',
+  'class' => 'Usuario',
+  'ds' => 'default',
+)
+Request URL: /Proyecto-CakePHP/partes/indexvendedor
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(3501): Model->setSource('usuarios')
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(1357): Model->getDataSource()
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(2494): Model->schema()
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(1719): DboSource->fields(Object(AppModel), 'Usuario', '')
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(1093): DboSource->generateAssociationQuery(Object(Parte), Object(AppModel), 'belongsTo', 'Usuario', Array, Array, false)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Parte), Array)
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2877): Model->_readDataSource('all', Array)
+#7 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(51): PaginatorComponent->paginate()
+#9 [internal function]: PartesController->indexvendedor()
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#13 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-06-18 13:57:10 Error: [MissingTableException] Table usuarios for model Usuario was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'usuarios',
+  'class' => 'Usuario',
+  'ds' => 'default',
+)
+Request URL: /Proyecto-CakePHP/partes/indexvendedor
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(3501): Model->setSource('usuarios')
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(1357): Model->getDataSource()
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(2494): Model->schema()
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(1719): DboSource->fields(Object(AppModel), 'Usuario', '')
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(1093): DboSource->generateAssociationQuery(Object(Parte), Object(AppModel), 'belongsTo', 'Usuario', Array, Array, false)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Parte), Array)
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2877): Model->_readDataSource('all', Array)
+#7 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Component/PaginatorComponent.php(196): Model->find('all', Array)
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(48): PaginatorComponent->paginate()
+#9 [internal function]: PartesController->indexvendedor()
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#12 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#13 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#14 {main}
+2014-06-18 14:02:35 Error: [MissingActionException] Action PartesController::indexvendedorç() could not be found.
+Exception Attributes: array (
+  'controller' => 'PartesController',
+  'action' => 'indexvendedorç',
+)
+Request URL: /Proyecto-CakePHP/partes/indexvendedor%C3%A7
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-06-18 14:04:59 Error: Fatal Error (1): Call to a member function isOwnedBy() on a non-object in [/opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php, line 29]
+2014-06-18 14:04:59 Error: [FatalErrorException] Call to a member function isOwnedBy() on a non-object
+Request URL: /Proyecto-CakePHP/partes/editvendedor/140
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/opt/lampp/htdo...', 29)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/opt/lampp/htdo...', 29, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/opt/lampp/htdo...', 29, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-18 14:08:43 Error: Fatal Error (1): Call to a member function isOwnedBy() on a non-object in [/opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php, line 29]
+2014-06-18 14:08:43 Error: [FatalErrorException] Call to a member function isOwnedBy() on a non-object
+Request URL: /Proyecto-CakePHP/partes/editvendedor/140
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/opt/lampp/htdo...', 29)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/opt/lampp/htdo...', 29, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/opt/lampp/htdo...', 29, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-18 14:09:46 Error: [MissingActionException] Action PartesController::user() could not be found.
+Exception Attributes: array (
+  'controller' => 'PartesController',
+  'action' => 'user',
+)
+Request URL: /Proyecto-CakePHP/partes/user
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-06-18 14:09:49 Error: [MissingActionException] Action PartesController::users() could not be found.
+Exception Attributes: array (
+  'controller' => 'PartesController',
+  'action' => 'users',
+)
+Request URL: /Proyecto-CakePHP/partes/users
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-06-18 14:09:55 Error: [MissingActionException] Action PartesController::users() could not be found.
+Exception Attributes: array (
+  'controller' => 'PartesController',
+  'action' => 'users',
+)
+Request URL: /Proyecto-CakePHP/partes/users/add
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-06-18 14:14:50 Error: Fatal Error (4): syntax error, unexpected '}' in [/opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/UsersController.php, line 77]
+2014-06-18 14:14:50 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /Proyecto-CakePHP/users
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 77)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 77, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 77, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-18 14:15:06 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [/opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/UsersController.php, line 133]
+2014-06-18 14:15:06 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /Proyecto-CakePHP/users
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 133)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 133, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 133, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-18 14:17:13 Error: Fatal Error (1): Call to a member function find() on a non-object in [/opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/UsersController.php, line 94]
+2014-06-18 14:17:13 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /Proyecto-CakePHP/users/add
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/opt/lampp/htdo...', 94)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/opt/lampp/htdo...', 94, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/opt/lampp/htdo...', 94, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-18 16:39:54 Error: Fatal Error (4): syntax error, unexpected ',' in [/opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php, line 22]
+2014-06-18 16:39:54 Error: [FatalErrorException] syntax error, unexpected ','
+Request URL: /Proyecto-CakePHP/partes/viewvendedor/140/Controller:Partes
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 22)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 22, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 22, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-18 16:41:01 Error: Fatal Error (4): syntax error, unexpected ',' in [/opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php, line 22]
+2014-06-18 16:41:01 Error: [FatalErrorException] syntax error, unexpected ','
+Request URL: /Proyecto-CakePHP/partes/viewvendedor/140/Controller:Partes
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 22)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 22, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 22, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-18 16:58:32 Error: Fatal Error (1): Call to a member function obteneridrol() on a non-object in [/opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php, line 43]
+2014-06-18 16:58:32 Error: [FatalErrorException] Call to a member function obteneridrol() on a non-object
+Request URL: /Proyecto-CakePHP/partes
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/opt/lampp/htdo...', 43)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/opt/lampp/htdo...', 43, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/opt/lampp/htdo...', 43, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-18 16:59:32 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_rol' in 'field list'
+Request URL: /Proyecto-CakePHP/partes
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT id_rol F...', Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT id_rol F...', Array, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(537): DboSource->fetchAll('SELECT id_rol F...')
+#4 [internal function]: DboSource->query('SELECT id_rol F...')
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(3309): call_user_func_array(Array, Array)
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Model/User.php(103): Model->query('SELECT id_rol F...')
+#7 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(43): User->obteneridrol('16')
+#8 [internal function]: PartesController->index()
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#12 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-06-18 17:00:28 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'id_role' in 'field list'
+Request URL: /Proyecto-CakePHP/partes
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT id_role ...', Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT id_role ...', Array, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(537): DboSource->fetchAll('SELECT id_role ...')
+#4 [internal function]: DboSource->query('SELECT id_role ...')
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(3309): call_user_func_array(Array, Array)
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Model/User.php(103): Model->query('SELECT id_role ...')
+#7 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(43): User->obteneridrol('16')
+#8 [internal function]: PartesController->index()
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#12 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-06-18 17:00:50 Error: [MissingViewException] View file "/opt/lampp/htdocs/Proyecto-CakePHP/app/View/Partes/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/opt/lampp/htdocs/Proyecto-CakePHP/app/View/Partes/index.ctp',
+)
+Request URL: /Proyecto-CakePHP/partes
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-18 17:02:14 Error: [MissingControllerException] Controller class Proyecto-CakePHPController could not be found.
+Exception Attributes: array (
+  'class' => 'Proyecto-CakePHPController',
+  'plugin' => NULL,
+)
+Request URL: /Proyecto-CakePHP/Proyecto-CakePHP/partes
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-18 17:02:30 Error: [MissingControllerException] Controller class Proyecto-CakePHPController could not be found.
+Exception Attributes: array (
+  'class' => 'Proyecto-CakePHPController',
+  'plugin' => NULL,
+)
+Request URL: /Proyecto-CakePHP/Proyecto-CakePHP/partes
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-18 17:03:23 Error: Fatal Error (1): Call to undefined function indexvendedor() in [/opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php, line 46]
+2014-06-18 17:03:23 Error: [FatalErrorException] Call to undefined function indexvendedor()
+Request URL: /Proyecto-CakePHP/partes
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/opt/lampp/htdo...', 46)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/opt/lampp/htdo...', 46, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/opt/lampp/htdo...', 46, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-18 17:03:42 Error: [MissingViewException] View file "/opt/lampp/htdocs/Proyecto-CakePHP/app/View/Partes/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/opt/lampp/htdocs/Proyecto-CakePHP/app/View/Partes/index.ctp',
+)
+Request URL: /Proyecto-CakePHP/partes
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-18 17:05:27 Error: [MissingControllerException] Controller class Proyecto-CakePHPController could not be found.
+Exception Attributes: array (
+  'class' => 'Proyecto-CakePHPController',
+  'plugin' => NULL,
+)
+Request URL: /Proyecto-CakePHP/Proyecto-CakePHP/partes
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-18 17:05:49 Error: [MissingControllerException] Controller class Proyecto-CakePHPController could not be found.
+Exception Attributes: array (
+  'class' => 'Proyecto-CakePHPController',
+  'plugin' => NULL,
+)
+Request URL: /Proyecto-CakePHP/Proyecto-CakePHP/partes
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-18 17:06:00 Error: [MissingControllerException] Controller class Proyecto-CakePHPController could not be found.
+Exception Attributes: array (
+  'class' => 'Proyecto-CakePHPController',
+  'plugin' => NULL,
+)
+Request URL: /Proyecto-CakePHP/Proyecto-CakePHP/partes
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-18 17:07:18 Error: [MissingControllerException] Controller class Proyecto-CakePHPController could not be found.
+Exception Attributes: array (
+  'class' => 'Proyecto-CakePHPController',
+  'plugin' => NULL,
+)
+Request URL: /Proyecto-CakePHP/Proyecto-CakePHP/partes
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-18 17:25:01 Error: [MissingControllerException] Controller class Proyecto-CakePHPController could not be found.
+Exception Attributes: array (
+  'class' => 'Proyecto-CakePHPController',
+  'plugin' => NULL,
+)
+Request URL: /Proyecto-CakePHP/Proyecto-CakePHP/partes
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-18 17:26:00 Error: [MissingControllerException] Controller class Proyecto-CakePHPController could not be found.
+Exception Attributes: array (
+  'class' => 'Proyecto-CakePHPController',
+  'plugin' => NULL,
+)
+Request URL: /Proyecto-CakePHP/Proyecto-CakePHP/partes
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-18 17:26:09 Error: [MissingControllerException] Controller class Proyecto-CakePHPController could not be found.
+Exception Attributes: array (
+  'class' => 'Proyecto-CakePHPController',
+  'plugin' => NULL,
+)
+Request URL: /Proyecto-CakePHP/Proyecto-CakePHP/partes
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-18 17:26:40 Error: [MissingControllerException] Controller class Proyecto-CakePHPController could not be found.
+Exception Attributes: array (
+  'class' => 'Proyecto-CakePHPController',
+  'plugin' => NULL,
+)
+Request URL: /Proyecto-CakePHP/Proyecto-CakePHP/partes
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-18 17:27:08 Error: [MissingControllerException] Controller class Proyecto-CakePHPController could not be found.
+Exception Attributes: array (
+  'class' => 'Proyecto-CakePHPController',
+  'plugin' => NULL,
+)
+Request URL: /Proyecto-CakePHP/Proyecto-CakePHP/partes
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-18 17:38:43 Error: Fatal Error (4): syntax error, unexpected 'ya' (T_STRING) in [/opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/UsersController.php, line 89]
+2014-06-18 17:38:43 Error: [FatalErrorException] syntax error, unexpected 'ya' (T_STRING)
+Request URL: /Proyecto-CakePHP/users/logout
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 89)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 89, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 89, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-18 17:44:49 Error: [MissingActionException] Action UsersController::loginRedirect() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'loginRedirect',
+)
+Request URL: /Proyecto-CakePHP/users/loginRedirect
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-06-18 17:46:43 Error: [MissingControllerException] Controller class Proyecto-CakePHPController could not be found.
+Exception Attributes: array (
+  'class' => 'Proyecto-CakePHPController',
+  'plugin' => NULL,
+)
+Request URL: /Proyecto-CakePHP/Proyecto-CakePHP/partes
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-18 17:51:46 Error: Fatal Error (4): syntax error, unexpected '*', expecting ')' in [/opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php, line 27]
+2014-06-18 17:51:46 Error: [FatalErrorException] syntax error, unexpected '*', expecting ')'
+Request URL: /Proyecto-CakePHP/partes/nuevoparte
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 27)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 27, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 27, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-18 18:20:30 Error: Fatal Error (4): syntax error, unexpected '$tiporol' (T_VARIABLE) in [/opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php, line 41]
+2014-06-18 18:20:30 Error: [FatalErrorException] syntax error, unexpected '$tiporol' (T_VARIABLE)
+Request URL: /Proyecto-CakePHP/partes
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 41)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 41, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 41, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-18 18:20:55 Error: [MissingLayoutException] Layout file "/opt/lampp/htdocs/Proyecto-CakePHP/app/View/Layouts/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/opt/lampp/htdocs/Proyecto-CakePHP/app/View/Layouts/login.ctp',
+)
+Request URL: /Proyecto-CakePHP/users/login
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/View/View.php(510): View->_getLayoutFileName('login')
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/View/View.php(479): View->renderLayout('', 'login')
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-06-18 18:21:48 Error: Fatal Error (1): Call to undefined method UsersController::nombuse() in [/opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/UsersController.php, line 36]
+2014-06-18 18:21:48 Error: [FatalErrorException] Call to undefined method UsersController::nombuse()
+Request URL: /Proyecto-CakePHP/users/login
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/opt/lampp/htdo...', 36)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/opt/lampp/htdo...', 36, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/opt/lampp/htdo...', 36, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-18 18:25:02 Error: [CakeException] $controller does not implement an isAuthorized() method.
+Request URL: /Proyecto-CakePHP/partes/nuevoparte
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Component/Auth/BaseAuthorize.php(74): ControllerAuthorize->controller(Object(EnterosController))
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Component/AuthComponent.php(500): BaseAuthorize->__construct(Object(ComponentCollection), Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Component/AuthComponent.php(462): AuthComponent->constructAuthorize()
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Component/AuthComponent.php(309): AuthComponent->isAuthorized(Array)
+#4 [internal function]: AuthComponent->startup(Object(EnterosController))
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Utility/ObjectCollection.php(129): call_user_func_array(Array, Array)
+#6 [internal function]: ObjectCollection->trigger(Object(CakeEvent))
+#7 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Event/CakeEventManager.php(244): call_user_func(Array, Object(CakeEvent))
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(675): CakeEventManager->dispatch(Object(CakeEvent))
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(187): Controller->startupProcess()
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EnterosController), Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#12 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(113): Object->requestAction('/Enteros/add/14...')
+#13 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(144): PartesController->inicializar('2', '1', '149', '1')
+#14 [internal function]: PartesController->nuevoparte()
+#15 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#16 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#17 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#18 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#19 {main}
+2014-06-18 19:51:58 Error: Fatal Error (64): Can't use method return value in write context in [/opt/lampp/htdocs/Proyecto-CakePHP/app/View/Partes/index.ctp, line 16]
+2014-06-18 19:51:58 Error: [FatalErrorException] Can't use method return value in write context
+Request URL: /Proyecto-CakePHP/partes
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Can't use metho...', '/opt/lampp/htdo...', 16)
+#1 [internal function]: ErrorHandler::handleError(64, 'Can't use metho...', '/opt/lampp/htdo...', 16, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 64, 'Can't use metho...', '/opt/lampp/htdo...', 16, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-18 19:52:07 Error: Fatal Error (64): Can't use method return value in write context in [/opt/lampp/htdocs/Proyecto-CakePHP/app/View/Partes/index.ctp, line 16]
+2014-06-18 19:52:07 Error: [FatalErrorException] Can't use method return value in write context
+Request URL: /Proyecto-CakePHP/partes
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Can't use metho...', '/opt/lampp/htdo...', 16)
+#1 [internal function]: ErrorHandler::handleError(64, 'Can't use metho...', '/opt/lampp/htdo...', 16, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 64, 'Can't use metho...', '/opt/lampp/htdo...', 16, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-18 19:52:16 Error: Fatal Error (64): Can't use method return value in write context in [/opt/lampp/htdocs/Proyecto-CakePHP/app/View/Partes/index.ctp, line 16]
+2014-06-18 19:52:16 Error: [FatalErrorException] Can't use method return value in write context
+Request URL: /Proyecto-CakePHP/partes
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Can't use metho...', '/opt/lampp/htdo...', 16)
+#1 [internal function]: ErrorHandler::handleError(64, 'Can't use metho...', '/opt/lampp/htdo...', 16, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 64, 'Can't use metho...', '/opt/lampp/htdo...', 16, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-18 19:52:17 Error: Fatal Error (64): Can't use method return value in write context in [/opt/lampp/htdocs/Proyecto-CakePHP/app/View/Partes/index.ctp, line 16]
+2014-06-18 19:52:17 Error: [FatalErrorException] Can't use method return value in write context
+Request URL: /Proyecto-CakePHP/partes
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Can't use metho...', '/opt/lampp/htdo...', 16)
+#1 [internal function]: ErrorHandler::handleError(64, 'Can't use metho...', '/opt/lampp/htdo...', 16, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 64, 'Can't use metho...', '/opt/lampp/htdo...', 16, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-18 19:52:19 Error: Fatal Error (64): Can't use method return value in write context in [/opt/lampp/htdocs/Proyecto-CakePHP/app/View/Partes/index.ctp, line 16]
+2014-06-18 19:52:19 Error: [FatalErrorException] Can't use method return value in write context
+Request URL: /Proyecto-CakePHP/partes
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Can't use metho...', '/opt/lampp/htdo...', 16)
+#1 [internal function]: ErrorHandler::handleError(64, 'Can't use metho...', '/opt/lampp/htdo...', 16, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 64, 'Can't use metho...', '/opt/lampp/htdo...', 16, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-18 19:52:22 Error: Fatal Error (64): Can't use method return value in write context in [/opt/lampp/htdocs/Proyecto-CakePHP/app/View/Partes/index.ctp, line 16]
+2014-06-18 19:52:22 Error: [FatalErrorException] Can't use method return value in write context
+Request URL: /Proyecto-CakePHP/partes
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Can't use metho...', '/opt/lampp/htdo...', 16)
+#1 [internal function]: ErrorHandler::handleError(64, 'Can't use metho...', '/opt/lampp/htdo...', 16, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 64, 'Can't use metho...', '/opt/lampp/htdo...', 16, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-18 19:52:27 Error: Fatal Error (64): Can't use method return value in write context in [/opt/lampp/htdocs/Proyecto-CakePHP/app/View/Partes/index.ctp, line 16]
+2014-06-18 19:52:27 Error: [FatalErrorException] Can't use method return value in write context
+Request URL: /Proyecto-CakePHP/partes
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Can't use metho...', '/opt/lampp/htdo...', 16)
+#1 [internal function]: ErrorHandler::handleError(64, 'Can't use metho...', '/opt/lampp/htdo...', 16, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 64, 'Can't use metho...', '/opt/lampp/htdo...', 16, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-18 19:52:32 Error: [MissingActionException] Action PartesController::indexvendedor() could not be found.
+Exception Attributes: array (
+  'controller' => 'PartesController',
+  'action' => 'indexvendedor',
+)
+Request URL: /Proyecto-CakePHP/partes/indexvendedor
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-06-18 19:52:36 Error: Fatal Error (64): Can't use method return value in write context in [/opt/lampp/htdocs/Proyecto-CakePHP/app/View/Partes/index.ctp, line 16]
+2014-06-18 19:52:36 Error: [FatalErrorException] Can't use method return value in write context
+Request URL: /Proyecto-CakePHP/partes/index
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Can't use metho...', '/opt/lampp/htdo...', 16)
+#1 [internal function]: ErrorHandler::handleError(64, 'Can't use metho...', '/opt/lampp/htdo...', 16, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 64, 'Can't use metho...', '/opt/lampp/htdo...', 16, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-18 19:52:36 Error: Fatal Error (64): Can't use method return value in write context in [/opt/lampp/htdocs/Proyecto-CakePHP/app/View/Partes/index.ctp, line 16]
+2014-06-18 19:52:36 Error: [FatalErrorException] Can't use method return value in write context
+Request URL: /Proyecto-CakePHP/partes/index
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(64, 'Can't use metho...', '/opt/lampp/htdo...', 16)
+#1 [internal function]: ErrorHandler::handleError(64, 'Can't use metho...', '/opt/lampp/htdo...', 16, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 64, 'Can't use metho...', '/opt/lampp/htdo...', 16, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-18 19:58:30 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AuthHelper',
+  'plugin' => false,
+)
+Request URL: /Proyecto-CakePHP/partes
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Auth')
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/View/View.php(837): HelperCollection->__isset('Auth')
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/app/View/Partes/index.ctp(53): View->__get('Auth')
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/View/View.php(948): include('/opt/lampp/htdo...')
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/View/View.php(910): View->_evaluate('/opt/lampp/htdo...', Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/View/View.php(471): View->_render('/opt/lampp/htdo...')
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#7 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-06-18 20:24:42 Error: Fatal Error (4): syntax error, unexpected end of file in [/opt/lampp/htdocs/Proyecto-CakePHP/app/View/Partes/index.ctp, line 61]
+2014-06-18 20:24:42 Error: [FatalErrorException] syntax error, unexpected end of file
+Request URL: /Proyecto-CakePHP/partes
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 61)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 61, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 61, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-18 20:33:24 Error: Fatal Error (4): syntax error, unexpected ',' in [/opt/lampp/htdocs/Proyecto-CakePHP/app/View/Users/index.ctp, line 24]
+2014-06-18 20:33:24 Error: [FatalErrorException] syntax error, unexpected ','
+Request URL: /Proyecto-CakePHP/users
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 24)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 24, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 24, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-18 20:34:43 Error: Fatal Error (4): syntax error, unexpected ',' in [/opt/lampp/htdocs/Proyecto-CakePHP/app/View/Users/index.ctp, line 24]
+2014-06-18 20:34:43 Error: [FatalErrorException] syntax error, unexpected ','
+Request URL: /Proyecto-CakePHP/users
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 24)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 24, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 24, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-18 20:35:52 Error: Fatal Error (4): syntax error, unexpected ',' in [/opt/lampp/htdocs/Proyecto-CakePHP/app/View/Users/index.ctp, line 24]
+2014-06-18 20:35:52 Error: [FatalErrorException] syntax error, unexpected ','
+Request URL: /Proyecto-CakePHP/users
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 24)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 24, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 24, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-18 20:37:42 Error: Fatal Error (4): syntax error, unexpected ',' in [/opt/lampp/htdocs/Proyecto-CakePHP/app/View/Users/index.ctp, line 24]
+2014-06-18 20:37:42 Error: [FatalErrorException] syntax error, unexpected ','
+Request URL: /Proyecto-CakePHP/users
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 24)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 24, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 24, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-18 20:40:11 Error: Fatal Error (4): syntax error, unexpected ',' in [/opt/lampp/htdocs/Proyecto-CakePHP/app/View/Users/index.ctp, line 24]
+2014-06-18 20:40:11 Error: [FatalErrorException] syntax error, unexpected ','
+Request URL: /Proyecto-CakePHP/users
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 24)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 24, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 24, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-18 20:40:50 Error: Fatal Error (4): syntax error, unexpected ',' in [/opt/lampp/htdocs/Proyecto-CakePHP/app/View/Users/index.ctp, line 24]
+2014-06-18 20:40:50 Error: [FatalErrorException] syntax error, unexpected ','
+Request URL: /Proyecto-CakePHP/users
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 24)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 24, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 24, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-18 20:43:29 Error: Fatal Error (4): syntax error, unexpected ',' in [/opt/lampp/htdocs/Proyecto-CakePHP/app/View/Users/index.ctp, line 25]
+2014-06-18 20:43:29 Error: [FatalErrorException] syntax error, unexpected ','
+Request URL: /Proyecto-CakePHP/users
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 25)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 25, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 25, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-18 20:45:55 Error: Fatal Error (4): syntax error, unexpected '&&' (T_BOOLEAN_AND) in [/opt/lampp/htdocs/Proyecto-CakePHP/app/View/Partes/index.ctp, line 16]
+2014-06-18 20:45:55 Error: [FatalErrorException] syntax error, unexpected '&&' (T_BOOLEAN_AND)
+Request URL: /Proyecto-CakePHP/partes
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 16)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 16, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 16, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-18 21:04:31 Error: [NotFoundException] Invalid entero
+Request URL: /Proyecto-CakePHP/partes/editvendedor/157
+Stack Trace:
+#0 [internal function]: EnterosController->edit('2')
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EnterosController), Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EnterosController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(74): Object->requestAction('/Enteros/edit/2...')
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(86): PartesController->editar(2)
+#7 [internal function]: PartesController->editvendedor('157')
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-06-18 21:07:23 Error: [NotFoundException] Invalid entero
+Request URL: /Proyecto-CakePHP/partes/editvendedor/157
+Stack Trace:
+#0 [internal function]: EnterosController->edit('2')
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EnterosController), Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EnterosController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(74): Object->requestAction('/Enteros/edit/2...')
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(86): PartesController->editar(2)
+#7 [internal function]: PartesController->editvendedor('157')
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-06-18 21:07:37 Error: [NotFoundException] Invalid entero
+Request URL: /Proyecto-CakePHP/partes/editvendedor/157
+Stack Trace:
+#0 [internal function]: EnterosController->edit('2')
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EnterosController), Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EnterosController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(74): Object->requestAction('/Enteros/edit/2...')
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(86): PartesController->editar(2)
+#7 [internal function]: PartesController->editvendedor('157')
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-06-18 21:08:18 Error: [NotFoundException] Invalid entero
+Request URL: /Proyecto-CakePHP/Enteros/edit/2
+Stack Trace:
+#0 [internal function]: EnterosController->edit('2')
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EnterosController), Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EnterosController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-18 21:08:33 Error: [MissingViewException] View file "/opt/lampp/htdocs/Proyecto-CakePHP/app/View/Enteros/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/opt/lampp/htdocs/Proyecto-CakePHP/app/View/Enteros/index.ctp',
+)
+Request URL: /Proyecto-CakePHP/Enteros/
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EnterosController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-18 21:09:49 Error: [NotFoundException] Invalid entero
+Request URL: /Proyecto-CakePHP/enteros/edit/2
+Stack Trace:
+#0 [internal function]: EnterosController->edit('2')
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EnterosController), Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EnterosController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-18 21:09:54 Error: [NotFoundException] Invalid entero
+Request URL: /Proyecto-CakePHP/enteros/edit/3
+Stack Trace:
+#0 [internal function]: EnterosController->edit('3')
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EnterosController), Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EnterosController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-18 21:10:00 Error: [NotFoundException] Invalid entero
+Request URL: /Proyecto-CakePHP/enteros/edit/145
+Stack Trace:
+#0 [internal function]: EnterosController->edit('145')
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EnterosController), Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EnterosController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}

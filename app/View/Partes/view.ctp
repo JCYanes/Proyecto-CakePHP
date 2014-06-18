@@ -20,7 +20,7 @@
 		</dd>
 		<dt><?php echo __('Usuario Gestor'); ?></dt>
 		<dd>
-			<?php echo h($parte['Usuario']['username']); ?>&nbsp;
+			<?php echo h($parte['User']['username']); ?>&nbsp;
 		</dd>
 		<dt><?php echo __('Tipo de parte'); ?></dt>
 		<dd>
@@ -32,6 +32,7 @@
 <div class="actions">
 	<h3><?php echo __('Actions'); ?></h3>
 	<ul>
-		<li><?php echo $this->Html->link(__('Listado de Partes'), array('action' => 'indexvendedor')); ?> </li>
+		<li><?php echo $this->Html->link(__('Listado de Partes'), array('action' => 'index')); ?> </li>
+		<li><?php echo $this->Html->link(__('Cerrar secion'), array('controller' => 'users', 'action' => 'logout')); ?> </li>
 	</ul>
 </div>

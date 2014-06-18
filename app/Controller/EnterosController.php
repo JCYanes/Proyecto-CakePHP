@@ -15,6 +15,27 @@ class EnterosController extends AppController {
  * @var array
  */
 	public $components = array('Paginator', 'Session');
+	
+	
+public function isAuthorized($user) {
+    /*// All registered users can add partes
+    if (in_array($this->action, array('index','nuevoparte','view'))) {
+	return true;
+    }
+
+    // Sólo el vendedor puede editar y firmar el parte
+    if (in_array($this->action, array('editvendedor', 'firmar'))) {
+	$postId = (int) $this->request->params['pass'][0];
+	if ($this->Parte->isOwnedBy($postId, $user['id'])) {
+	    return true;
+	}
+	else{
+	return false;
+	}
+    }*/
+
+    return parent::isAuthorized($user);
+  }
 
 /**
  * index method

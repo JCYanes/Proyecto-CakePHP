@@ -13,15 +13,17 @@
 		<td><?php echo h($parte['Parte']['created']); ?>&nbsp;</td>
 		<td><?php echo h($parte['Parte']['validado']); ?></td>
 		<td class="actions">
-		  <?php if ($parte['Parte']['firmado']<>1) {
+		  
+		  <?php if (($parte['Parte']['firmado']<>1) && ($tiporol == 3)) {
+		  
 			  echo $this->Html->link(__('Editar'), array('action' => 'editvendedor', $parte['Parte']['id'])); 
 			  }?>
 		  
-		  <?php if ($parte['Parte']['firmado']<>1) {
+		  <?php if (($parte['Parte']['firmado']<>1) && ($tiporol == 3)) {
 		      echo $this->Form->postLink(('Firmar'), array('action'=>'firmar', $parte['Parte']['id']), array('confirm' =>'Seguro que quieres firmar, (esta accion no se puede eliminar)?')); 
-		      }
-		 ?>
-		       <?php echo $this->Html->link(__('Ver detalles'), array('Controller' => 'Partes', 'action' => 'viewvendedor', $parte['Parte']['id'])); ?>
+		      }?>
+		      
+		       <?php echo $this->Html->link(__('Ver detalles'), array('Controller' => 'Partes', 'action' => 'view', $parte['Parte']['id'])); ?>
 		      
 		      
 		</td>
@@ -47,7 +49,13 @@
 <div class="actions">
 	<h3><?php echo __('Actions'); ?></h3>
 	<ul>
-		<li><?php echo $this->Html->link(__('Nuevo parte'), array('action' => 'nuevoparte')); ?></li>
+		<li><?php if ($tiporol){
+		  echo $this->Html->link(__('Nuevo parte'), array('action' => 'nuevoparte'));
+		} 
+		?>
+		</li>
+		<li><?php echo $this->Html->link(__('Cerrar sesion'), array('controller' => 'users', 'action' => 'logout')); ?> </li>
+		
 	</ul>
 </div>
 

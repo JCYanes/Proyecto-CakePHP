@@ -36,15 +36,15 @@ class Parte extends AppModel {
 			'fields' => '',
 			'order' => ''
 		),
-		'Usuario' => array(
-			'className' => 'Usuario',
+		'User' => array(
+			'className' => 'User',
 			'foreignKey' => 'usuariovendedor',
 			'conditions' => '',
 			'fields' => '',
 			'order' => ''
 		),
-		'Usuario' => array(
-			'className' => 'Usuario',
+		'User' => array(
+			'className' => 'User',
 			'foreignKey' => 'usuariogestor',
 			'conditions' => '',
 			'fields' => '',
@@ -98,6 +98,11 @@ class Parte extends AppModel {
 			'counterQuery' => ''
 		)
 	);
+	
+	
+	public function isOwnedBy($parte, $user) {
+	    return $this->field('id', array('id' => $parte, 'usuariovendedor' => $user)) !== false;
+	}
 	
 
 }
