@@ -283,6 +283,7 @@ fieldset legend {
 	color: #e32;
 	font-size: 160%;
 	font-weight: bold;
+	clear:both;
 }
 fieldset fieldset {
 	margin-top: 0;
@@ -301,9 +302,10 @@ form div {
 	margin-bottom: 1em;
 	padding: .5em;
 	vertical-align: text-top;
+	
 }
 form .input {
-	
+	width:100%;
 	color: #444;
 }
 form .required {
@@ -503,6 +505,7 @@ p.error em {
 
 /**  Actions  **/
 .actions ul {
+	/*display:none;*/
 	margin: 0;
 	padding: 0;
 }
@@ -757,4 +760,12 @@ pre {
 /** Elements **/
 #url-rewriting-warning {
 	display:none;
+}
+
+
+#columns{
+ -webkit-column-count: 4; /* Chrome, Safari, Opera */
+    -moz-column-count: 4; /* Firefox */
+    column-count: 4;
+  
 }

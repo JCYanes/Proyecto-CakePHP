@@ -77,7 +77,7 @@ public function isAuthorized($user) {
 				     'workflowpaso_id'=>$idworkflow,
 				     'tipocampos_tipoparte_id'=>$idtipocampospartes);
 			
-			if ($this->Entero->save($data)) {
+			if ($this->Entero->saveAll($data)) {
 			
 				$this->Session->setFlash(__('The entero has been saved.'));
 				//return $this->redirect(array('controller'=>'Partes','action' => 'nuevoparte'));

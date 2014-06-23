@@ -1,5 +1,5 @@
-<div class="enteros form">
-<?php echo $this->Form->create('Entero'); ?>
+<div class="floats form">
+<?php echo $this->Form->create('Float'); ?>
 	<fieldset>
 		<legend><?php echo __('Editar Valores'); ?></legend>
 	<?php
@@ -7,7 +7,7 @@
 		echo $this->Form->input('final');
 		echo $this->Form->input('entradas');
 		echo $this->Form->input('salidas');*/
-		//debug($this->request);
+		debug($this->request);
 	?>
 	
 	</fieldset>

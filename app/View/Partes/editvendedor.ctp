@@ -1,42 +1,61 @@
 <div class="partes form">
 <?php echo $this->Form->create('Parte',array('action' => 'editvendedor')); ?>
 	<fieldset>
-		<legend><?php echo __('Editar Parte'); ?></legend>
+		<legend>
+		  <?php echo __('Editar Parte'); ?>
+		</legend>
+	<div id="columns">
 	<?php
+		
 		echo $this->Form->input('Parte.id');
-		//echo $this->Form->input('Entero.0.inicial');
-		//echo $this->Form->input('Parte.usuariogestor', array('label' => 'Gerente'));
-		
-		$enteros = $this->request->data;
-		
-		$cont = 0;
-		$num_campos = 0;
-		$cnt = 0;
-		foreach ($enteros['Entero'] as $entero){
-		  foreach($entero as $e){
-		    $num_campos = $num_campos + 1;
-		  }
-		  break;
-		}
-
-		
-		foreach ($enteros['Entero'] as $entero){
-		  foreach($entero as $e){
-		    $array_enteros[] = $e;
-		  }
-		  echo $this->Form->input('Entero.'.$cnt.'.id');
-		  echo $this->Form->input('Entero.'.$cnt.'.inicial', array('default' => $array_enteros[$cont+1]));
-		  echo $this->Form->input('Entero.'.$cnt.'.final', array('default' => $array_enteros[$cont+2]));
-		  echo $this->Form->input('Entero.'.$cnt.'.entrada', array('default' => $array_enteros[$cont+3]));
-		  echo $this->Form->input('Entero.'.$cnt.'.salida', array('default' => $array_enteros[$cont+4]));
-		  $cont = $cont + $num_campos;
-		  $cnt=$cnt+1;
-		}
-		
-		debug($this->request);
+	
+		echo ('El numero de familias es: ' . count($familias)."<br>");
+		$i=0;
+		foreach ($elementos as $elemento){
+			echo ("Elemento de la familia: ".$familias[$i])."<br>";
+			foreach ($elemento as $valores){
+				foreach ($valores as $dato){
+					echo ('El id del elemento es: '.$dato['id'])."<br>";
+					if (in_array($dato['id'],$listEntero)){
+						echo 'Se encontro';
+						$id = array_search($dato['id'], $listEntero);
+						$categoria= 'Entero';
+						$tipo= $listTipoEntero[$id];
+					}else if (in_array($dato['id'],$listFloat)){
+						echo 'Se encontro';
+						$id = array_search($dato['id'], $listFloat);
+						$categoria= 'Float';
+						$tipo=$listTipoFloat[$id];
+					}else{//$listTexto
+						echo 'Se encontro';
+						$id = array_search($dato['id'], $listTexto);
+						$categoria= 'Texto';
+						$tipo=$listTipoTexto[$id];
+					}
+					
+						if ($tipo=='1'){
+							echo "tengo 4 campos";
+							echo $this->Form->input($categoria.'.'.$i.'.id');   //echo $this->Form->input('Entero.'.$cnt.'.id');
+							echo $this->Form->input($categoria.'.'.$i.'.inicial');
+							echo $this->Form->input($categoria.'.'.$i.'.final'); 
+							echo $this->Form->input($categoria.'.'.$i.'.entrada');
+							echo $this->Form->input($categoria.'.'.$i.'.salida'); 	
+						}else if ($tipo=='2'){
+							echo "Soy 1 campo editable";
+							echo $this->Form->input($categoria.'.'.$i.'.final'); 
+						}else{
+							echo "Soy 1 no editable";
+						}
+					}
+					
+					}
+					$i++;
+			}
+		debug($this->request->data);
 
 		
 	?>
+	</div>
 	</fieldset>
 <?php echo $this->Form->end(('Actualizar')); ?>
 </div>

@@ -101,12 +101,32 @@ class TipocamposTipoparte extends AppModel {
 	/**
 	Funcion para obtener los campos que pertenezcan a un determinado formato
 	**/
-	function obtenercamposformato ($idtipoparte){ 
+	/*function obtenercamposformato ($idtipoparte){ 
 	   return $datos = $this->query("SELECT id,tipocampo_id,tipofamilia_id, categoria_id FROM tipocampos_tipopartes WHERE tipoparte_id=$idtipoparte" );
 	}
 	
 	function obtenercamposfamilia($idtipoparte,$idfamilia){
 	return $datos = $this->query("SELECT id FROM tipocampos_tipopartes AS TipocamposTipoparte WHERE tipoparte_id=$idtipoparte AND tipofamilia_id = $idfamilia");
+	}*/
+	
+	function obtenerid($datos){
+		foreach($datos[0] as $dato){
+			foreach($dato as $d){
+				return $d;	// devuelve el primer valor de la consulta realizada       
+			}
+		}
+	}
+	
+	function obtenerfamilias($idtipoparte){
+		return $datos= $this->query("SELECT tipofamilia_id FROM tipocampos_tipopartes where tipoparte_id=".$idtipoparte." group by tipofamilia_id");
+	}
+	
+	function listarelementos($idtipoparte,$idfamilia){
+		return $datos= $this->query("SELECT id FROM tipocampos_tipopartes AS tipocampos_tipoparte WHERE tipoparte_id=".$idtipoparte." AND tipofamilia_id=".$idfamilia." ORDER BY orden");
+	}
+	function obteneridcampo($id){
+		$datos = $this->query("SELECT tipocampo_id FROM tipocampos_tipopartes WHERE `id`=".$id);
+		return $this->obtenerid($datos);
 	}
 	
 	

@@ -49,7 +49,7 @@
 <div class="actions">
 	<h3><?php echo __('Actions'); ?></h3>
 	<ul>
-		<li><?php if ($tiporol){
+		<li><?php if ($tiporol ==3){
 		  echo $this->Html->link(__('Nuevo parte'), array('action' => 'nuevoparte'));
 		} 
 		?>

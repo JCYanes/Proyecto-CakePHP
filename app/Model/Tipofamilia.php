@@ -38,4 +38,19 @@ class Tipofamilia extends AppModel {
 		)
 	);
 
+	function obtenerfamilia($id){
+		$datos= $this->query("SELECT name FROM tipofamilias WHERE id=$id");
+		return $this->getResult($datos);
+	}
+	// getQueryResult: devuelve el primer valor de la consulta realizada
+	// Parámetros: hay que pasarle un array (devuelto por una consulta sql
+	function getResult($datos){
+		foreach($datos[0] as $dato){
+			foreach($dato as $d){
+				return $d;	// devuelve el primer valor de la consulta realizada       
+	    }
+	  }
+	  
+	}
+	
 }

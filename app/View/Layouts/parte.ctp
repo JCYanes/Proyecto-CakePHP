@@ -31,7 +31,7 @@ $cakeDescription = __d('Estacion','Estacion de Servicios');
 	<?php
 		echo $this->Html->meta('icon');
 
-		echo $this->Html->css('cake.generic');//Ruta del css
+		echo $this->Html->css('parte'); //('cake.generic');//Ruta del css
 
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
@@ -46,20 +46,13 @@ $cakeDescription = __d('Estacion','Estacion de Servicios');
 		<div id="content">
 
 			<?php echo $this->Session->flash(); ?>
-
 			<?php echo $this->fetch('content'); ?>
 		</div>
+		
+		
 		<div id="footer">
-			<?php /* echo $this->Html->link(
-					$this->Html->image('cake.power.gif', array('alt' => $cakeDescription, 'border' => '0')),
-					'http://www.cakephp.org/',
-					array('target' => '_blank', 'escape' => false, 'id' => 'cake-powered')
-				);
-				*/
-		  ?>
 		  <div class="spanfooter">
 		    <?php
-		    //echo $this->Html->tag('span','Licencia GPLv3');
 		    ?>
 		    
 		    <p>
@@ -69,6 +62,5 @@ $cakeDescription = __d('Estacion','Estacion de Servicios');
 
 		</div>
 	</div>
-	<? /** php echo $this->element('sql_dump');*/ ?>
 </body>
 </html>
