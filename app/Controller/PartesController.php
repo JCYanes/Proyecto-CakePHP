@@ -13,7 +13,7 @@ class PartesController extends AppController {
 
    //Componentes
     public $components = array('Paginator', 'Session');
-    public $uses = array('Parte','Valoresdefecto','Categoria','TipocamposTipoparte','User','Tipofamilia');
+    public $uses = array('Parte','Valoresdefecto','Categoria','TipocamposTipoparte','User','Tipofamilia','Tipocampo');
     
     
     
@@ -76,111 +76,115 @@ class PartesController extends AppController {
     }
     
     
-    public function editar($id) {
-      $this->requestAction('/Enteros/edit/'.$id.'/'); 
-    }
-    
-    
     public function editvendedor($id = null) {
-    $this->layout='parte';
-    $tipoparteid = $this->Valoresdefecto->obtenervalor(); //Obtiene el valor guardado por defecto del formulario a usar.
-    
-	    
-    if (!$this->Parte->exists($id)) {
-		    throw new NotFoundException(__('Invalido parte'));
-	    }
-	    //Tenemos que pasar los enteros que pertenecen al parte y rellenarlos
-		
-	    if ($this->request->is(array('post', 'put'))) {
-	    
-		    if ($this->Parte->saveAssociated($this->request->data)) {
-			    $this->Session->setFlash(__('El parte ha sido actualizado.'));
-			    return $this->redirect(array('action' => 'index'));
-		    } else {
-			    $this->Session->setFlash(__('No se ha podido actualizar intentelo de nuevo.'));
-		    }
-	    } else {
-		    $options = array('conditions' => array('Parte.' . $this->Parte->primaryKey => $id));
-		    $this->request->data = $this->Parte->find('first', $options);
-		}
-		$totalEnteros = $this->Parte->Entero->find('count',array('conditions' => array('Parte.' . $this->Parte->primaryKey => $id)));
-		$this->set('totalEnteros',$totalEnteros);
-
+		$this->layout='parte';
+		$tipoparteid = $this->Valoresdefecto->obtenervalor(); //Obtiene el valor guardado por defecto del formulario a usar.
 		$tipofamilias=$this->TipocamposTipoparte->obtenerfamilias($tipoparteid);//Familias existentes en este parte
 		$familias[]=array();
 		$elementos[]=array();//Todos los elementos de cada familia
-		for ($i = 1; $i <= count($tipofamilias); $i++){
-			 //Por cada id sacar el nombre y enviarlo a la vista para mostrarlo
-			 $nombrefamilia= $this->Tipofamilia->obtenerfamilia($i);
-			 $familias[$i-1]=$nombrefamilia;
-			 $elementos[$i-1]=$this->TipocamposTipoparte->listarelementos($tipoparteid,$i);//guardamos un array con todos los elementos ordenados de cada familia
-		} 
+		$i=0;
+		foreach($tipofamilias as $dato){
+			foreach($dato as $d){
+				$nombrefamilia= $this->Tipofamilia->obtenerfamilia($d['tipofamilia_id']);
+				$familias[$i]=$nombrefamilia;
+				$elementos[$i]=$this->TipocamposTipoparte->listarelementos($tipoparteid,$d['tipofamilia_id']);//guardamos un array con todos los elementos ordenados de cada familia
+				
+			}
+			$i++;
+		}
+ 
 		$this->set('familias',$familias);
 		$this->set('elementos',$elementos);//listado con los id ordenados
-		$datos=$this->request->data;
-		// Get "Entero" "tipocampos_tipoparte_id"
-		foreach ($datos['Entero'] as $dato){
-			$key = "tipocampos_tipoparte_id";
-			foreach ($dato as $d => $value){
-				if ($d == $key){
-					$listEntero[] = $value;
-					$listTipoEntero[]= $this->TipocamposTipoparte->obteneridcampo($value);
+		$options = array('conditions' => array('Parte.' . $this->Parte->primaryKey => $id));
+		$datos=$this->Parte->find('first', $options);
+			// Get "Reale" "tipocampos_tipoparte_id"
+			foreach ($datos['Reale'] as $dato){
+				$key = "tipocampos_tipoparte_id";
+				foreach ($dato as $d => $value){
+					if ($d == $key){
+						$listReale[] = $value;
+						//$listTipoReale[]= $this->TipocamposTipoparte->obteneridcampo($value);
+						$datos=$this->TipocamposTipoparte->obteneridcampo($value);
+						foreach($datos as $dato){
+							foreach($dato as $d){
+								$listTipoReale[]= $d['tipocampo_id'];
+							}
+						}
+					}
 				}
 			}
-		}
-		
-		// Get "Float" "tipocampos_tipoparte_id"
-		foreach ($datos['Float'] as $dato){
-			$key = "tipocampos_tipoparte_id";
-			foreach ($dato as $d => $value){
-				if ($d == $key){
-					$listFloat[] = $value;
-					$listTipoFloat[]= $this->TipocamposTipoparte->obteneridcampo($value);
+			$datos=$this->Parte->find('first', $options);
+			// Get "Entero" "tipocampos_tipoparte_id"
+			foreach ($datos['Entero'] as $dato){
+				$key = "tipocampos_tipoparte_id";
+				foreach ($dato as $d => $value){
+					if ($d == $key){
+						$listEntero[] = $value;
+						//$listTipoEntero[]= $this->TipocamposTipoparte->obteneridcampo($value);
+						$datos=$this->TipocamposTipoparte->obteneridcampo($value);
+						foreach($datos as $dato){
+							foreach($dato as $d){
+								$listTipoEntero[]= $d['tipocampo_id'];
+							}
+						}
+					}
 				}
 			}
-		}
 		
-		$contTexto = 0;
-		// Get "Texto" "tipocampos_tipoparte_id"
-		foreach ($datos['Texto'] as $dato){
-			$key = "tipocampos_tipoparte_id";
-			foreach ($dato as $d => $value){
-				if ($d == $key){
-					$listTexto[] = $value;
-					$listTipoTexto[]= $this->TipocamposTipoparte->obteneridcampo($value);
+			$datos=$this->Parte->find('first', $options);
+			// Get "Texto" "tipocampos_tipoparte_id"
+			foreach ($datos['Texto'] as $dato){
+				$key = "tipocampos_tipoparte_id";
+				foreach ($dato as $d => $value){
+					if ($d == $key){
+						$listTexto[] = $value;
+						$datos=$this->TipocamposTipoparte->obteneridcampo($value);
+						foreach($datos as $dato){
+							foreach($dato as $d){
+								$listTipoTexto[]= $d['tipocampo_id'];
+							}
+						}
+					}
 				}
 			}
+			$this->set('listEntero',$listEntero);
+			$this->set('listReale',$listReale);
+			$this->set('listTexto',$listTexto);
+			$this->set('listTipoEntero', $listTipoEntero);
+			$this->set('listTipoReale', $listTipoReale);
+			$this->set('listTipoTexto', $listTipoTexto);
+			
+		if (!$this->Parte->exists($id)) {
+				throw new NotFoundException(__('Invalido parte'));
+			}
+		else{
+			if ($this->request->is(array('post', 'put'))) {
+				if ($this->Parte->saveAll($this->request->data)) {
+					$this->Session->setFlash(__('El parte ha sido actualizado.'));
+					return $this->redirect(array('action' => 'index'));
+				} else {
+					$this->Session->setFlash(__('No se ha podido actualizar intentelo de nuevo.'));
+				}
+		}else {
+			$options = array('conditions' => array('Parte.' . $this->Parte->primaryKey => $id));
+			$this->request->data = $this->Parte->find('first', $options);
 		}
-		 $this->set('listEntero',$listEntero);
-		 $this->set('listFloat',$listFloat);
-		 $this->set('listTexto',$listTexto);
-		 $this->set('listTipoEntero', $listTipoEntero);
-		 $this->set('listTipoFloat', $listTipoFloat);
-		 $this->set('listTipoTexto', $listTipoTexto);
-		
-		
-	    
-	    
-	    
-	    // IMPORTANTE $this->set('una_variable_para_la_vista','valor_de_la_variable');
-	
-	//EJEMPLO:  $this->set('id',$id); Y EN LA VISTA: echo $form->input('cliente_id',array('value'=>$id));
 
-    }
 
-	
+	}
+
+}
 	/**
 	Inicializamos las tablas que almacenaran los valores
 	**/
 	
-	public function inicializar($id, $cat_id, $newParteId, $workFlow){
+	public function inicializar($id, $cat_id, $newParteId, $workFlow,$tipocampo){
 	    
 	    $categoria = $this->Categoria->obtenervalor($cat_id);
-// 	    //$campo = $this->Tipocampo->obtenername($idcampo);//el nombre del campo
-
-	       $this->requestAction('/'.$categoria.'/add/'.$newParteId.'/'.$workFlow.'/'.$id); 
+	    $campo = $this->Tipocampo->obtenername($tipocampo);
+	    $this->requestAction('/'.$categoria.'/add/'.$newParteId.'/'.$workFlow.'/'.$id.'/'.$campo); 
 	}
-	
+
 	/**
 	Creacion de un nuevo parte
 	**/
@@ -191,8 +195,7 @@ class PartesController extends AppController {
 	  $usuario=$this->Auth->User('id');
 	  $workflow = 1; //Primera fase inicializamos el workflow a 1
 	  $this->Parte->create();
-	  
-	  $this->Parte->save();//guardamos un parte en blanco con el vendedor
+	  $this->Parte->save();//guardamos un parte en blanco
 	  $newParteId = $this->Parte->id;
 
 	  //crear todo el esqueleto para almacenar datos
@@ -205,17 +208,17 @@ class PartesController extends AppController {
 	  //recorrer cada uno de estos campos y por cada uno obtener la categoria y crear un nuevo
 	  foreach($camposparte as $dato){
 	    foreach($dato as $d){
-		$this->inicializar($d['id'], $d['categoria_id'], $newParteId,  $workflow); //recorremos por categoria e id y creamos 
+		$this->inicializar($d['id'], $d['categoria_id'],$newParteId,$workflow,$d['tipocampo_id']); //recorremos por categoria e id y creamos 
 	    }
 	  }
 	   
 	  if ($this->Parte->saveAll($data)) { 
 	    $this->Session->setFlash(__('El parte ha sido creado.'));
+	    //return $this->redirect(array('action' => 'index'));
 		    
 	  } else {
 		    $this->Session->setFlash(__('El parte no ha podido ser creado intentelo de nuevo.'));
 	  }
-	  
 	return $this->redirect(array('action' => 'index'));
 	$this->autoRender = false;
     }

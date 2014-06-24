@@ -17,22 +17,11 @@ class EnterosController extends AppController {
 	public $components = array('Paginator', 'Session');
 	
 	
-public function isAuthorized($user) {
-    /*// All registered users can add partes
-    if (in_array($this->action, array('index','nuevoparte','view'))) {
-	return true;
-    }
-
-    // Sólo el vendedor puede editar y firmar el parte
-    if (in_array($this->action, array('editvendedor', 'firmar'))) {
-	$postId = (int) $this->request->params['pass'][0];
-	if ($this->Parte->isOwnedBy($postId, $user['id'])) {
-	    return true;
-	}
-	else{
-	return false;
-	}
-    }*/
+   public function isAuthorized($user) {
+      // All registered users can add partes
+      if (in_array($this->action, array('add'))) {
+	  return true;
+      }
 
     return parent::isAuthorized($user);
   }
@@ -67,15 +56,16 @@ public function isAuthorized($user) {
  *
  * @return void
  */
-	public function add($idparte,$idworkflow,$idtipocampospartes) {
-		if ($this->request->is('post')) {
+	public function add($idparte,$idworkflow,$idtipocampospartes,$campo) {
+		
 			$this->Entero->create();
-			$this->request->data;//creamos el entero
-			$newParteId = $this->Entero->id;//recuperamos el identificador
-			$data= array('id' => $newParteId,
+			$this->Entero->save();
+			$newEnteroId = $this->Entero->id;//recuperamos el identificador
+			$data= array('id' => $newEnteroId,
 				     'parte_id'=>$idparte,
 				     'workflowpaso_id'=>$idworkflow,
-				     'tipocampos_tipoparte_id'=>$idtipocampospartes);
+				     'tipocampos_tipoparte_id'=>$idtipocampospartes,
+				     'name'=>$campo);
 			
 			if ($this->Entero->saveAll($data)) {
 			
@@ -84,7 +74,7 @@ public function isAuthorized($user) {
 			} else {
 				$this->Session->setFlash(__('The entero could not be saved. Please, try again.'));
 			}
-		}
+		$this->autoRender = false;
 		//$partes = $this->Entero->Parte->find('list');
 		//$workflowpasos = $this->Entero->Workflowpaso->find('list');
 		//$tipocamposTipopartes = $this->Entero->TipocamposTipoparte->find('list');

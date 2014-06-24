@@ -8,7 +8,7 @@ App::uses('AppModel', 'Model');
  * @property Usuario $vendedor
  * @property Usuario $gerente
  * @property Entero $Entero
- * @property Float $Float
+ * @property Reale $Reale
  * @property Texto $Texto
  */
 class Parte extends AppModel {
@@ -71,8 +71,8 @@ class Parte extends AppModel {
 			'finderQuery' => '',
 			'counterQuery' => ''
 		),
-		'Float' => array(
-			'className' => 'Float',
+		'Reale' => array(
+			'className' => 'Reale',
 			'foreignKey' => 'parte_id',
 			'dependent' => false,
 			'conditions' => '',

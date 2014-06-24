@@ -1,13 +1,13 @@
 <?php
 App::uses('AppModel', 'Model');
 /**
- * Float Model
+ * Reale Model
  *
  * @property Parte $Parte
  * @property Workflowpaso $Workflowpaso
  * @property TipocamposTipoparte $TipocamposTipoparte
  */
-class Float extends AppModel {
+class Reale extends AppModel {
 
 /**
  * Display field

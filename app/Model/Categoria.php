@@ -41,7 +41,6 @@ class Categoria extends AppModel {
 	
 	function obtenervalor($id)
 	{
-	  
 	  $datos = $this->query("SELECT name FROM categorias WHERE id=$id");
 	  return $this->getQueryResult($datos);
 	}

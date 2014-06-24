@@ -15,6 +15,16 @@ class TextosController extends AppController {
  * @var array
  */
 	public $components = array('Paginator', 'Session');
+	
+	
+public function isAuthorized($user) {
+      // All registered users can add partes
+      if (in_array($this->action, array('add'))) {
+	  return true;
+     }
+
+   return parent::isAuthorized($user);
+ }
 
 /**
  * index method
@@ -47,23 +57,23 @@ class TextosController extends AppController {
  * @return void
  */
  
-	public function add($idparte,$idworkflow,$idtipocampospartes) {
-		if ($this->request->is('post')) {
+	public function add($idparte,$idworkflow,$idtipocampospartes,$campo) {
 			$this->Texto->create();
-			$this->request->data;//creamos el texto
+			$this->Texto->save();//creamos el texto
 			$newParteId = $this->Texto->id;//recuperamos el identificador
 			$data= array('id' => $newParteId,
 				     'parte_id'=>$idparte,
 				     'workflowpaso_id'=>$idworkflow,
-				     'tipocampos_tipoparte_id'=>$idtipocampospartes);
+				     'tipocampos_tipoparte_id'=>$idtipocampospartes,
+				     'name'=>$campo);
 			
 			if ($this->Texto->saveAll($data)) {
 				$this->Session->setFlash(__('The texto has been saved.'));
-				//return $this->redirect(array('action' => 'index'));
+				//return $this->redirect(array('controller'=>'Partes','action' => 'nuevoparte'));
 			} else {
 				$this->Session->setFlash(__('The texto could not be saved. Please, try again.'));
 			}
-		}
+		$this->autoRender = false;
 		/*$partes = $this->Texto->Parte->find('list');
 		$workflowpasos = $this->Texto->Workflowpaso->find('list');
 		$tipocamposTipopartes = $this->Texto->TipocamposTipoparte->find('list');
