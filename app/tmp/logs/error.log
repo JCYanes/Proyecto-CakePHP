@@ -6464,3 +6464,1205 @@ Stack Trace:
 #3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2014-06-25 13:22:10 Error: [MissingControllerException] Controller class PartesçController could not be found.
+Exception Attributes: array (
+  'class' => 'PartesçController',
+  'plugin' => NULL,
+)
+Request URL: /Proyecto-CakePHP/partes%C3%A7
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-06-25 13:58:28 Error: [MissingViewException] View file "/opt/lampp/htdocs/Proyecto-CakePHP/app/View/Enteros/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/opt/lampp/htdocs/Proyecto-CakePHP/app/View/Enteros/index.ctp',
+)
+Request URL: /Proyecto-CakePHP/enteros
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EnterosController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-25 16:30:32 Error: [NotFoundException] Invalido parte
+Request URL: /Proyecto-CakePHP/partes/editvendedor/276
+Stack Trace:
+#0 [internal function]: PartesController->editvendedor('276')
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-25 16:32:21 Error: [NotFoundException] Invalido parte
+Request URL: /Proyecto-CakePHP/partes/editvendedor/276
+Stack Trace:
+#0 [internal function]: PartesController->editvendedor('276')
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-25 16:33:50 Error: [NotFoundException] Invalido parte
+Request URL: /Proyecto-CakePHP/partes/editvendedor/276
+Stack Trace:
+#0 [internal function]: PartesController->editvendedor('276')
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-25 16:34:13 Error: [NotFoundException] Invalido parte
+Request URL: /Proyecto-CakePHP/partes/editvendedor/276
+Stack Trace:
+#0 [internal function]: PartesController->editvendedor('276')
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-25 16:34:30 Error: [NotFoundException] Invalido parte
+Request URL: /Proyecto-CakePHP/partes/editvendedor/276
+Stack Trace:
+#0 [internal function]: PartesController->editvendedor('276')
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-25 16:37:32 Error: Fatal Error (4): syntax error, unexpected '}' in [/opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php, line 112]
+2014-06-25 16:37:32 Error: [FatalErrorException] syntax error, unexpected '}'
+Request URL: /Proyecto-CakePHP/partes/editvendedor/276
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 112)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 112, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 112, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-06-25 16:37:52 Error: [NotFoundException] Invalido parte
+Request URL: /Proyecto-CakePHP/partes/editvendedor/276
+Stack Trace:
+#0 [internal function]: PartesController->editvendedor('276')
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-06-25 16:38:38 Error: [NotFoundException] Invalido parte
+Request URL: /Proyecto-CakePHP/partes/editvendedor/276
+Stack Trace:
+#0 [internal function]: PartesController->editvendedor('276')
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-07-01 18:43:43 Error: Fatal Error (4): syntax error, unexpected '<' in [/opt/lampp/htdocs/Proyecto-CakePHP/app/Config/database.php, line 16]
+2014-07-01 18:43:43 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /Proyecto-CakePHP/
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 16)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 16, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 16, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-01 21:07:16 Error: Fatal Error (4): syntax error, unexpected 'else' (T_ELSE) in [/opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php, line 272]
+2014-07-01 21:07:16 Error: [FatalErrorException] syntax error, unexpected 'else' (T_ELSE)
+Request URL: /Proyecto-CakePHP/partes
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 272)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 272, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 272, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-01 21:07:47 Error: Fatal Error (4): syntax error, unexpected 'else' (T_ELSE) in [/opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php, line 272]
+2014-07-01 21:07:47 Error: [FatalErrorException] syntax error, unexpected 'else' (T_ELSE)
+Request URL: /Proyecto-CakePHP/partes
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 272)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 272, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 272, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-01 21:08:48 Error: [MissingActionException] Action RealesController::copiar() could not be found.
+Exception Attributes: array (
+  'controller' => 'RealesController',
+  'action' => 'copiar',
+)
+Request URL: /Proyecto-CakePHP/partes/Actualizar/277
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(RealesController), Object(CakeRequest))
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(107): Object->requestAction('/Reales/copiar/...')
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(167): PartesController->copiardatos('2', '277', '3')
+#5 [internal function]: PartesController->actualizar('277')
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#7 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-07-01 21:10:21 Error: Fatal Error (1): Call to undefined method EnterosController::find() in [/opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/EnterosController.php, line 97]
+2014-07-01 21:10:21 Error: [FatalErrorException] Call to undefined method EnterosController::find()
+Request URL: /Proyecto-CakePHP/partes/Actualizar/277
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/opt/lampp/htdo...', 97)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/opt/lampp/htdo...', 97, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/opt/lampp/htdo...', 97, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-01 21:11:28 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Parte.277' in 'where clause'
+Request URL: /Proyecto-CakePHP/partes/Actualizar/277
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Entero`...', Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Entero`...', Array, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Entero`...', false)
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Entero), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2877): Model->_readDataSource('all', Array)
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/EnterosController.php(97): Model->find('all', Array)
+#7 [internal function]: EnterosController->copiar('277')
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EnterosController), Array)
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EnterosController), Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#12 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(108): Object->requestAction('/Enteros/copiar...')
+#13 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(168): PartesController->copiardatos('2', '277', '3')
+#14 [internal function]: PartesController->actualizar('277')
+#15 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#16 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#17 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#18 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#19 {main}
+2014-07-01 21:11:51 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'parte_id.277' in 'where clause'
+Request URL: /Proyecto-CakePHP/partes/Actualizar/277
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Entero`...', Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Entero`...', Array, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Entero`...', false)
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Entero), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2877): Model->_readDataSource('all', Array)
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/EnterosController.php(97): Model->find('all', Array)
+#7 [internal function]: EnterosController->copiar('277')
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EnterosController), Array)
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EnterosController), Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#12 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(108): Object->requestAction('/Enteros/copiar...')
+#13 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(168): PartesController->copiardatos('2', '277', '3')
+#14 [internal function]: PartesController->actualizar('277')
+#15 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#16 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#17 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#18 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#19 {main}
+2014-07-01 21:12:22 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'parte_id277' in 'where clause'
+Request URL: /Proyecto-CakePHP/partes/Actualizar/277
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Entero`...', Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Entero`...', Array, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Entero`...', false)
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Entero), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2877): Model->_readDataSource('all', Array)
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/EnterosController.php(97): Model->find('all', Array)
+#7 [internal function]: EnterosController->copiar('277')
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EnterosController), Array)
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EnterosController), Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#12 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(108): Object->requestAction('/Enteros/copiar...')
+#13 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(168): PartesController->copiardatos('2', '277', '3')
+#14 [internal function]: PartesController->actualizar('277')
+#15 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#16 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#17 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#18 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#19 {main}
+2014-07-01 21:12:57 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'parte_id277' in 'where clause'
+Request URL: /Proyecto-CakePHP/partes/Actualizar/277
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Entero`...', Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Entero`...', Array, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Entero`...', false)
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Entero), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2877): Model->_readDataSource('all', Array)
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/EnterosController.php(97): Model->find('all', Array)
+#7 [internal function]: EnterosController->copiar('277')
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EnterosController), Array)
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EnterosController), Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#12 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(108): Object->requestAction('/Enteros/copiar...')
+#13 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(168): PartesController->copiardatos('2', '277', '3')
+#14 [internal function]: PartesController->actualizar('277')
+#15 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#16 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#17 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#18 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#19 {main}
+2014-07-01 21:13:38 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '277' at line 1
+Request URL: /Proyecto-CakePHP/partes/Actualizar/277
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Entero`...', Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Entero`...', Array, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Entero`...', false)
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Entero), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2877): Model->_readDataSource('all', Array)
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/EnterosController.php(97): Model->find('all', Array)
+#7 [internal function]: EnterosController->copiar('277')
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EnterosController), Array)
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EnterosController), Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#12 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(108): Object->requestAction('/Enteros/copiar...')
+#13 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(168): PartesController->copiardatos('2', '277', '3')
+#14 [internal function]: PartesController->actualizar('277')
+#15 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#16 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#17 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#18 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#19 {main}
+2014-07-01 21:13:56 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '277' at line 1
+Request URL: /Proyecto-CakePHP/partes/Actualizar/277
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Entero`...', Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Entero`...', Array, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Entero`...', false)
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Entero), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2877): Model->_readDataSource('all', Array)
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/EnterosController.php(97): Model->find('all', Array)
+#7 [internal function]: EnterosController->copiar('277')
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EnterosController), Array)
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EnterosController), Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#12 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(108): Object->requestAction('/Enteros/copiar...')
+#13 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(168): PartesController->copiardatos('2', '277', '3')
+#14 [internal function]: PartesController->actualizar('277')
+#15 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#16 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#17 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#18 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#19 {main}
+2014-07-01 21:14:06 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'parte_id277' in 'where clause'
+Request URL: /Proyecto-CakePHP/partes/Actualizar/277
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Entero`...', Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Entero`...', Array, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Entero`...', false)
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Entero), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2877): Model->_readDataSource('all', Array)
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/EnterosController.php(97): Model->find('all', Array)
+#7 [internal function]: EnterosController->copiar('277')
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EnterosController), Array)
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EnterosController), Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#12 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(108): Object->requestAction('/Enteros/copiar...')
+#13 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(168): PartesController->copiardatos('2', '277', '3')
+#14 [internal function]: PartesController->actualizar('277')
+#15 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#16 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#17 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#18 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#19 {main}
+2014-07-01 21:14:42 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'parte_id277' in 'where clause'
+Request URL: /Proyecto-CakePHP/partes/Actualizar/277
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Entero`...', Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Entero`...', Array, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Entero`...', false)
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Entero), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2877): Model->_readDataSource('first', Array)
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/EnterosController.php(97): Model->find('first', Array)
+#7 [internal function]: EnterosController->copiar('277')
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EnterosController), Array)
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EnterosController), Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#12 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(108): Object->requestAction('/Enteros/copiar...')
+#13 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(168): PartesController->copiardatos('2', '277', '3')
+#14 [internal function]: PartesController->actualizar('277')
+#15 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#16 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#17 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#18 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#19 {main}
+2014-07-01 21:15:11 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'parte_id277' in 'where clause'
+Request URL: /Proyecto-CakePHP/partes/Actualizar/277
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Entero`...', Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Entero`...', Array, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Entero`...', false)
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Entero), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2877): Model->_readDataSource('all', Array)
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/EnterosController.php(97): Model->find('all', Array)
+#7 [internal function]: EnterosController->copiar('277')
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(EnterosController), Array)
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(EnterosController), Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/Object.php(106): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#12 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(108): Object->requestAction('/Enteros/copiar...')
+#13 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(168): PartesController->copiardatos('2', '277', '3')
+#14 [internal function]: PartesController->actualizar('277')
+#15 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#16 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#17 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#18 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#19 {main}
+2014-07-01 21:20:55 Error: Fatal Error (1): Call to a member function find() on a non-object in [/opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/TextosController.php, line 101]
+2014-07-01 21:20:55 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /Proyecto-CakePHP/partes/Actualizar/277
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/opt/lampp/htdo...', 101)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/opt/lampp/htdo...', 101, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/opt/lampp/htdo...', 101, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-01 21:28:27 Error: Fatal Error (1): Call to a member function obtenerdatos() on a non-object in [/opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/TextosController.php, line 100]
+2014-07-01 21:28:27 Error: [FatalErrorException] Call to a member function obtenerdatos() on a non-object
+Request URL: /Proyecto-CakePHP/partes/Actualizar/277
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/opt/lampp/htdo...', 100)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/opt/lampp/htdo...', 100, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/opt/lampp/htdo...', 100, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-01 21:33:21 Error: Fatal Error (1): Call to a member function obtenerdatos() on a non-object in [/opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/TextosController.php, line 100]
+2014-07-01 21:33:21 Error: [FatalErrorException] Call to a member function obtenerdatos() on a non-object
+Request URL: /Proyecto-CakePHP/partes/Actualizar/277
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/opt/lampp/htdo...', 100)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/opt/lampp/htdo...', 100, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/opt/lampp/htdo...', 100, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-01 21:42:35 Error: Fatal Error (1): Call to a member function obtenerdatos() on a non-object in [/opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/TextosController.php, line 96]
+2014-07-01 21:42:35 Error: [FatalErrorException] Call to a member function obtenerdatos() on a non-object
+Request URL: /Proyecto-CakePHP/partes/Actualizar/277
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/opt/lampp/htdo...', 96)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/opt/lampp/htdo...', 96, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/opt/lampp/htdo...', 96, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-01 23:11:02 Error: Fatal Error (4): syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in [/opt/lampp/htdocs/Proyecto-CakePHP/app/View/Partes/actualizar.ctp, line 27]
+2014-07-01 23:11:02 Error: [FatalErrorException] syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+Request URL: /Proyecto-CakePHP/partes/Actualizar/277
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 27)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 27, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 27, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-01 23:11:25 Error: Fatal Error (4): syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in [/opt/lampp/htdocs/Proyecto-CakePHP/app/View/Partes/actualizar.ctp, line 27]
+2014-07-01 23:11:25 Error: [FatalErrorException] syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+Request URL: /Proyecto-CakePHP/partes/Actualizar/277
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 27)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 27, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 27, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-01 23:20:25 Error: [MissingActionException] Action PartesController::indexvendedor() could not be found.
+Exception Attributes: array (
+  'controller' => 'PartesController',
+  'action' => 'indexvendedor',
+)
+Request URL: /Proyecto-CakePHP/partes/indexvendedor
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-07-01 23:24:34 Error: Fatal Error (4): syntax error, unexpected '=', expecting ')' in [/opt/lampp/htdocs/Proyecto-CakePHP/app/View/Partes/actualizar.ctp, line 27]
+2014-07-01 23:24:34 Error: [FatalErrorException] syntax error, unexpected '=', expecting ')'
+Request URL: /Proyecto-CakePHP/partes/Actualizar/277
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 27)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 27, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 27, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-01 23:25:04 Error: Fatal Error (4): syntax error, unexpected '=', expecting ')' in [/opt/lampp/htdocs/Proyecto-CakePHP/app/View/Partes/actualizar.ctp, line 27]
+2014-07-01 23:25:04 Error: [FatalErrorException] syntax error, unexpected '=', expecting ')'
+Request URL: /Proyecto-CakePHP/partes/Actualizar/277
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 27)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 27, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 27, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-01 23:28:37 Error: [MissingHelperException] Helper class AuthHelper could not be found.
+Exception Attributes: array (
+  'class' => 'AuthHelper',
+  'plugin' => false,
+)
+Request URL: /Proyecto-CakePHP/partes/Actualizar/278
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/View/HelperCollection.php(63): HelperCollection->load('Auth')
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/View/View.php(837): HelperCollection->__isset('Auth')
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/app/View/Partes/actualizar.ctp(27): View->__get('Auth')
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/View/View.php(948): include('/opt/lampp/htdo...')
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/View/View.php(910): View->_evaluate('/opt/lampp/htdo...', Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/View/View.php(471): View->_render('/opt/lampp/htdo...')
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#7 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-07-01 23:59:42 Error: Fatal Error (1): Call to a member function find() on a non-object in [/opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/UsersController.php, line 102]
+2014-07-01 23:59:42 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /Proyecto-CakePHP/users/view/20
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/opt/lampp/htdo...', 102)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/opt/lampp/htdo...', 102, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/opt/lampp/htdo...', 102, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-02 00:00:47 Error: Fatal Error (1): Call to a member function find() on a non-object in [/opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/UsersController.php, line 151]
+2014-07-02 00:00:47 Error: [FatalErrorException] Call to a member function find() on a non-object
+Request URL: /Proyecto-CakePHP/users/edit/20
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/opt/lampp/htdo...', 151)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/opt/lampp/htdo...', 151, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/opt/lampp/htdo...', 151, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-02 00:01:05 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Usuario.' in 'where clause'
+Request URL: /Proyecto-CakePHP/users/edit/20
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `User`.`...', Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `User`.`...', Array, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `User`.`...', false)
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2905): DboSource->read(Object(User), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2877): Model->_readDataSource('first', Array)
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/UsersController.php(151): Model->find('first', Array)
+#7 [internal function]: UsersController->edit('20')
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-07-02 00:03:31 Error: [MissingControllerException] Controller class UsuariosController could not be found.
+Exception Attributes: array (
+  'class' => 'UsuariosController',
+  'plugin' => NULL,
+)
+Request URL: /Proyecto-CakePHP/usuarios
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-02 00:05:15 Error: [MissingControllerException] Controller class UsuariosController could not be found.
+Exception Attributes: array (
+  'class' => 'UsuariosController',
+  'plugin' => NULL,
+)
+Request URL: /Proyecto-CakePHP/usuarios
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-02 00:05:48 Error: [MissingControllerException] Controller class UsuariosController could not be found.
+Exception Attributes: array (
+  'class' => 'UsuariosController',
+  'plugin' => NULL,
+)
+Request URL: /Proyecto-CakePHP/usuarios
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-07-02 12:11:06 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'obtenerlistatipos' at line 1
+Request URL: /Proyecto-CakePHP/partes/editvendedor/295
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('obtenerlistatip...', Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('obtenerlistatip...', Array, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(609): DboSource->fetchAll('obtenerlistatip...', Array, Array)
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(800): DboSource->query('obtenerlistatip...', Array, Object(AppModel))
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(307): Model->__call('obtenerlistatip...', Array)
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(307): AppModel->obtenerlistatipos(NULL, NULL)
+#7 [internal function]: PartesController->editvendedor('295')
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-07-02 12:12:50 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'obtenerlistatipos' at line 1
+Request URL: /Proyecto-CakePHP/partes/editvendedor/295
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('obtenerlistatip...', Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('obtenerlistatip...', Array, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(609): DboSource->fetchAll('obtenerlistatip...', Array, Array)
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(800): DboSource->query('obtenerlistatip...', Array, Object(AppModel))
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(308): Model->__call('obtenerlistatip...', Array)
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(308): AppModel->obtenerlistatipos('295', 1)
+#7 [internal function]: PartesController->editvendedor('295')
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-07-02 12:14:29 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'obtenerlistatipos' at line 1
+Request URL: /Proyecto-CakePHP/partes/editvendedor/295
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('obtenerlistatip...', Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('obtenerlistatip...', Array, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(609): DboSource->fetchAll('obtenerlistatip...', Array, Array)
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(800): DboSource->query('obtenerlistatip...', Array, Object(AppModel))
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(308): Model->__call('obtenerlistatip...', Array)
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(308): AppModel->obtenerlistatipos('295', 1)
+#7 [internal function]: PartesController->editvendedor('295')
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-07-02 12:15:14 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'obtenerlistatipos' at line 1
+Request URL: /Proyecto-CakePHP/partes/editvendedor/295
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('obtenerlistatip...', Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('obtenerlistatip...', Array, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(609): DboSource->fetchAll('obtenerlistatip...', Array, Array)
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(800): DboSource->query('obtenerlistatip...', Array, Object(AppModel))
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(308): Model->__call('obtenerlistatip...', Array)
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(308): AppModel->obtenerlistatipos('295', 1)
+#7 [internal function]: PartesController->editvendedor('295')
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-07-02 12:15:52 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'obtenerlistatipos' at line 1
+Request URL: /Proyecto-CakePHP/partes/editvendedor/295
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('obtenerlistatip...', Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('obtenerlistatip...', Array, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(609): DboSource->fetchAll('obtenerlistatip...', Array, Array)
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(800): DboSource->query('obtenerlistatip...', Array, Object(AppModel))
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(308): Model->__call('obtenerlistatip...', Array)
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(308): AppModel->obtenerlistatipos('295', 1)
+#7 [internal function]: PartesController->editvendedor('295')
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-07-02 12:16:31 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'obtenerlistatipos' at line 1
+Request URL: /Proyecto-CakePHP/partes/editvendedor/295
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('obtenerlistatip...', Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('obtenerlistatip...', Array, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(609): DboSource->fetchAll('obtenerlistatip...', Array, Array)
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(800): DboSource->query('obtenerlistatip...', Array, Object(AppModel))
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(308): Model->__call('obtenerlistatip...', Array)
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(308): AppModel->obtenerlistatipos('295', 1)
+#7 [internal function]: PartesController->editvendedor('295')
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-07-02 12:18:33 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'obtenerlistatipos' at line 1
+Request URL: /Proyecto-CakePHP/partes/editvendedor/295
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('obtenerlistatip...', Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('obtenerlistatip...', Array, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(609): DboSource->fetchAll('obtenerlistatip...', Array, Array)
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(800): DboSource->query('obtenerlistatip...', Array, Object(AppModel))
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(308): Model->__call('obtenerlistatip...', Array)
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(308): AppModel->obtenerlistatipos('295', 1)
+#7 [internal function]: PartesController->editvendedor('295')
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-07-02 12:19:27 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'obtenerlistatipos' at line 1
+Request URL: /Proyecto-CakePHP/partes/editvendedor/295
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('obtenerlistatip...', Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('obtenerlistatip...', Array, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(609): DboSource->fetchAll('obtenerlistatip...', Array, Array)
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(800): DboSource->query('obtenerlistatip...', Array, Object(AppModel))
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(308): Model->__call('obtenerlistatip...', Array)
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(308): AppModel->obtenerlistatipos('295', 1)
+#7 [internal function]: PartesController->editvendedor('295')
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-07-02 12:19:42 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'obtenerlistatipos' at line 1
+Request URL: /Proyecto-CakePHP/partes/editvendedor/295
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('obtenerlistatip...', Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('obtenerlistatip...', Array, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(609): DboSource->fetchAll('obtenerlistatip...', Array, Array)
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(800): DboSource->query('obtenerlistatip...', Array, Object(AppModel))
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(308): Model->__call('obtenerlistatip...', Array)
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(308): AppModel->obtenerlistatipos('295', 1)
+#7 [internal function]: PartesController->editvendedor('295')
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-07-02 12:20:23 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'obtenerlistatipos' at line 1
+Request URL: /Proyecto-CakePHP/partes/editvendedor/295
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('obtenerlistatip...', Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('obtenerlistatip...', Array, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(609): DboSource->fetchAll('obtenerlistatip...', Array, Array)
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(800): DboSource->query('obtenerlistatip...', Array, Object(AppModel))
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(308): Model->__call('obtenerlistatip...', Array)
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(308): AppModel->obtenerlistatipos('295', 1)
+#7 [internal function]: PartesController->editvendedor('295')
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-07-02 12:20:25 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'obtenerlistatipos' at line 1
+Request URL: /Proyecto-CakePHP/partes/editvendedor/295
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('obtenerlistatip...', Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('obtenerlistatip...', Array, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(609): DboSource->fetchAll('obtenerlistatip...', Array, Array)
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(800): DboSource->query('obtenerlistatip...', Array, Object(AppModel))
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(308): Model->__call('obtenerlistatip...', Array)
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(308): AppModel->obtenerlistatipos('295', 1)
+#7 [internal function]: PartesController->editvendedor('295')
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-07-02 12:20:33 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'obtenerlistatipos' at line 1
+Request URL: /Proyecto-CakePHP/partes/editvendedor/295
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('obtenerlistatip...', Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('obtenerlistatip...', Array, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(609): DboSource->fetchAll('obtenerlistatip...', Array, Array)
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(800): DboSource->query('obtenerlistatip...', Array, Object(AppModel))
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(308): Model->__call('obtenerlistatip...', Array)
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(308): AppModel->obtenerlistatipos('295', 1)
+#7 [internal function]: PartesController->editvendedor('295')
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-07-02 12:20:58 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'obtenerlistatipos' at line 1
+Request URL: /Proyecto-CakePHP/partes/editvendedor/295
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('obtenerlistatip...', Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('obtenerlistatip...', Array, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(609): DboSource->fetchAll('obtenerlistatip...', Array, Array)
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(800): DboSource->query('obtenerlistatip...', Array, Object(AppModel))
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(308): Model->__call('obtenerlistatip...', Array)
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(308): AppModel->obtenerlistatipos('295', 1)
+#7 [internal function]: PartesController->editvendedor('295')
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-07-02 12:21:17 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'obtenerlistatipos' at line 1
+Request URL: /Proyecto-CakePHP/partes/editvendedor/295
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('obtenerlistatip...', Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('obtenerlistatip...', Array, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(609): DboSource->fetchAll('obtenerlistatip...', Array, Array)
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(800): DboSource->query('obtenerlistatip...', Array, Object(AppModel))
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(308): Model->__call('obtenerlistatip...', Array)
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(308): AppModel->obtenerlistatipos('295', 1)
+#7 [internal function]: PartesController->editvendedor('295')
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-07-02 12:21:22 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'obtenerlistatipos' at line 1
+Request URL: /Proyecto-CakePHP/partes/editvendedor/295
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('obtenerlistatip...', Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('obtenerlistatip...', Array, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(609): DboSource->fetchAll('obtenerlistatip...', Array, Array)
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(800): DboSource->query('obtenerlistatip...', Array, Object(AppModel))
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(308): Model->__call('obtenerlistatip...', Array)
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(308): AppModel->obtenerlistatipos('295', 1)
+#7 [internal function]: PartesController->editvendedor('295')
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-07-02 12:21:39 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'obtenerlistatipos' at line 1
+Request URL: /Proyecto-CakePHP/partes/editvendedor/295
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('obtenerlistatip...', Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('obtenerlistatip...', Array, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(609): DboSource->fetchAll('obtenerlistatip...', Array, Array)
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(800): DboSource->query('obtenerlistatip...', Array, Object(AppModel))
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(308): Model->__call('obtenerlistatip...', Array)
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(308): AppModel->obtenerlistatipos('295', 1)
+#7 [internal function]: PartesController->editvendedor('295')
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-07-02 12:21:57 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'obtenerlistatipos' at line 1
+Request URL: /Proyecto-CakePHP/partes/editvendedor/295
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('obtenerlistatip...', Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('obtenerlistatip...', Array, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(609): DboSource->fetchAll('obtenerlistatip...', Array, Array)
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(800): DboSource->query('obtenerlistatip...', Array, Object(AppModel))
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(308): Model->__call('obtenerlistatip...', Array)
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(308): AppModel->obtenerlistatipos('295', 1)
+#7 [internal function]: PartesController->editvendedor('295')
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-07-02 12:22:06 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'obtenerlistatipos' at line 1
+Request URL: /Proyecto-CakePHP/partes/editvendedor/295
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('obtenerlistatip...', Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('obtenerlistatip...', Array, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(609): DboSource->fetchAll('obtenerlistatip...', Array, Array)
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(800): DboSource->query('obtenerlistatip...', Array, Object(AppModel))
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(308): Model->__call('obtenerlistatip...', Array)
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(308): AppModel->obtenerlistatipos('295', 1)
+#7 [internal function]: PartesController->editvendedor('295')
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-07-02 12:23:13 Error: Fatal Error (1): Call to a member function obtenerlistatipos() on a non-object in [/opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php, line 308]
+2014-07-02 12:23:13 Error: [FatalErrorException] Call to a member function obtenerlistatipos() on a non-object
+Request URL: /Proyecto-CakePHP/partes/editvendedor/295
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/opt/lampp/htdo...', 308)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/opt/lampp/htdo...', 308, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/opt/lampp/htdo...', 308, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-02 12:27:55 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Request URL: /Proyecto-CakePHP/partes/editvendedor/295
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT tipocamp...', Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT tipocamp...', Array, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(537): DboSource->fetchAll('SELECT tipocamp...')
+#4 [internal function]: DboSource->query('SELECT tipocamp...')
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(3309): call_user_func_array(Array, Array)
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Model/TipocamposTipoparte.php(136): Model->query('SELECT tipocamp...')
+#7 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(313): TipocamposTipoparte->obteneridcampo(NULL)
+#8 [internal function]: PartesController->editvendedor('295')
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#12 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-07-02 12:28:11 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Request URL: /Proyecto-CakePHP/partes/editvendedor/295
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT tipocamp...', Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT tipocamp...', Array, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(537): DboSource->fetchAll('SELECT tipocamp...')
+#4 [internal function]: DboSource->query('SELECT tipocamp...')
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(3309): call_user_func_array(Array, Array)
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Model/TipocamposTipoparte.php(136): Model->query('SELECT tipocamp...')
+#7 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(313): TipocamposTipoparte->obteneridcampo(NULL)
+#8 [internal function]: PartesController->editvendedor('295')
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#12 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-07-02 12:32:52 Error: Fatal Error (4): syntax error, unexpected ';' in [/opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php, line 341]
+2014-07-02 12:32:52 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /Proyecto-CakePHP/partes/editvendedor/295
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 341)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 341, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 341, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-02 12:46:14 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [/opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/RealesController.php, line 120]
+2014-07-02 12:46:14 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /Proyecto-CakePHP/partes/Actualizar/277
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 120)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 120, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 120, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-02 12:47:57 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [/opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/RealesController.php, line 119]
+2014-07-02 12:47:57 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+Request URL: /Proyecto-CakePHP/partes/Actualizar/277
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 119)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 119, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 119, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-02 13:02:40 Error: [NotFoundException] Invalido parte
+Request URL: /Proyecto-CakePHP/partes/Actualizar/276
+Stack Trace:
+#0 [internal function]: PartesController->actualizar('276')
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-07-02 13:18:52 Error: Fatal Error (1): Call to a member function create() on a non-object in [/opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/TextosController.php, line 101]
+2014-07-02 13:18:52 Error: [FatalErrorException] Call to a member function create() on a non-object
+Request URL: /Proyecto-CakePHP/partes/Actualizar/296
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/opt/lampp/htdo...', 101)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/opt/lampp/htdo...', 101, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/opt/lampp/htdo...', 101, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-02 14:15:39 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /Proyecto-CakePHP/partes/crearcopia/296
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(177): CakeRequest->allowMethod('post', 'crearcopia')
+#1 [internal function]: PartesController->crearcopia('296')
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-07-02 14:20:35 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /Proyecto-CakePHP/partes/crearcopia/296
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(177): CakeRequest->allowMethod('post', 'crearcopia')
+#1 [internal function]: PartesController->crearcopia('296')
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-07-02 14:24:32 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /Proyecto-CakePHP/partes/crearcopia/296
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(177): CakeRequest->allowMethod('post', 'crearcopia')
+#1 [internal function]: PartesController->crearcopia('296')
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-07-02 14:25:38 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /Proyecto-CakePHP/partes/Crearcopia/296
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(177): CakeRequest->allowMethod('post', 'crearcopia')
+#1 [internal function]: PartesController->crearcopia('296')
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-07-02 14:32:55 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /Proyecto-CakePHP/partes/Crearcopia/296
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(175): CakeRequest->allowMethod('post', 'crearcopia')
+#1 [internal function]: PartesController->crearcopia('296')
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-07-02 14:34:20 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /Proyecto-CakePHP/partes/Crearcopia/296
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(175): CakeRequest->allowMethod('post', 'crearcopia')
+#1 [internal function]: PartesController->crearcopia('296')
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-07-02 14:36:36 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /Proyecto-CakePHP/partes/crearcopia/296/Controller:Partes
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(175): CakeRequest->allowMethod('post', 'crearcopia')
+#1 [internal function]: PartesController->crearcopia('296')
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-07-02 14:39:11 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /Proyecto-CakePHP/partes/crearcopia/296/Controller:Partes
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(175): CakeRequest->allowMethod('post', 'crearcopia')
+#1 [internal function]: PartesController->crearcopia('296')
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-07-02 14:43:19 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /Proyecto-CakePHP/partes/crearcopia/296
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(175): CakeRequest->allowMethod('post', 'crearcopia')
+#1 [internal function]: PartesController->crearcopia('296')
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-07-02 15:53:54 Error: Fatal Error (1): Cannot access empty property in [/opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php, line 437]
+2014-07-02 15:53:54 Error: [FatalErrorException] Cannot access empty property
+Request URL: /Proyecto-CakePHP/partes/crearcopia/296
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Cannot access e...', '/opt/lampp/htdo...', 437)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot access e...', '/opt/lampp/htdo...', 437, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 1, 'Cannot access e...', '/opt/lampp/htdo...', 437, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-02 15:54:52 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /Proyecto-CakePHP/partes/crearcopia/296
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(165): CakeRequest->allowMethod('post', 'crearcopia')
+#1 [internal function]: PartesController->crearcopia('296')
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-07-02 16:27:02 Error: Fatal Error (4): syntax error, unexpected 'global' (T_GLOBAL), expecting function (T_FUNCTION) in [/opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php, line 29]
+2014-07-02 16:27:02 Error: [FatalErrorException] syntax error, unexpected 'global' (T_GLOBAL), expecting function (T_FUNCTION)
+Request URL: /Proyecto-CakePHP/partes
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 29)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 29, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 29, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-02 17:45:49 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Request URL: /Proyecto-CakePHP/partes/actualizar/296
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `tipocam...', Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `tipocam...', Array, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(537): DboSource->fetchAll('SELECT `tipocam...')
+#4 [internal function]: DboSource->query('SELECT `tipocam...')
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(3309): call_user_func_array(Array, Array)
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Model/Reale.php(76): Model->query('SELECT `tipocam...')
+#7 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(203): Reale->obtenertodotipos(NULL)
+#8 [internal function]: PartesController->actualizar('296')
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#12 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-07-02 17:47:45 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Request URL: /Proyecto-CakePHP/partes/actualizar/296
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `tipocam...', Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `tipocam...', Array, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(537): DboSource->fetchAll('SELECT `tipocam...')
+#4 [internal function]: DboSource->query('SELECT `tipocam...')
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(3309): call_user_func_array(Array, Array)
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Model/Reale.php(76): Model->query('SELECT `tipocam...')
+#7 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(203): Reale->obtenertodotipos(NULL)
+#8 [internal function]: PartesController->actualizar('296')
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#12 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-07-02 17:48:23 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Request URL: /Proyecto-CakePHP/partes/actualizar/296
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `tipocam...', Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `tipocam...', Array, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(537): DboSource->fetchAll('SELECT `tipocam...')
+#4 [internal function]: DboSource->query('SELECT `tipocam...')
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(3309): call_user_func_array(Array, Array)
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Model/Reale.php(76): Model->query('SELECT `tipocam...')
+#7 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(203): Reale->obtenertodotipos(NULL)
+#8 [internal function]: PartesController->actualizar('296')
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#12 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-07-02 17:50:44 Error: Fatal Error (4): syntax error, unexpected ';' in [/opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php, line 203]
+2014-07-02 17:50:44 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /Proyecto-CakePHP/partes/actualizar/296
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 203)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 203, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 203, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-02 17:57:47 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Entero.workflow_id' in 'where clause'
+Request URL: /Proyecto-CakePHP/partes/actualizar/296
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Parte`....', Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Parte`....', Array, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Parte`....', false)
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Parte), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2877): Model->_readDataSource('first', Array)
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(268): Model->find('first', Array)
+#7 [internal function]: PartesController->actualizar('296')
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-07-02 18:00:02 Error: Fatal Error (4): syntax error, unexpected ''.workflow_id'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [/opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php, line 267]
+2014-07-02 18:00:02 Error: [FatalErrorException] syntax error, unexpected ''.workflow_id'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /Proyecto-CakePHP/partes/actualizar/296
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 267)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 267, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 267, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-02 18:00:42 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'workflow_id' in 'where clause'
+Request URL: /Proyecto-CakePHP/partes/actualizar/296
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Parte`....', Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Parte`....', Array, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Parte`....', false)
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Parte), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2877): Model->_readDataSource('first', Array)
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(268): Model->find('first', Array)
+#7 [internal function]: PartesController->actualizar('296')
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-07-02 18:10:11 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Reale.workflow' in 'where clause'
+Request URL: /Proyecto-CakePHP/partes/actualizar/296
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Parte`....', Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Parte`....', Array, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Parte`....', false)
+#4 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2905): DboSource->read(Object(Parte), Array)
+#5 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Model/Model.php(2877): Model->_readDataSource('first', Array)
+#6 /opt/lampp/htdocs/Proyecto-CakePHP/app/Controller/PartesController.php(268): Model->find('first', Array)
+#7 [internal function]: PartesController->actualizar('296')
+#8 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PartesController), Array)
+#9 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#11 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-07-02 18:22:23 Error: Fatal Error (4): syntax error, unexpected 'debug' (T_STRING) in [/opt/lampp/htdocs/Proyecto-CakePHP/app/View/Partes/actualizar.ctp, line 52]
+2014-07-02 18:22:23 Error: [FatalErrorException] syntax error, unexpected 'debug' (T_STRING)
+Request URL: /Proyecto-CakePHP/partes/actualizar/296
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 52)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 52, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 52, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-02 18:22:44 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in [/opt/lampp/htdocs/Proyecto-CakePHP/app/View/Partes/actualizar.ctp, line 52]
+2014-07-02 18:22:44 Error: [FatalErrorException] syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';'
+Request URL: /Proyecto-CakePHP/partes/actualizar/296
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 52)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 52, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 52, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-02 18:42:04 Error: Fatal Error (4): syntax error, unexpected '{' in [/opt/lampp/htdocs/Proyecto-CakePHP/app/View/Partes/actualizar.ctp, line 54]
+2014-07-02 18:42:04 Error: [FatalErrorException] syntax error, unexpected '{'
+Request URL: /Proyecto-CakePHP/partes/actualizar/296
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 54)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 54, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 54, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-02 21:44:49 Error: Fatal Error (4): syntax error, unexpected '$this' (T_VARIABLE) in [/opt/lampp/htdocs/Proyecto-CakePHP/app/View/Layouts/login.ctp, line 58]
+2014-07-02 21:44:49 Error: [FatalErrorException] syntax error, unexpected '$this' (T_VARIABLE)
+Request URL: /Proyecto-CakePHP/
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/opt/lampp/htdo...', 58)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/opt/lampp/htdo...', 58, Array)
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/opt/lampp/htdo...', 58, Array)
+#3 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-07-02 22:02:59 Error: [MissingActionException] Action PartesController::indexvendedor() could not be found.
+Exception Attributes: array (
+  'controller' => 'PartesController',
+  'action' => 'indexvendedor',
+)
+Request URL: /Proyecto-CakePHP/partes/indexvendedor
+Stack Trace:
+#0 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /opt/lampp/htdocs/Proyecto-CakePHP/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PartesController), Object(CakeRequest))
+#2 /opt/lampp/htdocs/Proyecto-CakePHP/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}

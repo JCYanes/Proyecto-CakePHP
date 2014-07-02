@@ -5,9 +5,15 @@
         <legend>
             <?php echo __('Introduzca su usuario y contraseña'); ?>
         </legend>
-        <?php echo $this->Form->input('username');
-        echo $this->Form->input('password');
-    ?>
-    </fieldset>
-<?php echo $this->Form->end(('Login')); ?>
+	</fieldset>
+
+	<div id="center">
+		<?php 
+		echo $this->Form->input('username');
+		echo $this->Form->input('password');
+		echo $this->Form->end(('Login')); 
+		?>
+	</div>
+
+
 </div>

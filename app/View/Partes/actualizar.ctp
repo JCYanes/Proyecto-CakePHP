@@ -17,10 +17,10 @@
 **/
  ?>
 <div class="partes form">
-<?php echo $this->Form->create('Parte',array('action' => 'editvendedor')); ?>
+<?php echo $this->Form->create('Parte',array('action' => 'actualizar')); ?>
 	<fieldset>
 		<legend>
-		  <?php echo __('Editar Parte'); ?>
+		  <?php echo __('Validar Parte'); ?>
 		</legend>
 	<div id="columns">
 	<?php
@@ -35,31 +35,64 @@
 			?>
 			</div>
 			<?php
+			
 			foreach ($elemento as $valores){
 				foreach ($valores as $dato){
-					//echo ('El id del elemento es: '.$dato['id'])."<br>";
+					$indice = 0;
+					/*ENTEROS*/
 					if (in_array($dato['id'],$listEntero)){
-						$id = array_search($dato['id'], $listEntero);
+						//$id = array_search($dato['id'], $listEntero);
 						$categoria='Entero.';
 						$tipo= $listTipoEntero[$id];
-					}else if (in_array($dato['id'],$listReale)){
+						$indexEntero = 0;
+						foreach ($listadoEnteros as $listado){
+							if ($dato['id'] == $listado['enteros']['tipocampos_tipoparte_id']){
+								if (in_array($listado['enteros']['id'], $listIDEntero)){
+									$indice = $indexEntero;
+								}
+							}
+							$indexEntero = $indexEntero + 1;
+						}	
+					}
+					/* REALES */
+					else if (in_array($dato['id'],$listReale)){
 						$id = array_search($dato['id'], $listReale);
 						$categoria='Reale.';
 						$tipo=$listTipoReale[$id];
-						
-					}else{//$listTexto
+						$indexReales = 0;
+						foreach ($listadoReales as $listado){
+							if ($dato['id'] == $listado['reales']['tipocampos_tipoparte_id']){
+								if (in_array($listado['reales']['id'], $listIDReale)){
+									$indice = $indexReales;
+								}
+							}
+							$indexReales = $indexReales + 1;
+						}
+					}
+					else{//$listTexto
 						$id = array_search($dato['id'], $listTexto);
 						$categoria='Texto.';
 						$tipo=$listTipoTexto[$id];
+						$indexTexto= 0;
+						foreach ($listadoTextos as $listado){
+							if ($dato['id'] == $listado['textos']['tipocampos_tipoparte_id']){
+								if (in_array($listado['textos']['id'], $listIDReale)){
+									$indice = $indexTexto;
+								}
+							}
+							$indexTexto = $indexTexto + 1;
+						}
 					}
 					
-					/* CAMPO TIPO TEXTO (Se guarda al final) */ 
+					/* CAMPO TIPO TEXTO */ 
 					if ($tipo =='1'){ 
 						?>
 						<div id="observaciones">
 						<?php
-							echo $this->Form->input($categoria.$id.'.id');
-							echo $this->Form->input($categoria.$id.'.final',array('label' => 'Observaciones de '.$familias[$i])); 
+							
+							echo $this->Form->input($categoria.$indice.'.id');
+							echo $this->Form->input($categoria.$indice.'.final',array('label' => 'Observaciones de '.$familias[$i])); 
+							
 						?>
 						</div>
 						<?php	
@@ -71,15 +104,15 @@
 						<div id="title">
 							<hr>
 							<?php
-								echo $this->Form->label("Tunel Lavado: ".($id +1));
+								echo $this->Form->label("Tunel Lavado: ");
 							?>
 							<hr>
 						</div>
 						<div id="surtidores">
 						<?php
-							echo $this->Form->input($categoria.$id.'.id');
-							echo $this->Form->input($categoria.$id.'.entrada',array('label' => 'Entrante'));
-							echo $this->Form->input($categoria.$id.'.salida',array('label' => 'Saliente')); 
+							echo $this->Form->input($categoria.$indice.'.id');
+							echo $this->Form->input($categoria.$indice.'.entrada',array('label' => 'Entrante'));
+							echo $this->Form->input($categoria.$indice.'.salida',array('label' => 'Saliente')); 
 						?>
 						</div>
 						<?php	
@@ -92,15 +125,15 @@
 						<div id="title">
 							<hr>
 							<?php
-								echo $this->Form->label("Surtidor: ".($id +1));
+								echo $this->Form->label("Surtidor: ");
 							?>
 							<hr>
 						</div>
 						<div id="surtidores">
 						<?php
-							echo $this->Form->input($categoria.$id.'.id');
-							echo $this->Form->input($categoria.$id.'.inicial',array('label' => 'Lectura Actual'));  //input('username', array('label' => 'Username'));
-							echo $this->Form->input($categoria.$id.'.final',array('label' => 'Lectura Anterior')); 	 
+							echo $this->Form->input($categoria.$indice.'.id');
+							echo $this->Form->input($categoria.$indice.'.inicial',array('label' => 'Lectura Actual'));  //input('username', array('label' => 'Username'));
+							echo $this->Form->input($categoria.$indice.'.final',array('label' => 'Lectura Anterior')); 	 
 						?>
 						</div>
 						<?php
@@ -108,8 +141,8 @@
 					
 					/* CAMPO TOTAL */
 					else if ($tipo =='4'){
-						echo $this->Form->input($categoria.$id.'.id');
-						echo $this->Form->input($categoria.$id.'.final',array('label' => 'Total')); 
+						echo $this->Form->input($categoria.$indice.'.id');
+						echo $this->Form->input($categoria.$indice.'.final',array('label' => 'Total')); 
 					}
 					
 					/* CAJA */
@@ -124,11 +157,11 @@
 						</div>
 						<div id="caja">
 						<?php
-							echo $this->Form->input($categoria.$id.'.id');
-							echo $this->Form->input($categoria.$id.'.inicial',array('label' => 'Inicial')); 
-							echo $this->Form->input($categoria.$id.'.entrada',array('label' => 'Entrante'));
-							echo $this->Form->input($categoria.$id.'.salida',array('label' => 'Saliente'));
-							echo $this->Form->input($categoria.$id.'.final',array('label' => 'Final'));
+							echo $this->Form->input($categoria.$indice.'.id');
+							echo $this->Form->input($categoria.$indice.'.inicial',array('label' => 'Inicial')); 
+							echo $this->Form->input($categoria.$indice.'.entrada',array('label' => 'Entrante'));
+							echo $this->Form->input($categoria.$indice.'.salida',array('label' => 'Saliente'));
+							echo $this->Form->input($categoria.$indice.'.final',array('label' => 'Final'));
 						?>
 						</div>
 						<?php
@@ -137,7 +170,7 @@
 			}
 			$i++;
 		}
-		//debug($this->request->data);
+		debug($this->request->data);
 	?>
 	</div>
 	</fieldset>

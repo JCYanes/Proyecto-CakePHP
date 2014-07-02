@@ -1,4 +1,22 @@
 <?php
+/**
+*	Copyright (C) 2014 Jésica Carballo Yanes
+*
+*    This program is free software: you can redistribute it and/or modify
+*    it under the terms of the GNU Affero General Public License as
+*    published by the Free Software Foundation, either version 3 of the
+*    License, or (at your option) any later version.
+*
+*    This program is distributed in the hope that it will be useful,
+*    but WITHOUT ANY WARRANTY; without even the implied warranty of
+*    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+*    GNU Affero General Public License for more details.
+*
+*    You should have received a copy of the GNU Affero General Public License
+*   along with this program.  If not, see <http://www.gnu.org/licenses/>.
+**/
+ ?>
+<?php
 App::uses('AppController', 'Controller');
 /**
  * Users Controller
@@ -29,8 +47,9 @@ public function beforeFilter() { //Se ejecuta antes de cualquier accion del cont
  *Login de usuarios
  *
  */
- public function login() {
-    if ($this->request->is('post')) {
+public function login() {
+	$this->layout='login';
+	if ($this->request->is('post')) {
         if ($this->Auth->login()) {
         
 		$id = $this->Auth->user('id');
@@ -82,7 +101,7 @@ public function logout() {
 			throw new NotFoundException(__('Invalid usuario'));
 		}
 		$options = array('conditions' => array('User.' . $this->User->primaryKey => $id));
-		$this->set('usuario', $this->Usuario->find('first', $options));
+		$this->set('usuario', $this->User->find('first', $options));
 	}
 
 /**
@@ -121,7 +140,7 @@ public function logout() {
 		if (!$this->User->exists($id)) {
 			throw new NotFoundException(__('Porfavor provea un id de usuario'));
 		}
-		if ($this->request->is(array('post', 'put'))) {
+		if ($this->request->is(array('post','put'))) {
 			if ($this->User->save($this->request->data)) {
 				$this->Session->setFlash(__('The usuario fue modificado.'));
 				return $this->redirect(array('action' => 'index'));
@@ -130,8 +149,8 @@ public function logout() {
 			}
 		} else {
 			
-			$options = array('conditions' => array('Usuario.' . $this->Usuario->primaryKey => $id));
-			$this->request->data = $this->Usuario->find('first', $options);
+			$options = array('conditions' => array('User.' . $this->User->primaryKey => $id));
+			$this->request->data = $this->User->find('first', $options);
 			unset($this->request->data['User']['password']);
 		}
 		$roles = $this->User->Role->find('list');

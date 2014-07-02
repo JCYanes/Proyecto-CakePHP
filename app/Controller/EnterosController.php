@@ -1,4 +1,22 @@
 <?php
+/**
+*	Copyright (C) 2014 Jésica Carballo Yanes
+*
+*    This program is free software: you can redistribute it and/or modify
+*    it under the terms of the GNU Affero General Public License as
+*    published by the Free Software Foundation, either version 3 of the
+*    License, or (at your option) any later version.
+*
+*    This program is distributed in the hope that it will be useful,
+*    but WITHOUT ANY WARRANTY; without even the implied warranty of
+*    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+*    GNU Affero General Public License for more details.
+*
+*    You should have received a copy of the GNU Affero General Public License
+*   along with this program.  If not, see <http://www.gnu.org/licenses/>.
+**/
+ ?>
+<?php
 App::uses('AppController', 'Controller');
 /**
  * Enteros Controller
@@ -57,7 +75,6 @@ class EnterosController extends AppController {
  * @return void
  */
 	public function add($idparte,$idworkflow,$idtipocampospartes,$campo) {
-		
 			$this->Entero->create();
 			$this->Entero->save();
 			$newEnteroId = $this->Entero->id;//recuperamos el identificador
@@ -75,10 +92,34 @@ class EnterosController extends AppController {
 				$this->Session->setFlash(__('The entero could not be saved. Please, try again.'));
 			}
 		$this->autoRender = false;
-		//$partes = $this->Entero->Parte->find('list');
-		//$workflowpasos = $this->Entero->Workflowpaso->find('list');
-		//$tipocamposTipopartes = $this->Entero->TipocamposTipoparte->find('list');
-		//$this->set(compact('workflowpasos', 'tipocamposTipopartes'));
+	}
+	
+	public function copiar($idparte,$idtipo){
+		$data = $this->Entero->obtenerdatos($idparte,$idtipo);
+		foreach($data as $dato){
+			foreach($dato as $d){
+					echo "el id de este elemento es".$d['id'];
+					//Por cada elemento creo uno con el mismo contenido pero workflow =2;
+					$this->Entero->create();
+					$this->Entero->save();
+					$newParteId = $this->Entero->id;
+					$data= array('id' => $newParteId,
+								 'parte_id'=>$idparte,
+								 'tipocampos_tipoparte_id'=>$d['tipocampos_tipoparte_id'],
+								 'name'=>$d['name'],
+								 'inicial' =>$d['inicial'],
+								 'final' => $d['final'],
+								 'entrada' => $d['entrada'],
+								 'salida' => $d['salida'],
+								 'parte_id' => $d['parte_id'],
+								 'workflowpaso_id' => '2');//cambiamos el workflow para que no haya problemas al editar
+			}
+		if ($this->Entero->save($data)){
+						echo "Se ha guardado el dato con el id nuevo:".$newParteId;
+				}
+				
+		}		
+		$this->autoRender = false;
 	}
 
 /**
@@ -88,26 +129,26 @@ class EnterosController extends AppController {
  * @param string $id
  * @return void
  */
-	public function edit($id = null) {
+	public function edit($id = null,$idparte,$idworkflow,$idtipocampospartes,$campo) {
 	
 		if (!$this->Entero->exists($id)) {
 			throw new NotFoundException(__('Invalid entero'));
 		}
-		if ($this->request->is(array('post', 'put'))) {
-			if ($this->Entero->save($this->request->data)) {
+		else{
+			$data= array('id' => $id,
+				     'parte_id'=>$idparte,
+				     'workflowpaso_id'=>$idworkflow,
+				     'tipocampos_tipoparte_id'=>$idtipocampospartes,
+				     'name'=>$campo);
+			if ($this->Entero->saveAll($data)) {
 				$this->Session->setFlash(__('The entero has been saved.'));
-				return $this->redirect(array('action' => 'index'));
+				//return $this->redirect(array('action' => 'index'));
 			} else {
 				$this->Session->setFlash(__('The entero could not be saved. Please, try again.'));
 			}
-		} else {
-			$options = array('conditions' => array('Entero.' . $this->Entero->primaryKey => $id));
-			$this->request->data = $this->Entero->find('first', $options);
+		
 		}
-		$partes = $this->Entero->Parte->find('list');
-		$workflowpasos = $this->Entero->Workflowpaso->find('list');
-		$tipocamposTipopartes = $this->Entero->TipocamposTipoparte->find('list');
-		$this->set(compact('partes', 'workflowpasos', 'tipocamposTipopartes'));
+		$this->autoRender = false;
 	}
 
 /**

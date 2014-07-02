@@ -19,9 +19,9 @@
 			<?php echo $this->Html->link($usuario['Role']['name'], array('controller' => 'roles', 'action' => 'view', $usuario['Role']['id'])); ?>
 		</td>
 		<td class="actions">
-			<?php echo $this->Html->link(__('View'), array('action' => 'view', $usuario['User']['id'])); ?>
-			<?php echo $this->Html->link(__('Edit'), array('action' => 'edit', $usuario['User']['id'])); ?>
-			<?php echo $this->Form->postLink(__('Delete'), array('action' => 'delete', $usuario['User']['id']), null,__('Are you sure you want to delete # %s?', $usuario['User']['id'])); ?>
+			<?php echo $this->Html->link(__('Ver'), array('action' => 'view', $usuario['User']['id'])); ?>
+			<?php echo $this->Html->link(__('Editar'), array('action' => 'edit', $usuario['User']['id'])); ?>
+			<?php echo $this->Form->postLink(__('Borrar'), array('action' => 'delete', $usuario['User']['id']), null,__('Are you sure you want to delete # %s?', $usuario['User']['id'])); ?>
 		        
 		</td>
 	</tr>
@@ -44,8 +44,9 @@
 <div class="actions">
 	<h3><?php echo __('Actions'); ?></h3>
 	<ul>
-		<li><?php echo $this->Html->link(__('New Usuario'), array('action' => 'add')); ?></li>
-		<li><?php echo $this->Html->link(__('List Roles'), array('controller' => 'roles', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Role'), array('controller' => 'roles', 'action' => 'add')); ?> </li>
+		<li><?php echo $this->Html->link(__('Nuevo Usuario'), array('action' => 'add')); ?></li>
+		<li><?php echo $this->Html->link(__('Listar Roles'), array('controller' => 'roles', 'action' => 'index')); ?> </li>
+		<li><?php echo $this->Html->link(__('Nuevo Role'), array('controller' => 'roles', 'action' => 'add')); ?> </li>
+		<li><?php echo $this->Html->link(__('Administrar Partes'), array('controller' => 'partes', 'action' => 'index')); ?> </li>
 	</ul>
 </div>

@@ -1,8 +1,8 @@
 @charset "utf-8";
 /**
  *
- *  CSS for Parte
-*
+ *  CSS for Login
+ *
 *	Copyright (C) 2014 Jésica Carballo Yanes
 *
 *    This program is free software: you can redistribute it and/or modify
@@ -127,69 +127,6 @@ p {
 	float: right;
 }
 
-/** containers **/
-div.form,
-div.index,
-div.view {
-	float:right;
-	width:76%;
-	border-left:1px solid #666;
-	padding:10px 2%;
-}
-div.actions {
-	float:left;
-	width:16%;
-	padding:10px 1.5%;
-}
-div.actions h3 {
-	padding-top:0;
-	color:#777;
-}
-
-
-/** Tables **/
-table {
-	border-right:0;
-	clear: both;
-	color: #333;
-	margin-bottom: 10px;
-	width: 100%;
-}
-th {
-	border:0;
-	border-bottom:2px solid #555;
-	text-align: left;
-	padding:4px;
-}
-th a {
-	display: block;
-	padding: 2px 4px;
-	text-decoration: none;
-}
-th a.asc:after {
-	content: ' ⇣';
-}
-th a.desc:after {
-	content: ' ⇡';
-}
-table tr td {
-	padding: 6px;
-	text-align: left;
-	vertical-align: top;
-	border-bottom:1px solid #ddd;
-}
-table tr:nth-child(even) {
-	background: #f9f9f9;
-}
-td.actions {
-	text-align: center;
-	white-space: nowrap;
-}
-table td.actions a {
-	margin: 0px 6px;
-	padding:2px 5px;
-}
-
 /* SQL log */
 .cake-sql-log {
 	background: #fff;
@@ -203,72 +140,6 @@ table td.actions a {
 	color:#fff;
 }
 
-/** Paging **/
-.paging {
-	background:#fff;
-	color: #ccc;
-	margin-top: 1em;
-	clear:both;
-}
-.paging .current,
-.paging .disabled,
-.paging a {
-	text-decoration: none;
-	padding: 5px 8px;
-	display: inline-block
-}
-.paging > span {
-	display: inline-block;
-	border: 1px solid #ccc;
-	border-left: 0;
-}
-.paging > span:hover {
-	background: #efefef;
-}
-.paging .prev {
-	border-left: 1px solid #ccc;
-	-moz-border-radius: 4px 0 0 4px;
-	-webkit-border-radius: 4px 0 0 4px;
-	border-radius: 4px 0 0 4px;
-}
-.paging .next {
-	-moz-border-radius: 0 4px 4px 0;
-	-webkit-border-radius: 0 4px 4px 0;
-	border-radius: 0 4px 4px 0;
-}
-.paging .disabled {
-	color: #ddd;
-}
-.paging .disabled:hover {
-	background: transparent;
-}
-.paging .current {
-	background: #efefef;
-	color: #c73e14;
-}
-
-/** Scaffold View **/
-dl {
-	line-height: 2em;
-	margin: 0em 0em;
-	width: 60%;
-}
-dl dd:nth-child(4n+2),
-dl dt:nth-child(4n+1) {
-	background: #f4f4f4;
-}
-
-dt {
-	font-weight: bold;
-	padding-left: 4px;
-	vertical-align: top;
-	width: 10em;
-}
-dd {
-	margin-left: 10em;
-	margin-top: -2em;
-	vertical-align: top;
-}
 
 /** Forms **/
 form {
@@ -309,7 +180,7 @@ form div {
 }
 form .input {
 	width:100%;
-	color: #444;
+	color: #fff;
 }
 form .required {
 	font-weight: bold;
@@ -370,8 +241,9 @@ input[type=radio] {
 }
 input[type=submit] {
 	display: inline;
-	font-size: 110%;
-	width: auto;
+	font-size: 100%;
+	width: 50%;
+	margin-left:25%;
 }
 form .submit input[type=submit] {
 	background:#62af56;
@@ -799,26 +671,39 @@ pre {
 input[type=number]{
 	font-family: "frutiger linotype", "lucida grande", "verdana", sans-serif;
 	display:block;
-	width:218px;
+	width:90%;
 	height:25px;
 }
-
-#title{
-	font-size: 20px;
+input[type=password]{
+	width:95%;
+	height:25px;		
 }
-
 textarea{
-	width:100%;
+	width:95%;
+	height:25px;
+}
+#left{
+	float:left;
+	width:30%;
+	margin: 0px 6px 7px 2px;
 }
 
-#caja{
-	width:100%;
-	-webkit-column-count: 4; 
-    -moz-column-count: 4; 
-    column-count: 4;
-
+#center{
+	float:left;
+	width:30%;
+	background-color:#003D4C;
+	margin-left:35%;
+	/*para Firefox*/
+	-moz-border-radius: 15px 15px 15px 15px;
+	/*para Safari y Chrome*/
+	-webkit-border-radius: 15px 15px 15px 15px;
+	/* para Opera */
+	border-radius: 15px 15px 15px 15px;
 }
 
-#caja > input{
-	width:30px;
+#right{
+	float:left;
+	width:30%;
 }
+
+

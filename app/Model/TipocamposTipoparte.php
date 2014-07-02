@@ -1,4 +1,22 @@
 <?php
+/**
+*	Copyright (C) 2014 Jésica Carballo Yanes
+*
+*    This program is free software: you can redistribute it and/or modify
+*    it under the terms of the GNU Affero General Public License as
+*    published by the Free Software Foundation, either version 3 of the
+*    License, or (at your option) any later version.
+*
+*    This program is distributed in the hope that it will be useful,
+*    but WITHOUT ANY WARRANTY; without even the implied warranty of
+*    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+*    GNU Affero General Public License for more details.
+*
+*    You should have received a copy of the GNU Affero General Public License
+*   along with this program.  If not, see <http://www.gnu.org/licenses/>.
+**/
+ ?>
+<?php
 App::uses('AppModel', 'Model');
 /**
  * TipocamposTipoparte Model
@@ -109,14 +127,6 @@ class TipocamposTipoparte extends AppModel {
 		return $datos = $this->query("SELECT id FROM tipocampos_tipopartes AS TipocamposTipoparte WHERE tipoparte_id=$idtipoparte AND tipofamilia_id = $idfamilia");
 	}
 	
-	function obtenerid($datos){
-		foreach($datos[0] as $dato){
-			foreach($dato as $d){
-				return $d['tipocampo_id'];	// devuelve el primer valor de la consulta realizada       
-			}
-		}
-	}
-	
 	function obtenerfamilias($idtipoparte){
 		return $datos= $this->query("SELECT tipofamilia_id FROM tipocampos_tipopartes where tipoparte_id=$idtipoparte group by tipofamilia_id");
 	}
@@ -126,7 +136,6 @@ class TipocamposTipoparte extends AppModel {
 	}
 	function obteneridcampo($id){
 		$datos = $this->query("SELECT tipocampo_id FROM tipocampos_tipopartes AS tipocampos_tipoparte WHERE id=$id");
-		//$id = $this->obtenerid($datos);
 		return $datos;
 	}
 	

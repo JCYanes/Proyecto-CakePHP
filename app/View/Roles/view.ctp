@@ -16,12 +16,12 @@
 <div class="actions">
 	<h3><?php echo __('Actions'); ?></h3>
 	<ul>
-		<li><?php echo $this->Html->link(__('Edit Role'), array('action' => 'edit', $role['Role']['id'])); ?> </li>
-		<li><?php echo $this->Form->postLink(__('Delete Role'), array('action' => 'delete', $role['Role']['id']), null, __('Are you sure you want to delete # %s?', $role['Role']['id'])); ?> </li>
-		<li><?php echo $this->Html->link(__('List Roles'), array('action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Role'), array('action' => 'add')); ?> </li>
-		<li><?php echo $this->Html->link(__('List Usuarios'), array('controller' => 'usuarios', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Usuario'), array('controller' => 'usuarios', 'action' => 'add')); ?> </li>
+		<li><?php echo $this->Html->link(__('Editar Rol'), array('action' => 'edit', $role['Role']['id'])); ?> </li>
+		<li><?php echo $this->Form->postLink(__('Borrar Rol'), array('action' => 'delete', $role['Role']['id']), null, __('Estas seguro que quieres borrar  # %s?', $role['Role']['id'])); ?> </li>
+		<li><?php echo $this->Html->link(__('Lista Roles'), array('action' => 'index')); ?> </li>
+		<li><?php echo $this->Html->link(__('Nuevo Rol'), array('action' => 'add')); ?> </li>
+		<li><?php echo $this->Html->link(__('Listar Usuarios'), array('controller' => 'users', 'action' => 'index')); ?> </li>
+		<li><?php echo $this->Html->link(__('Nuevo Usuario'), array('controller' => 'users', 'action' => 'add')); ?> </li>
 	</ul>
 </div>
 <div class="related">
@@ -44,9 +44,9 @@
 			<td><?php echo $usuario['created']; ?></td>
 			<td><?php echo $usuario['role_id']; ?></td>
 			<td class="actions">
-				<?php echo $this->Html->link(__('View'), array('controller' => 'usuarios', 'action' => 'view', $usuario['id'])); ?>
-				<?php echo $this->Html->link(__('Edit'), array('controller' => 'usuarios', 'action' => 'edit', $usuario['id'])); ?>
-				<?php echo $this->Form->postLink(__('Delete'), array('controller' => 'usuarios', 'action' => 'delete', $usuario['id']), null, __('Are you sure you want to delete # %s?', $usuario['id'])); ?>
+				<?php echo $this->Html->link(__('Ver'), array('controller' => 'users', 'action' => 'view', $usuario['id'])); ?>
+				<?php echo $this->Html->link(__('Editar'), array('controller' => 'users', 'action' => 'edit', $usuario['id'])); ?>
+				<?php echo $this->Form->postLink(__('Borrar'), array('controller' => 'users', 'action' => 'delete', $usuario['id']), null, __('Are you sure you want to delete # %s?', $usuario['id'])); ?>
 			</td>
 		</tr>
 	<?php endforeach; ?>

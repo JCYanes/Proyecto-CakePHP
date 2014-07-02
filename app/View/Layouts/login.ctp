@@ -33,7 +33,7 @@ $cakeDescription = __d('Estacion','Estacion de Servicios');
 	<?php
 		echo $this->Html->meta('icon');
 
-		echo $this->Html->css('parte'); //('cake.generic');//Ruta del css
+		echo $this->Html->css('login'); //('cake.generic');//Ruta del css
 
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
@@ -43,14 +43,14 @@ $cakeDescription = __d('Estacion','Estacion de Servicios');
 <body>
 	<div id="container">
 		<div id="header">
-			<h1><?php echo $this->Html->link($cakeDescription, 'https://github.com/JCYanes/Proyecto-CakePHP'); ?></h1>
+			<h1><?php echo $this->Html->link($cakeDescription,'https://github.com/JCYanes/Proyecto-CakePHP'); ?></h1>
 		</div>
 		<div id="content">
 
-			<?php echo $this->Session->flash(); ?>
-			<?php echo $this->fetch('content'); ?>
-		</div>
+		<?php echo $this->Session->flash(); ?>
+		<?php echo $this->fetch('content'); ?>
 		
+		</div>
 		
 		<div id="footer">
 		  <div class="spanfooter">
